@@ -1,0 +1,2716 @@
+T0C90 000:010.925   SEGGER J-Link V7.82 Log File
+T0C90 000:011.091   DLL Compiled: Oct 13 2022 13:32:51
+T0C90 000:011.111   Logging started @ 2022-10-23 05:35
+T0C90 000:011.131 - 11.141ms
+T0C90 000:011.154 JLINK_SetWarnOutHandler(...)
+T0C90 000:011.174 - 0.029ms
+T0C90 000:011.197 JLINK_OpenEx(...)
+T0C90 000:013.066   Firmware: J-Link OB-S124 compiled Sep  1 2022 15:38:25
+T0C90 000:013.676   Firmware: J-Link OB-S124 compiled Sep  1 2022 15:38:25
+T0C90 000:052.889   Hardware: V1.00
+T0C90 000:052.933   S/N: 831361012
+T0C90 000:052.961   OEM: SEGGER
+T0C90 000:052.989   Feature(s): None
+T0C90 000:054.897   TELNET listener socket opened on port 19021
+T0C90 000:054.997   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T0C90 000:055.195   WEBSRV Webserver running on local port 19080
+T0C90 000:107.896 - 96.725ms returns "O.K."
+T0C90 000:107.950 JLINK_GetEmuCaps()
+T0C90 000:107.971 - 0.030ms returns 0xB8EA5A33
+T0C90 000:107.994 JLINK_TIF_GetAvailable(...)
+T0C90 000:108.424 - 0.443ms
+T0C90 000:108.451 JLINK_SetErrorOutHandler(...)
+T0C90 000:108.471 - 0.028ms
+T0C90 000:108.503 JLINK_ExecCommand("ProjectFile = "C:\Users\Ryzen\Desktop\Renesas\test\rt-thread-4.1.1\bsp\renesas\ra2l1-cpk\JLinkSettings.ini"", ...). 
+T0C90 000:117.505   Ref file found at: D:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T0C90 000:117.641   REF file references invalid XML file: D:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T0C90 000:118.295   Device "R7FA2L1AB" selected.
+T0C90 000:118.697 - 10.206ms returns 0x00
+T0C90 000:118.737 JLINK_ExecCommand("Device = R7FA2L1AB2DFM", ...). 
+T0C90 000:119.049   Device "R7FA2L1AB" selected.
+T0C90 000:119.408 - 0.662ms returns 0x00
+T0C90 000:119.433 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T0C90 000:119.454 - 0.010ms returns 0x01
+T0C90 000:119.474 JLINK_GetHardwareVersion()
+T0C90 000:119.493 - 0.028ms returns 10000
+T0C90 000:119.515 JLINK_GetDLLVersion()
+T0C90 000:119.534 - 0.027ms returns 78200
+T0C90 000:119.553 JLINK_GetOEMString(...)
+T0C90 000:119.572 JLINK_GetFirmwareString(...)
+T0C90 000:119.590 - 0.027ms
+T0C90 000:119.620 JLINK_GetDLLVersion()
+T0C90 000:119.638 - 0.027ms returns 78200
+T0C90 000:119.657 JLINK_GetCompileDateTime()
+T0C90 000:119.676 - 0.027ms
+T0C90 000:119.698 JLINK_GetFirmwareString(...)
+T0C90 000:119.716 - 0.027ms
+T0C90 000:119.737 JLINK_GetHardwareVersion()
+T0C90 000:119.756 - 0.027ms returns 10000
+T0C90 000:119.777 JLINK_GetSN()
+T0C90 000:119.795 - 0.027ms returns 831361012
+T0C90 000:119.816 JLINK_GetOEMString(...)
+T0C90 000:119.838 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0C90 000:121.379 - 1.557ms returns 0x00
+T0C90 000:121.408 JLINK_HasError()
+T0C90 000:121.434 JLINK_SetSpeed(5000)
+T0C90 000:121.876 - 0.455ms
+T0C90 000:121.903 JLINK_GetId()
+T0C90 000:123.484   Found SW-DP with ID 0x5BA02477
+T0C90 000:137.379   Found SW-DP with ID 0x5BA02477
+T0C90 000:141.585   DPIDR: 0x5BA02477
+T0C90 000:141.624   CoreSight SoC-400 or earlier
+T0C90 000:141.655   Scanning AP map to find all available APs
+T0C90 000:143.753   AP[2]: Stopped AP scan as end of AP map has been reached
+T0C90 000:143.802   AP[0]: AHB-AP (IDR: 0x74770001)
+T0C90 000:143.839   AP[1]: APB-AP (IDR: 0x44770002)
+T0C90 000:143.877   Iterating through AP map to find AHB-AP to use
+T0C90 000:145.643   AP[0]: Core found
+T0C90 000:145.683   AP[0]: AHB-AP ROM base: 0x4001A000
+T0C90 000:146.586   CPUID register: 0x411CD200. Implementer code: 0x41 (ARM)
+T0C90 000:146.626   Feature set: Baseline
+T0C90 000:146.658   Found Cortex-M23 r1p0, Little endian.
+T0C90 000:147.497   -- Max. mem block: 0x00001B68
+T0C90 000:149.059   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C90 000:149.749   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C90 000:150.500   CPU_ReadMem(4 bytes @ 0xE0002000)
+T0C90 000:151.211   FPUnit: 4 code (BP) slots and 0 literal slots
+T0C90 000:151.248   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T0C90 000:151.972   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C90 000:152.750   CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C90 000:153.455   CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C90 000:154.184   CPU_ReadMem(4 bytes @ 0xE0001028)
+T0C90 000:155.002   CPU_ReadMem(4 bytes @ 0xE0001038)
+T0C90 000:155.734   CPU_WriteMem(4 bytes @ 0xE0001000)
+T0C90 000:156.486   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T0C90 000:157.190   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T0C90 000:157.972   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T0C90 000:158.736   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T0C90 000:159.482   CPU_ReadMem(4 bytes @ 0xE000EFB8)
+T0C90 000:160.230   Security extension: not implemented
+T0C90 000:160.269   CoreSight components:
+T0C90 000:160.303   ROMTbl[0] @ 4001A000
+T0C90 000:160.332   CPU_ReadMem(64 bytes @ 0x4001A000)
+T0C90 000:161.814   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T0C90 000:162.850   CPU_ReadMem(4 bytes @ 0xE000EFBC)
+T0C90 000:163.559   CPU_ReadMem(4 bytes @ 0xE000EFCC)
+T0C90 000:164.290   [0][0]: E000E000 CID B105900D PID 000BBD20 DEVARCH 47702A04 DEVTYPE 00 Cortex-M23
+T0C90 000:164.324   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T0C90 000:165.361   CPU_ReadMem(4 bytes @ 0xE0001FBC)
+T0C90 000:166.051   CPU_ReadMem(4 bytes @ 0xE0001FCC)
+T0C90 000:166.761   [0][1]: E0001000 CID B105900D PID 000BBD20 DEVARCH 47701A02 DEVTYPE 00 DWT
+T0C90 000:166.794   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T0C90 000:167.832   CPU_ReadMem(4 bytes @ 0xE0002FBC)
+T0C90 000:168.513   CPU_ReadMem(4 bytes @ 0xE0002FCC)
+T0C90 000:169.248   [0][2]: E0002000 CID B105900D PID 000BBD20 DEVARCH 47701A03 DEVTYPE 00 FPB
+T0C90 000:169.285   CPU_ReadMem(32 bytes @ 0x40019FE0)
+T0C90 000:170.348   CPU_ReadMem(4 bytes @ 0x40019FBC)
+T0C90 000:171.070   CPU_ReadMem(4 bytes @ 0x40019FCC)
+T0C90 000:171.767   [0][3]: 40019000 CID B105900D PID 000BBD20 DEVARCH 47710A31 DEVTYPE 31 MTB
+T0C90 000:172.385 - 50.495ms returns 0x5BA02477
+T0C90 000:172.415 JLINK_GetDLLVersion()
+T0C90 000:172.434 - 0.027ms returns 78200
+T0C90 000:172.455 JLINK_CORE_GetFound()
+T0C90 000:172.473 - 0.027ms returns 0x60100FF
+T0C90 000:172.495 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T0C90 000:172.516   Value=0x4001A000
+T0C90 000:172.543 - 0.058ms returns 0
+T0C90 000:172.617 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T0C90 000:172.644   Value=0x4001A000
+T0C90 000:172.672 - 0.064ms returns 0
+T0C90 000:172.692 JLINK_GetDebugInfo(0x101 = JLINKARM_DEBUG_INFO_ETM_ADDR_INDEX)
+T0C90 000:172.711   Value=0x00000000
+T0C90 000:172.739 - 0.055ms returns 0
+T0C90 000:172.762 JLINK_ReadMemEx(0xE0041FF0, 0x10 Bytes, Flags = 0x02000004)
+T0C90 000:172.794   CPU_ReadMem(16 bytes @ 0xE0041FF0)
+T0C90 000:174.524   failed
+T0C90 000:174.555 - 1.803ms returns -1 (0xFFFFFFFF)
+T0C90 000:174.576 JLINK_GetDebugInfo(0x102 = JLINKARM_DEBUG_INFO_MTB_ADDR_INDEX)
+T0C90 000:174.595   Value=0x40019000
+T0C90 000:174.622 - 0.055ms returns 0
+T0C90 000:174.642 JLINK_CORE_GetFound()
+T0C90 000:174.660 - 0.027ms returns 0x60100FF
+T0C90 000:174.679 JLINK_GetDebugInfo(0x103 = JLINKARM_DEBUG_INFO_TPIU_ADDR_INDEX)
+T0C90 000:174.697   Value=0x00000000
+T0C90 000:174.724 - 0.054ms returns 0
+T0C90 000:174.743 JLINK_ReadMemEx(0xE0040FF0, 0x10 Bytes, Flags = 0x02000004)
+T0C90 000:174.766   CPU_ReadMem(16 bytes @ 0xE0040FF0)
+T0C90 000:176.514   failed
+T0C90 000:176.549 - 1.815ms returns -1 (0xFFFFFFFF)
+T0C90 000:176.571 JLINK_GetDebugInfo(0x104 = JLINKARM_DEBUG_INFO_ITM_ADDR_INDEX)
+T0C90 000:176.591   Value=0xE0000000
+T0C90 000:176.619 - 0.057ms returns 0
+T0C90 000:176.638 JLINK_GetDebugInfo(0x105 = JLINKARM_DEBUG_INFO_DWT_ADDR_INDEX)
+T0C90 000:176.657   Value=0xE0001000
+T0C90 000:176.685 - 0.056ms returns 0
+T0C90 000:176.705 JLINK_GetDebugInfo(0x106 = JLINKARM_DEBUG_INFO_FPB_ADDR_INDEX)
+T0C90 000:176.725   Value=0xE0002000
+T0C90 000:176.753 - 0.057ms returns 0
+T0C90 000:176.773 JLINK_GetDebugInfo(0x107 = JLINKARM_DEBUG_INFO_NVIC_ADDR_INDEX)
+T0C90 000:176.792   Value=0xE000E000
+T0C90 000:176.820 - 0.056ms returns 0
+T0C90 000:176.839 JLINK_GetDebugInfo(0x10C = JLINKARM_DEBUG_INFO_DBG_ADDR_INDEX)
+T0C90 000:176.858   Value=0xE000EDF0
+T0C90 000:176.885 - 0.057ms returns 0
+T0C90 000:176.907 JLINK_GetDebugInfo(0x01 = Unknown)
+T0C90 000:176.930   Value=0x00000000
+T0C90 000:176.959 - 0.061ms returns 0
+T0C90 000:176.982 JLINK_ReadMemU32(0xE000ED00, 0x1 Items)
+T0C90 000:177.007   CPU_ReadMem(4 bytes @ 0xE000ED00)
+T0C90 000:177.736   Data:  00 D2 1C 41
+T0C90 000:177.771   Debug reg: CPUID
+T0C90 000:177.798 - 0.825ms returns 1 (0x1)
+T0C90 000:177.820 JLINK_GetDebugInfo(0x10F = JLINKARM_DEBUG_INFO_HAS_CORTEX_M_SECURITY_EXT_INDEX)
+T0C90 000:177.839   Value=0x00000000
+T0C90 000:177.866 - 0.055ms returns 0
+T0C90 000:177.886 JLINK_HasError()
+T0C90 000:177.908 JLINK_SetResetType(JLINKARM_CM3_RESET_TYPE_NORMAL)
+T0C90 000:177.927 - 0.028ms returns JLINKARM_CM3_RESET_TYPE_NORMAL
+T0C90 000:177.946 JLINK_Reset()
+T0C90 000:177.974   CPU is running
+T0C90 000:178.003   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C90 000:178.750   CPU_ReadMem(4 bytes @ 0xE000ED44)
+T0C90 000:179.446   CPU is running
+T0C90 000:179.478   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C90 000:180.248   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T0C90 000:181.270   Reset: Reset device via AIRCR.SYSRESETREQ.
+T0C90 000:181.307   CPU is running
+T0C90 000:181.336   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T0C90 000:235.746   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C90 000:236.494   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C90 000:237.232   CPU is running
+T0C90 000:237.271   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C90 000:238.041   CPU is running
+T0C90 000:238.073   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C90 000:244.687   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C90 000:250.608   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T0C90 000:251.340   CPU_WriteMem(4 bytes @ 0xE0002000)
+T0C90 000:252.136   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T0C90 000:252.828   CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C90 000:253.546   CPU_WriteMem(4 bytes @ 0xE0001000)
+T0C90 000:254.295   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T0C90 000:255.015 - 77.086ms
+T0C90 000:255.086 JLINK_HasError()
+T0C90 000:255.114 JLINK_ReadReg(R15 (PC))
+T0C90 000:255.141   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T0C90 000:255.880 - 0.786ms returns 0x000013D2
+T0C90 000:255.917 JLINK_ReadReg(XPSR)
+T0C90 000:255.945 - 0.040ms returns 0x61000000
+T0C90 000:255.970 JLINK_Halt()
+T0C90 000:255.993 - 0.034ms returns 0x00
+T0C90 000:256.017 JLINK_ReadMemU32(0xE000EDF0, 0x1 Items)
+T0C90 000:256.045   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C90 000:256.738   Data:  03 00 03 00
+T0C90 000:256.773   Debug reg: DHCSR
+T0C90 000:256.801 - 0.793ms returns 1 (0x1)
+T0C90 000:256.826 JLINK_WriteU32_64(0xE000EDF0, 0xA05F0003)
+T0C90 000:256.847   Debug reg: DHCSR
+T0C90 000:257.036   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C90 000:257.797 - 0.987ms returns 0 (0x00000000)
+T0C90 000:257.826 JLINK_WriteU32_64(0xE000EDFC, 0x01000000)
+T0C90 000:257.846   Debug reg: DEMCR
+T0C90 000:257.878   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C90 000:258.614 - 0.802ms returns 0 (0x00000000)
+T0C90 000:258.668 JLINK_GetHWStatus(...)
+T0C90 000:259.061 - 0.404ms returns 0
+T0C90 000:259.096 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T0C90 000:259.115 - 0.028ms returns 0x04
+T0C90 000:259.135 JLINK_GetNumBPUnits(Type = 0xF0)
+T0C90 000:259.153 - 0.027ms returns 0x2000
+T0C90 000:259.172 JLINK_GetNumWPUnits()
+T0C90 000:259.190 - 0.027ms returns 2
+T0C90 000:259.216 JLINK_GetSpeed()
+T0C90 000:259.235 - 0.027ms returns 2000
+T0C90 000:259.257 JLINK_ReadMemU32(0xE000E004, 0x1 Items)
+T0C90 000:259.280   CPU_ReadMem(4 bytes @ 0xE000E004)
+T0C90 000:259.990   Data:  00 00 00 00
+T0C90 000:260.027 - 0.781ms returns 1 (0x1)
+T0C90 000:260.052 JLINK_ReadMemU32(0xE000E004, 0x1 Items)
+T0C90 000:260.078   CPU_ReadMem(4 bytes @ 0xE000E004)
+T0C90 000:260.795   Data:  00 00 00 00
+T0C90 000:260.824 - 0.781ms returns 1 (0x1)
+T0C90 000:260.851 JLINK_HasError()
+T0C90 000:260.871 JLINK_ReadReg(R15 (PC))
+T0C90 000:260.891 - 0.029ms returns 0x000013D2
+T0C90 000:260.911 JLINK_ReadReg(XPSR)
+T0C90 000:260.930 - 0.028ms returns 0x61000000
+T0C90 000:273.288 JLINK_ReadMemU32(0x4001900C, 0x1 Items)
+T0C90 000:273.339   CPU_ReadMem(4 bytes @ 0x4001900C)
+T0C90 000:274.051   Data:  00 40 00 20
+T0C90 000:274.082 - 0.803ms returns 1 (0x1)
+T0C90 000:277.769 JLINK_ReadMemEx(0xE0001004, 0x4 Bytes, Flags = 0x02000000)
+T0C90 000:277.805   Data:  00 00 00 00
+T0C90 000:277.836   Debug reg: DWT_CYCCNT
+T0C90 000:277.864 - 0.104ms returns 4 (0x4)
+T0C90 000:319.302 JLINK_WriteMemEx(0x00000000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:319.340   Data:  E0 14 00 20 D3 13 00 00 F9 08 00 00 C9 05 00 00 ...
+T0C90 000:319.555   completely In flash
+T0C90 000:319.586 - 0.293ms returns 0x1000
+T0C90 000:319.953 JLINK_WriteMemEx(0x00001000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:319.979   Data:  00 91 E1 69 49 69 8E 00 DF 4B F7 58 DF 4A 17 40 ...
+T0C90 000:320.012   completely In flash
+T0C90 000:320.040 - 0.096ms returns 0x1000
+T0C90 000:320.445 JLINK_WriteMemEx(0x00002000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:320.469   Data:  34 61 1B 48 04 71 1B 4D A8 79 80 00 30 58 29 68 ...
+T0C90 000:320.502   completely In flash
+T0C90 000:320.530 - 0.094ms returns 0x1000
+T0C90 000:320.949 JLINK_WriteMemEx(0x00003000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:320.973   Data:  20 25 73 20 66 61 69 6C 65 64 0A 00 F0 B5 89 B0 ...
+T0C90 000:321.016   completely In flash
+T0C90 000:321.044 - 0.104ms returns 0x1000
+T0C90 000:321.423 JLINK_WriteMemEx(0x00004000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:321.448   Data:  10 46 00 F0 83 FB 20 46 FC F7 5B FB 3E 21 21 54 ...
+T0C90 000:321.488   completely In flash
+T0C90 000:321.517 - 0.104ms returns 0x1000
+T0C90 000:321.910 JLINK_WriteMemEx(0x00005000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:321.935   Data:  7F 22 0A 40 21 7A 8A 42 10 D1 62 68 00 21 0E 46 ...
+T0C90 000:321.966   completely In flash
+T0C90 000:321.995 - 0.093ms returns 0x1000
+T0C90 000:322.322 JLINK_WriteMemEx(0x00006000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:322.347   Data:  02 F0 9E F9 02 9F 00 2F 00 D1 65 E7 03 A9 38 46 ...
+T0C90 000:322.391   completely In flash
+T0C90 000:322.420 - 0.107ms returns 0x1000
+T0C90 000:322.820 JLINK_WriteMemEx(0x00007000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:322.848   Data:  0A D5 48 20 20 5C 81 06 06 D4 00 09 01 21 81 43 ...
+T0C90 000:322.878   completely In flash
+T0C90 000:322.906 - 0.095ms returns 0x1000
+T0C90 000:323.309 JLINK_WriteMemEx(0x00008000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:323.334   Data:  08 BC 9E 46 10 47 01 20 88 43 A8 80 28 46 00 F0 ...
+T0C90 000:323.366   completely In flash
+T0C90 000:323.394 - 0.094ms returns 0x1000
+T0C90 000:323.752 JLINK_WriteMemEx(0x00009000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:323.778   Data:  A2 5F 52 1E 4B 08 9A 42 01 D0 8A 1C 01 E0 02 46 ...
+T0C90 000:323.808   completely In flash
+T0C90 000:323.836 - 0.094ms returns 0x1000
+T0C90 000:324.235 JLINK_WriteMemEx(0x0000A000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:324.258   Data:  2D 49 FD F7 8D F9 A9 6A 72 1A 0C 3A 33 46 08 3B ...
+T0C90 000:324.297   completely In flash
+T0C90 000:324.326 - 0.100ms returns 0x1000
+T0C90 000:324.687 JLINK_WriteMemEx(0x0000B000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:324.713   Data:  26 46 14 36 66 61 A6 61 27 48 01 68 09 B1 20 46 ...
+T0C90 000:324.743   completely In flash
+T0C90 000:324.771 - 0.093ms returns 0x1000
+T0C90 000:325.118 JLINK_WriteMemEx(0x0000C000, 0x00001000 Bytes, Flags = 0x02000000)
+T0C90 000:325.142   Data:  54 68 72 65 61 64 20 73 68 65 6C 6C 20 68 65 6C ...
+T0C90 000:325.172   completely In flash
+T0C90 000:325.200 - 0.090ms returns 0x1000
+T0C90 000:325.553 JLINK_WriteMemEx(0x0000D000, 0x00000C80 Bytes, Flags = 0x02000000)
+T0C90 000:325.587   Data:  74 00 72 74 5F 6F 62 6A 65 63 74 5F 67 65 74 5F ...
+T0C90 000:325.624   completely In flash
+T0C90 000:325.659 - 0.118ms returns 0xC80
+T0C90 000:326.033 JLINK_WriteMemEx(0x01010018, 0x0000001C Bytes, Flags = 0x02000000)
+T0C90 000:326.059   Data:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ...
+T0C90 000:326.246   completely In flash
+T0C90 000:326.278 - 0.253ms returns 0x1C
+T0C90 000:383.466 JLINK_HasError()
+T0C90 000:383.511 JLINK_SetResetType(JLINKARM_CM3_RESET_TYPE_NORMAL)
+T0C90 000:383.532 - 0.029ms returns JLINKARM_CM3_RESET_TYPE_NORMAL
+T0C90 000:383.612 JLINK_Reset()
+T0C90 000:383.639   Old firmware which does not support pausing periodic actions during flash download
+T0C90 000:383.671   CPU_ReadMem(4 bytes @ 0x40019004)
+T0C90 000:384.422   CPU_ReadMem(4 bytes @ 0xE000ED90)
+T0C90 000:385.181   CPU_ReadMem(4 bytes @ 0xE000ED94)
+T0C90 000:385.885    -- --------------------------------------
+T0C90 000:385.940   Flash bank @ 0x01010010: Default: L2 verify disabled because algorithm performs L1 verify
+T0C90 000:385.991    -- Start of determining dirty areas in flash cache
+T0C90 000:386.031    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x01010010 if necessary
+T0C90 000:386.070    -- End of determining dirty areas
+T0C90 000:386.106    -- Start of preparing flash programming
+T0C90 000:386.143    -- Calculating RAM usage
+T0C90 000:386.247    -- RAM usage = 3492 Bytes
+T0C90 000:386.283    -- Preserving CPU registers
+T0C90 000:386.340    -- Determining CPU clock frequency
+T0C90 000:434.779    -- Preparing target
+T0C90 000:443.189    -- Preserving target RAM temporarily used for programming
+T0C90 000:483.800    -- Downloading RAMCode
+T0C90 000:529.640    -- Preparing RAMCode
+T0C90 000:547.806    -- Checking target RAM
+T0C90 000:550.655    -- CPU frequency = 8000 kHz
+T0C90 000:550.688    -- End of preparing flash programming
+T0C90 000:550.846   Looking for J-Link GUI Server exe at: D:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T0C90 000:550.948   Looking for J-Link GUI Server exe at: D:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T0C90 000:550.977   Forking J-Link GUI Server: D:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T0C90 000:577.214   J-Link GUI Server info: "J-Link GUI server V7.82 "
+T0C90 000:586.712   CPU is running at low speed (8000 kHz).
+T0C90 000:586.753    -- CPU is running at 8000 kHz.
+T0C90 000:586.785    -- Start of comparing flash
+T0C90 000:586.814    -- CRC check was estimated as fastest method
+T0C90 000:613.131    -- Comparing range 0x1010010 - 0x101003F (1 Sector, 48 Bytes), using multi-block CRC calculation
+T0C90 000:620.921    -- All CRCs match
+T0C90 000:621.159    -- Comparing range 0x1010010 - 0x101003F (1 Sector, 48 Bytes), using alternative multi-block CRC calculation
+T0C90 000:625.609    -- All CRCs match
+T0C90 000:625.656    -- End of comparing flash
+T0C90 000:625.691    -- Start of erasing sectors
+T0C90 000:625.726    -- End of erasing sectors
+T0C90 000:625.760    -- Start of flash programming
+T0C90 000:625.794    -- End of flash programming
+T0C90 000:625.828    -- Start of restoring
+T0C90 000:625.862    -- Restoring RAMCode
+T0C90 000:633.044    -- Restoring target memory
+T0C90 000:668.643    -- Restore target
+T0C90 000:671.807    -- Restoring CPU registers
+T0C90 000:672.520    -- End of restoring
+T0C90 000:672.579    -- Bank 0 @ 0x01010010: Skipped. Contents already match
+T0C90 000:672.608    -- Bank 0 @ 0x01010010: Skipped. Contents already match
+T0C90 000:675.422    -- --------------------------------------
+T0C90 000:675.462   Flash bank @ 0x00000000: Default: L2 verify disabled because algorithm performs L1 verify
+T0C90 000:675.490    -- Start of determining dirty areas in flash cache
+T0C90 000:675.519    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00000000 if necessary
+T0C90 000:675.548    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00000800 if necessary
+T0C90 000:675.576    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00001000 if necessary
+T0C90 000:675.604    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00001800 if necessary
+T0C90 000:675.632    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00002000 if necessary
+T0C90 000:675.660    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00002800 if necessary
+T0C90 000:675.688    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00003000 if necessary
+T0C90 000:675.716    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00003800 if necessary
+T0C90 000:675.749    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00004000 if necessary
+T0C90 000:675.778    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00004800 if necessary
+T0C90 000:675.806    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00005000 if necessary
+T0C90 000:675.834    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00005800 if necessary
+T0C90 000:675.868    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00006000 if necessary
+T0C90 000:675.900    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00006800 if necessary
+T0C90 000:675.928    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00007000 if necessary
+T0C90 000:675.956    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00007800 if necessary
+T0C90 000:675.984    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00008000 if necessary
+T0C90 000:676.012    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00008800 if necessary
+T0C90 000:676.040    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00009000 if necessary
+T0C90 000:676.068    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00009800 if necessary
+T0C90 000:676.096    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000A000 if necessary
+T0C90 000:676.124    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000A800 if necessary
+T0C90 000:676.152    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000B000 if necessary
+T0C90 000:676.180    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000B800 if necessary
+T0C90 000:676.207    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000C000 if necessary
+T0C90 000:676.235    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000C800 if necessary
+T0C90 000:676.263    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000D000 if necessary
+T0C90 000:676.291    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000D800 if necessary
+T0C90 000:676.340    -- End of determining dirty areas
+T0C90 000:676.368    -- Start of preparing flash programming
+T0C90 000:676.396    -- Calculating RAM usage
+T0C90 000:676.429    -- RAM usage = 4308 Bytes
+T0C90 000:676.457    -- Preserving CPU registers
+T0C90 000:676.503    -- Determining CPU clock frequency
+T0C90 000:723.129    -- Preparing target
+T0C90 000:730.884    -- Preserving target RAM temporarily used for programming
+T0C90 000:780.701    -- Downloading RAMCode
+T0C90 000:821.217    -- Preparing RAMCode
+T0C90 000:838.448    -- Checking target RAM
+T0C90 000:841.975    -- CPU frequency = 8000 kHz
+T0C90 000:842.008    -- End of preparing flash programming
+T0C90 000:843.615   CPU is running at low speed (8000 kHz).
+T0C90 000:843.663    -- CPU is running at 8000 kHz.
+T0C90 000:843.692    -- Start of comparing flash
+T0C90 000:843.720    -- CRC check was estimated as fastest method
+T0C90 000:854.532    -- Comparing range 0x0000 - 0xDFFF (28 Sectors, 56 KB), using multi-block CRC calculation
+T0C90 000:915.201    -- CRC does not match for sectors 0-27
+T0C90 000:915.246    -- End of comparing flash
+T0C90 000:915.275    -- Start of erasing sectors
+T0C90 000:915.303    -- Erasing range 0x00000000 - 0x0000DFFF ( 28 Sectors, 56 KB)
+T0C90 001:082.992    -- End of erasing sectors
+T0C90 001:083.051    -- Start of flash programming
+T0C90 001:083.089    -- Programming range 0x00000000 - 0x00003FFF (  8 Sectors, 16 KB)
+T0C90 001:304.654    -- Programming range 0x00004000 - 0x00007FFF (  8 Sectors, 16 KB)
+T0C90 001:537.139    -- Programming range 0x00008000 - 0x0000BFFF (  8 Sectors, 16 KB)
+T0C90 001:769.901    -- Programming range 0x0000C000 - 0x0000DFFF (  4 Sectors, 8 KB)
+T0C90 001:886.071    -- End of flash programming
+T0C90 001:886.153    -- 0x0000 - 0xDFFF ( 28 Sectors, 56 KoB)
+T0C90 001:886.182    -- Start of restoring
+T0C90 001:886.211    -- Restoring RAMCode
+T0C90 001:921.320    -- Restoring target memory
+T0C90 001:965.316    -- Restore target
+T0C90 001:968.420    -- Restoring CPU registers
+T0C90 001:969.297    -- End of restoring
+T0C90 001:969.370    -- Bank 1 @ 0x00000000: 1 range affected (57344 bytes)
+T0C90 001:969.414    -- Total: 1.292s (Prepare: 0.167s, Compare: 0.071s, Erase: 0.167s, Program & Verify: 0.831s, Restore: 0.054s)
+T0C90 001:969.464    -- Program & Verify speed: 67 KB/s
+T0C90 001:972.062   CPU_ReadMem(4 bytes @ 0x20000000)
+T0C90 001:972.817   CPU_WriteMem(4 bytes @ 0x20000000)
+T0C90 001:973.603   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C90 001:974.384   CPU_ReadMem(4 bytes @ 0xE000ED44)
+T0C90 001:975.090   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C90 001:975.909   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T0C90 001:977.003   Reset: Reset device via AIRCR.SYSRESETREQ.
+T0C90 001:977.036   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T0C90 002:030.744   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C90 002:031.638   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C90 002:032.463   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C90 002:033.313   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C90 002:039.623   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C90 002:045.518   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T0C90 002:046.666   CPU_WriteMem(4 bytes @ 0xE0002000)
+T0C90 002:047.488   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T0C90 002:048.282   CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C90 002:049.007   CPU_WriteMem(4 bytes @ 0xE0001000)
+T0C90 002:049.811   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T0C90 002:050.508 - 1666.913ms
+T0C90 002:050.600 JLINK_HasError()
+T0C90 002:050.642 JLINK_ReadReg(R15 (PC))
+T0C90 002:050.675   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T0C90 002:051.422 - 0.791ms returns 0x000013D2
+T0C90 002:051.446 JLINK_ReadReg(XPSR)
+T0C90 002:051.466 - 0.029ms returns 0x61000000
+T0C90 002:052.102 JLINK_ReadMemEx(0x000012D2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:052.131    -- Read from flash cache (2 bytes @ 0x000012D2)
+T0C90 002:052.165   Data:  98 40
+T0C90 002:052.199 - 0.107ms returns 2 (0x2)
+T0C90 002:052.224 JLINK_ReadMemEx(0x000012D4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:052.247    -- Read from flash cache (60 bytes @ 0x000012D4)
+T0C90 002:052.280   Data:  30 43 2B 4E A8 51 2B 4B D0 58 2B 4C 20 40 D0 50 ...
+T0C90 002:052.313 - 0.100ms returns 60 (0x3C)
+T0C90 002:052.337 JLINK_ReadMemEx(0x000012D4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:052.360    -- Read from flash cache (2 bytes @ 0x000012D4)
+T0C90 002:052.393   Data:  30 43
+T0C90 002:052.425 - 0.100ms returns 2 (0x2)
+T0C90 002:052.450 JLINK_ReadMemEx(0x000012D4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:052.473    -- Read from flash cache (60 bytes @ 0x000012D4)
+T0C90 002:052.507   Data:  30 43 2B 4E A8 51 2B 4B D0 58 2B 4C 20 40 D0 50 ...
+T0C90 002:052.545 - 0.106ms returns 60 (0x3C)
+T0C90 002:052.569 JLINK_ReadMemEx(0x000012D4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:052.593    -- Read from flash cache (2 bytes @ 0x000012D4)
+T0C90 002:052.626   Data:  30 43
+T0C90 002:052.659 - 0.101ms returns 2 (0x2)
+T0C90 002:052.683 JLINK_ReadMemEx(0x000012D6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:052.706    -- Read from flash cache (2 bytes @ 0x000012D6)
+T0C90 002:052.738   Data:  2B 4E
+T0C90 002:052.771 - 0.099ms returns 2 (0x2)
+T0C90 002:052.794 JLINK_ReadMemEx(0x000012D6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:052.817    -- Read from flash cache (2 bytes @ 0x000012D6)
+T0C90 002:052.850   Data:  2B 4E
+T0C90 002:052.882 - 0.099ms returns 2 (0x2)
+T0C90 002:052.905 JLINK_ReadMemEx(0x000012D8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:052.928    -- Read from flash cache (60 bytes @ 0x000012D8)
+T0C90 002:052.961   Data:  A8 51 2B 4B D0 58 2B 4C 20 40 D0 50 48 09 0B 9A ...
+T0C90 002:052.994 - 0.099ms returns 60 (0x3C)
+T0C90 002:053.017 JLINK_ReadMemEx(0x000012D8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:053.039    -- Read from flash cache (2 bytes @ 0x000012D8)
+T0C90 002:053.078   Data:  A8 51
+T0C90 002:053.111 - 0.105ms returns 2 (0x2)
+T0C90 002:053.134 JLINK_ReadMemEx(0x000012D8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:053.157    -- Read from flash cache (60 bytes @ 0x000012D8)
+T0C90 002:053.190   Data:  A8 51 2B 4B D0 58 2B 4C 20 40 D0 50 48 09 0B 9A ...
+T0C90 002:053.222 - 0.099ms returns 60 (0x3C)
+T0C90 002:053.245 JLINK_ReadMemEx(0x000012D8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:053.268    -- Read from flash cache (2 bytes @ 0x000012D8)
+T0C90 002:053.301   Data:  A8 51
+T0C90 002:053.333 - 0.099ms returns 2 (0x2)
+T0C90 002:053.356 JLINK_ReadMemEx(0x000012DA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:053.379    -- Read from flash cache (2 bytes @ 0x000012DA)
+T0C90 002:053.412   Data:  2B 4B
+T0C90 002:053.444 - 0.099ms returns 2 (0x2)
+T0C90 002:053.468 JLINK_ReadMemEx(0x000012DA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:053.490    -- Read from flash cache (2 bytes @ 0x000012DA)
+T0C90 002:053.533   Data:  2B 4B
+T0C90 002:053.563 - 0.105ms returns 2 (0x2)
+T0C90 002:053.585 JLINK_ReadMemEx(0x000012DC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:053.606    -- Read from flash cache (60 bytes @ 0x000012DC)
+T0C90 002:053.634   Data:  D0 58 2B 4C 20 40 D0 50 48 09 0B 9A 11 40 0D 9A ...
+T0C90 002:053.661 - 0.085ms returns 60 (0x3C)
+T0C90 002:053.681 JLINK_ReadMemEx(0x000012DC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:053.700    -- Read from flash cache (2 bytes @ 0x000012DC)
+T0C90 002:053.727   Data:  D0 58
+T0C90 002:053.755 - 0.083ms returns 2 (0x2)
+T0C90 002:053.775 JLINK_ReadMemEx(0x000012DC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:053.794    -- Read from flash cache (60 bytes @ 0x000012DC)
+T0C90 002:053.822   Data:  D0 58 2B 4C 20 40 D0 50 48 09 0B 9A 11 40 0D 9A ...
+T0C90 002:053.849 - 0.083ms returns 60 (0x3C)
+T0C90 002:053.869 JLINK_ReadMemEx(0x000012DC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:053.888    -- Read from flash cache (2 bytes @ 0x000012DC)
+T0C90 002:053.916   Data:  D0 58
+T0C90 002:053.943 - 0.083ms returns 2 (0x2)
+T0C90 002:053.962 JLINK_ReadMemEx(0x000012DE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:053.981    -- Read from flash cache (2 bytes @ 0x000012DE)
+T0C90 002:054.008   Data:  2B 4C
+T0C90 002:054.036 - 0.083ms returns 2 (0x2)
+T0C90 002:054.055 JLINK_ReadMemEx(0x000012DE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:054.074    -- Read from flash cache (2 bytes @ 0x000012DE)
+T0C90 002:054.102   Data:  2B 4C
+T0C90 002:054.129 - 0.082ms returns 2 (0x2)
+T0C90 002:054.148 JLINK_ReadMemEx(0x000012E0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:054.167    -- Read from flash cache (60 bytes @ 0x000012E0)
+T0C90 002:054.195   Data:  20 40 D0 50 48 09 0B 9A 11 40 0D 9A 8A 40 80 00 ...
+T0C90 002:054.222 - 0.083ms returns 60 (0x3C)
+T0C90 002:054.241 JLINK_ReadMemEx(0x000012E0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:054.260    -- Read from flash cache (2 bytes @ 0x000012E0)
+T0C90 002:054.288   Data:  20 40
+T0C90 002:054.315 - 0.083ms returns 2 (0x2)
+T0C90 002:054.335 JLINK_ReadMemEx(0x000012E0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:054.353    -- Read from flash cache (60 bytes @ 0x000012E0)
+T0C90 002:054.381   Data:  20 40 D0 50 48 09 0B 9A 11 40 0D 9A 8A 40 80 00 ...
+T0C90 002:054.408 - 0.083ms returns 60 (0x3C)
+T0C90 002:054.428 JLINK_ReadMemEx(0x000012E0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:054.446    -- Read from flash cache (2 bytes @ 0x000012E0)
+T0C90 002:054.474   Data:  20 40
+T0C90 002:054.501 - 0.083ms returns 2 (0x2)
+T0C90 002:054.523 JLINK_ReadMemEx(0x000012E2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:054.542    -- Read from flash cache (2 bytes @ 0x000012E2)
+T0C90 002:054.569   Data:  D0 50
+T0C90 002:054.596 - 0.081ms returns 2 (0x2)
+T0C90 002:054.615 JLINK_ReadMemEx(0x000012E2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:054.634    -- Read from flash cache (2 bytes @ 0x000012E2)
+T0C90 002:054.660   Data:  D0 50
+T0C90 002:054.687 - 0.081ms returns 2 (0x2)
+T0C90 002:054.706 JLINK_ReadMemEx(0x000012E4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:054.725    -- Read from flash cache (60 bytes @ 0x000012E4)
+T0C90 002:054.833   Data:  48 09 0B 9A 11 40 0D 9A 8A 40 80 00 27 49 42 50 ...
+T0C90 002:054.860 - 0.163ms returns 60 (0x3C)
+T0C90 002:054.879 JLINK_ReadMemEx(0x000012E4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:054.898    -- Read from flash cache (2 bytes @ 0x000012E4)
+T0C90 002:054.925   Data:  48 09
+T0C90 002:054.952 - 0.081ms returns 2 (0x2)
+T0C90 002:054.971 JLINK_ReadMemEx(0x000012E4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:054.990    -- Read from flash cache (60 bytes @ 0x000012E4)
+T0C90 002:055.017   Data:  48 09 0B 9A 11 40 0D 9A 8A 40 80 00 27 49 42 50 ...
+T0C90 002:055.044 - 0.081ms returns 60 (0x3C)
+T0C90 002:055.063 JLINK_ReadMemEx(0x000012E4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:055.081    -- Read from flash cache (2 bytes @ 0x000012E4)
+T0C90 002:055.108   Data:  48 09
+T0C90 002:055.135 - 0.081ms returns 2 (0x2)
+T0C90 002:055.154 JLINK_ReadMemEx(0x000012E6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:055.172    -- Read from flash cache (2 bytes @ 0x000012E6)
+T0C90 002:055.199   Data:  0B 9A
+T0C90 002:055.226 - 0.081ms returns 2 (0x2)
+T0C90 002:055.245 JLINK_ReadMemEx(0x000012E6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:055.264    -- Read from flash cache (2 bytes @ 0x000012E6)
+T0C90 002:055.291   Data:  0B 9A
+T0C90 002:055.318 - 0.081ms returns 2 (0x2)
+T0C90 002:055.336 JLINK_ReadMemEx(0x000012E8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:055.355    -- Read from flash cache (60 bytes @ 0x000012E8)
+T0C90 002:055.381   Data:  11 40 0D 9A 8A 40 80 00 27 49 42 50 27 49 42 50 ...
+T0C90 002:055.408 - 0.080ms returns 60 (0x3C)
+T0C90 002:055.426 JLINK_ReadMemEx(0x000012E8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:055.445    -- Read from flash cache (2 bytes @ 0x000012E8)
+T0C90 002:055.471   Data:  11 40
+T0C90 002:055.498 - 0.080ms returns 2 (0x2)
+T0C90 002:055.517 JLINK_ReadMemEx(0x000012E8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:055.537    -- Read from flash cache (60 bytes @ 0x000012E8)
+T0C90 002:055.564   Data:  11 40 0D 9A 8A 40 80 00 27 49 42 50 27 49 42 50 ...
+T0C90 002:055.591 - 0.082ms returns 60 (0x3C)
+T0C90 002:055.609 JLINK_ReadMemEx(0x000012E8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:055.627    -- Read from flash cache (2 bytes @ 0x000012E8)
+T0C90 002:055.654   Data:  11 40
+T0C90 002:055.681 - 0.080ms returns 2 (0x2)
+T0C90 002:055.699 JLINK_ReadMemEx(0x000012EA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:055.717    -- Read from flash cache (2 bytes @ 0x000012EA)
+T0C90 002:055.744   Data:  0D 9A
+T0C90 002:055.771 - 0.080ms returns 2 (0x2)
+T0C90 002:055.790 JLINK_ReadMemEx(0x000012EA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:055.808    -- Read from flash cache (2 bytes @ 0x000012EA)
+T0C90 002:055.834   Data:  0D 9A
+T0C90 002:055.861 - 0.080ms returns 2 (0x2)
+T0C90 002:055.880 JLINK_ReadMemEx(0x000012EC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:055.898    -- Read from flash cache (60 bytes @ 0x000012EC)
+T0C90 002:055.926   Data:  8A 40 80 00 27 49 42 50 27 49 42 50 09 9C 60 68 ...
+T0C90 002:055.952 - 0.081ms returns 60 (0x3C)
+T0C90 002:055.971 JLINK_ReadMemEx(0x000012EC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:055.989    -- Read from flash cache (2 bytes @ 0x000012EC)
+T0C90 002:056.016   Data:  8A 40
+T0C90 002:056.042 - 0.080ms returns 2 (0x2)
+T0C90 002:056.061 JLINK_ReadMemEx(0x000012EC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:056.079    -- Read from flash cache (60 bytes @ 0x000012EC)
+T0C90 002:056.106   Data:  8A 40 80 00 27 49 42 50 27 49 42 50 09 9C 60 68 ...
+T0C90 002:056.133 - 0.080ms returns 60 (0x3C)
+T0C90 002:056.151 JLINK_ReadMemEx(0x000012EC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:056.170    -- Read from flash cache (2 bytes @ 0x000012EC)
+T0C90 002:056.196   Data:  8A 40
+T0C90 002:056.223 - 0.080ms returns 2 (0x2)
+T0C90 002:056.242 JLINK_ReadMemEx(0x000012EE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:056.260    -- Read from flash cache (2 bytes @ 0x000012EE)
+T0C90 002:056.286   Data:  80 00
+T0C90 002:056.313 - 0.080ms returns 2 (0x2)
+T0C90 002:056.332 JLINK_ReadMemEx(0x000012EE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:056.352    -- Read from flash cache (2 bytes @ 0x000012EE)
+T0C90 002:056.379   Data:  80 00
+T0C90 002:056.406 - 0.083ms returns 2 (0x2)
+T0C90 002:056.425 JLINK_ReadMemEx(0x000012F0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:056.443    -- Read from flash cache (60 bytes @ 0x000012F0)
+T0C90 002:056.470   Data:  27 49 42 50 27 49 42 50 09 9C 60 68 01 69 8A 00 ...
+T0C90 002:056.496 - 0.080ms returns 60 (0x3C)
+T0C90 002:056.515 JLINK_ReadMemEx(0x000012F0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:056.535    -- Read from flash cache (2 bytes @ 0x000012F0)
+T0C90 002:056.562   Data:  27 49
+T0C90 002:056.589 - 0.082ms returns 2 (0x2)
+T0C90 002:056.608 JLINK_ReadMemEx(0x000012F0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:056.626    -- Read from flash cache (60 bytes @ 0x000012F0)
+T0C90 002:056.653   Data:  27 49 42 50 27 49 42 50 09 9C 60 68 01 69 8A 00 ...
+T0C90 002:056.679 - 0.080ms returns 60 (0x3C)
+T0C90 002:056.698 JLINK_ReadMemEx(0x000012F0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:056.716    -- Read from flash cache (2 bytes @ 0x000012F0)
+T0C90 002:056.743   Data:  27 49
+T0C90 002:056.769 - 0.080ms returns 2 (0x2)
+T0C90 002:056.788 JLINK_ReadMemEx(0x000012F2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:056.806    -- Read from flash cache (2 bytes @ 0x000012F2)
+T0C90 002:056.833   Data:  42 50
+T0C90 002:056.860 - 0.080ms returns 2 (0x2)
+T0C90 002:056.878 JLINK_ReadMemEx(0x000012F2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:056.897    -- Read from flash cache (2 bytes @ 0x000012F2)
+T0C90 002:056.923   Data:  42 50
+T0C90 002:056.950 - 0.080ms returns 2 (0x2)
+T0C90 002:056.969 JLINK_ReadMemEx(0x000012F4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:056.987    -- Read from flash cache (60 bytes @ 0x000012F4)
+T0C90 002:057.014   Data:  27 49 42 50 09 9C 60 68 01 69 8A 00 1F 4B 9C 50 ...
+T0C90 002:057.040 - 0.080ms returns 60 (0x3C)
+T0C90 002:057.059 JLINK_ReadMemEx(0x000012F4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:057.077    -- Read from flash cache (2 bytes @ 0x000012F4)
+T0C90 002:057.104   Data:  27 49
+T0C90 002:057.130 - 0.080ms returns 2 (0x2)
+T0C90 002:057.149 JLINK_ReadMemEx(0x000012F4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:057.167    -- Read from flash cache (60 bytes @ 0x000012F4)
+T0C90 002:057.194   Data:  27 49 42 50 09 9C 60 68 01 69 8A 00 1F 4B 9C 50 ...
+T0C90 002:057.220 - 0.080ms returns 60 (0x3C)
+T0C90 002:057.239 JLINK_ReadMemEx(0x000012F4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:057.257    -- Read from flash cache (2 bytes @ 0x000012F4)
+T0C90 002:057.283   Data:  27 49
+T0C90 002:057.310 - 0.079ms returns 2 (0x2)
+T0C90 002:057.328 JLINK_ReadMemEx(0x000012F6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:057.346    -- Read from flash cache (2 bytes @ 0x000012F6)
+T0C90 002:057.372   Data:  42 50
+T0C90 002:057.399 - 0.079ms returns 2 (0x2)
+T0C90 002:057.417 JLINK_ReadMemEx(0x000012F6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:057.436    -- Read from flash cache (2 bytes @ 0x000012F6)
+T0C90 002:057.462   Data:  42 50
+T0C90 002:057.488 - 0.079ms returns 2 (0x2)
+T0C90 002:057.507 JLINK_ReadMemEx(0x000012F8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:057.531    -- Read from flash cache (60 bytes @ 0x000012F8)
+T0C90 002:057.566   Data:  09 9C 60 68 01 69 8A 00 1F 4B 9C 50 0B 46 0C 9D ...
+T0C90 002:057.599 - 0.103ms returns 60 (0x3C)
+T0C90 002:057.622 JLINK_ReadMemEx(0x000012F8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:057.645    -- Read from flash cache (2 bytes @ 0x000012F8)
+T0C90 002:057.678   Data:  09 9C
+T0C90 002:057.711 - 0.100ms returns 2 (0x2)
+T0C90 002:057.735 JLINK_ReadMemEx(0x000012F8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:057.758    -- Read from flash cache (60 bytes @ 0x000012F8)
+T0C90 002:057.791   Data:  09 9C 60 68 01 69 8A 00 1F 4B 9C 50 0B 46 0C 9D ...
+T0C90 002:057.824 - 0.100ms returns 60 (0x3C)
+T0C90 002:057.847 JLINK_ReadMemEx(0x000012F8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:057.870    -- Read from flash cache (2 bytes @ 0x000012F8)
+T0C90 002:057.903   Data:  09 9C
+T0C90 002:057.936 - 0.099ms returns 2 (0x2)
+T0C90 002:057.960 JLINK_ReadMemEx(0x000012FA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:057.984    -- Read from flash cache (2 bytes @ 0x000012FA)
+T0C90 002:058.017   Data:  60 68
+T0C90 002:058.050 - 0.100ms returns 2 (0x2)
+T0C90 002:058.074 JLINK_ReadMemEx(0x000012FA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:058.096    -- Read from flash cache (2 bytes @ 0x000012FA)
+T0C90 002:058.129   Data:  60 68
+T0C90 002:058.162 - 0.099ms returns 2 (0x2)
+T0C90 002:058.185 JLINK_ReadMemEx(0x000012FC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:058.208    -- Read from flash cache (60 bytes @ 0x000012FC)
+T0C90 002:058.241   Data:  01 69 8A 00 1F 4B 9C 50 0B 46 0C 9D 2B 40 9D 59 ...
+T0C90 002:058.274 - 0.099ms returns 60 (0x3C)
+T0C90 002:058.297 JLINK_ReadMemEx(0x000012FC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:058.319    -- Read from flash cache (2 bytes @ 0x000012FC)
+T0C90 002:058.352   Data:  01 69
+T0C90 002:058.385 - 0.099ms returns 2 (0x2)
+T0C90 002:058.408 JLINK_ReadMemEx(0x000012FC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:058.431    -- Read from flash cache (60 bytes @ 0x000012FC)
+T0C90 002:058.464   Data:  01 69 8A 00 1F 4B 9C 50 0B 46 0C 9D 2B 40 9D 59 ...
+T0C90 002:058.497 - 0.099ms returns 60 (0x3C)
+T0C90 002:058.522 JLINK_ReadMemEx(0x000012FC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:058.545    -- Read from flash cache (2 bytes @ 0x000012FC)
+T0C90 002:058.578   Data:  01 69
+T0C90 002:058.610 - 0.099ms returns 2 (0x2)
+T0C90 002:058.633 JLINK_ReadMemEx(0x000012FE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:058.656    -- Read from flash cache (2 bytes @ 0x000012FE)
+T0C90 002:058.689   Data:  8A 00
+T0C90 002:058.722 - 0.099ms returns 2 (0x2)
+T0C90 002:058.745 JLINK_ReadMemEx(0x000012FE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:058.768    -- Read from flash cache (2 bytes @ 0x000012FE)
+T0C90 002:058.801   Data:  8A 00
+T0C90 002:058.834 - 0.099ms returns 2 (0x2)
+T0C90 002:058.857 JLINK_ReadMemEx(0x00001300, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:058.879    -- Read from flash cache (60 bytes @ 0x00001300)
+T0C90 002:058.913   Data:  1F 4B 9C 50 0B 46 0C 9D 2B 40 9D 59 8E 07 F6 0E ...
+T0C90 002:058.945 - 0.099ms returns 60 (0x3C)
+T0C90 002:058.968 JLINK_ReadMemEx(0x00001300, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:058.991    -- Read from flash cache (2 bytes @ 0x00001300)
+T0C90 002:059.024   Data:  1F 4B
+T0C90 002:059.057 - 0.099ms returns 2 (0x2)
+T0C90 002:059.081 JLINK_ReadMemEx(0x00001300, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:059.103    -- Read from flash cache (60 bytes @ 0x00001300)
+T0C90 002:059.129   Data:  1F 4B 9C 50 0B 46 0C 9D 2B 40 9D 59 8E 07 F6 0E ...
+T0C90 002:059.155 - 0.083ms returns 60 (0x3C)
+T0C90 002:059.173 JLINK_ReadMemEx(0x00001300, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:059.191    -- Read from flash cache (2 bytes @ 0x00001300)
+T0C90 002:059.217   Data:  1F 4B
+T0C90 002:059.243 - 0.078ms returns 2 (0x2)
+T0C90 002:059.261 JLINK_ReadMemEx(0x00001302, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:059.279    -- Read from flash cache (2 bytes @ 0x00001302)
+T0C90 002:059.304   Data:  9C 50
+T0C90 002:059.330 - 0.078ms returns 2 (0x2)
+T0C90 002:059.349 JLINK_ReadMemEx(0x00001302, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:059.366    -- Read from flash cache (2 bytes @ 0x00001302)
+T0C90 002:059.392   Data:  9C 50
+T0C90 002:059.418 - 0.078ms returns 2 (0x2)
+T0C90 002:059.437 JLINK_ReadMemEx(0x00001304, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:059.454    -- Read from flash cache (60 bytes @ 0x00001304)
+T0C90 002:059.480   Data:  0B 46 0C 9D 2B 40 9D 59 8E 07 F6 0E 0A 9F B7 40 ...
+T0C90 002:059.506 - 0.078ms returns 60 (0x3C)
+T0C90 002:059.526 JLINK_ReadMemEx(0x00001304, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:059.544    -- Read from flash cache (2 bytes @ 0x00001304)
+T0C90 002:059.570   Data:  0B 46
+T0C90 002:059.595 - 0.078ms returns 2 (0x2)
+T0C90 002:059.614 JLINK_ReadMemEx(0x00001304, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:059.632    -- Read from flash cache (60 bytes @ 0x00001304)
+T0C90 002:059.658   Data:  0B 46 0C 9D 2B 40 9D 59 8E 07 F6 0E 0A 9F B7 40 ...
+T0C90 002:059.685 - 0.079ms returns 60 (0x3C)
+T0C90 002:059.703 JLINK_ReadMemEx(0x00001304, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:059.721    -- Read from flash cache (2 bytes @ 0x00001304)
+T0C90 002:059.747   Data:  0B 46
+T0C90 002:059.773 - 0.078ms returns 2 (0x2)
+T0C90 002:059.791 JLINK_ReadMemEx(0x00001306, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:059.809    -- Read from flash cache (2 bytes @ 0x00001306)
+T0C90 002:059.835   Data:  0C 9D
+T0C90 002:059.861 - 0.078ms returns 2 (0x2)
+T0C90 002:059.879 JLINK_ReadMemEx(0x00001306, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:059.897    -- Read from flash cache (2 bytes @ 0x00001306)
+T0C90 002:059.923   Data:  0C 9D
+T0C90 002:059.948 - 0.078ms returns 2 (0x2)
+T0C90 002:059.966 JLINK_ReadMemEx(0x00001308, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:059.984    -- Read from flash cache (60 bytes @ 0x00001308)
+T0C90 002:060.011   Data:  2B 40 9D 59 8E 07 F6 0E 0A 9F B7 40 BD 43 C0 7D ...
+T0C90 002:060.036 - 0.078ms returns 60 (0x3C)
+T0C90 002:060.054 JLINK_ReadMemEx(0x00001308, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:060.072    -- Read from flash cache (2 bytes @ 0x00001308)
+T0C90 002:060.098   Data:  2B 40
+T0C90 002:060.124 - 0.078ms returns 2 (0x2)
+T0C90 002:060.142 JLINK_ReadMemEx(0x00001308, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:060.160    -- Read from flash cache (60 bytes @ 0x00001308)
+T0C90 002:060.186   Data:  2B 40 9D 59 8E 07 F6 0E 0A 9F B7 40 BD 43 C0 7D ...
+T0C90 002:060.212 - 0.078ms returns 60 (0x3C)
+T0C90 002:060.230 JLINK_ReadMemEx(0x00001308, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:060.248    -- Read from flash cache (2 bytes @ 0x00001308)
+T0C90 002:060.274   Data:  2B 40
+T0C90 002:060.300 - 0.078ms returns 2 (0x2)
+T0C90 002:060.318 JLINK_ReadMemEx(0x0000130A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:060.336    -- Read from flash cache (2 bytes @ 0x0000130A)
+T0C90 002:060.362   Data:  9D 59
+T0C90 002:060.388 - 0.078ms returns 2 (0x2)
+T0C90 002:060.407 JLINK_ReadMemEx(0x0000130A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:060.425    -- Read from flash cache (2 bytes @ 0x0000130A)
+T0C90 002:060.451   Data:  9D 59
+T0C90 002:060.477 - 0.078ms returns 2 (0x2)
+T0C90 002:060.495 JLINK_ReadMemEx(0x0000130C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:060.513    -- Read from flash cache (60 bytes @ 0x0000130C)
+T0C90 002:060.541   Data:  8E 07 F6 0E 0A 9F B7 40 BD 43 C0 7D 80 07 00 0E ...
+T0C90 002:060.567 - 0.080ms returns 60 (0x3C)
+T0C90 002:060.585 JLINK_ReadMemEx(0x0000130C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:060.603    -- Read from flash cache (2 bytes @ 0x0000130C)
+T0C90 002:060.629   Data:  8E 07
+T0C90 002:060.655 - 0.078ms returns 2 (0x2)
+T0C90 002:060.673 JLINK_ReadMemEx(0x0000130C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:060.691    -- Read from flash cache (60 bytes @ 0x0000130C)
+T0C90 002:060.718   Data:  8E 07 F6 0E 0A 9F B7 40 BD 43 C0 7D 80 07 00 0E ...
+T0C90 002:060.743 - 0.078ms returns 60 (0x3C)
+T0C90 002:060.762 JLINK_ReadMemEx(0x0000130C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:060.779    -- Read from flash cache (2 bytes @ 0x0000130C)
+T0C90 002:060.806   Data:  8E 07
+T0C90 002:060.832 - 0.078ms returns 2 (0x2)
+T0C90 002:060.850 JLINK_ReadMemEx(0x0000130E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:060.868    -- Read from flash cache (2 bytes @ 0x0000130E)
+T0C90 002:060.894   Data:  F6 0E
+T0C90 002:060.920 - 0.078ms returns 2 (0x2)
+T0C90 002:060.938 JLINK_ReadMemEx(0x0000130E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:060.956    -- Read from flash cache (2 bytes @ 0x0000130E)
+T0C90 002:060.982   Data:  F6 0E
+T0C90 002:061.008 - 0.078ms returns 2 (0x2)
+T0C90 002:061.026 JLINK_ReadMemEx(0x00001310, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:061.044    -- Read from flash cache (60 bytes @ 0x00001310)
+T0C90 002:061.070   Data:  0A 9F B7 40 BD 43 C0 7D 80 07 00 0E B0 40 28 43 ...
+T0C90 002:061.096 - 0.078ms returns 60 (0x3C)
+T0C90 002:061.115 JLINK_ReadMemEx(0x00001310, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:061.132    -- Read from flash cache (2 bytes @ 0x00001310)
+T0C90 002:061.160   Data:  0A 9F
+T0C90 002:061.186 - 0.080ms returns 2 (0x2)
+T0C90 002:061.205 JLINK_ReadMemEx(0x00001310, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:061.223    -- Read from flash cache (60 bytes @ 0x00001310)
+T0C90 002:061.249   Data:  0A 9F B7 40 BD 43 C0 7D 80 07 00 0E B0 40 28 43 ...
+T0C90 002:061.275 - 0.079ms returns 60 (0x3C)
+T0C90 002:061.293 JLINK_ReadMemEx(0x00001310, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:061.311    -- Read from flash cache (2 bytes @ 0x00001310)
+T0C90 002:061.337   Data:  0A 9F
+T0C90 002:061.363 - 0.078ms returns 2 (0x2)
+T0C90 002:061.381 JLINK_ReadMemEx(0x00001312, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:061.399    -- Read from flash cache (2 bytes @ 0x00001312)
+T0C90 002:061.425   Data:  B7 40
+T0C90 002:061.451 - 0.078ms returns 2 (0x2)
+T0C90 002:061.469 JLINK_ReadMemEx(0x00001312, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:061.487    -- Read from flash cache (2 bytes @ 0x00001312)
+T0C90 002:061.513   Data:  B7 40
+T0C90 002:061.541 - 0.080ms returns 2 (0x2)
+T0C90 002:061.559 JLINK_ReadMemEx(0x00001314, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:061.577    -- Read from flash cache (60 bytes @ 0x00001314)
+T0C90 002:061.604   Data:  BD 43 C0 7D 80 07 00 0E B0 40 28 43 18 4D 58 51 ...
+T0C90 002:061.630 - 0.079ms returns 60 (0x3C)
+T0C90 002:061.648 JLINK_ReadMemEx(0x00001314, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:061.666    -- Read from flash cache (2 bytes @ 0x00001314)
+T0C90 002:061.692   Data:  BD 43
+T0C90 002:061.718 - 0.079ms returns 2 (0x2)
+T0C90 002:061.743 JLINK_ReadMemEx(0x00001314, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:061.763    -- Read from flash cache (60 bytes @ 0x00001314)
+T0C90 002:061.789   Data:  BD 43 C0 7D 80 07 00 0E B0 40 28 43 18 4D 58 51 ...
+T0C90 002:061.819 - 0.084ms returns 60 (0x3C)
+T0C90 002:061.837 JLINK_ReadMemEx(0x00001314, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:061.855    -- Read from flash cache (2 bytes @ 0x00001314)
+T0C90 002:061.881   Data:  BD 43
+T0C90 002:061.908 - 0.079ms returns 2 (0x2)
+T0C90 002:061.926 JLINK_ReadMemEx(0x00001316, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:061.944    -- Read from flash cache (2 bytes @ 0x00001316)
+T0C90 002:061.970   Data:  C0 7D
+T0C90 002:061.996 - 0.079ms returns 2 (0x2)
+T0C90 002:062.014 JLINK_ReadMemEx(0x00001316, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:062.032    -- Read from flash cache (2 bytes @ 0x00001316)
+T0C90 002:062.059   Data:  C0 7D
+T0C90 002:062.085 - 0.079ms returns 2 (0x2)
+T0C90 002:062.103 JLINK_ReadMemEx(0x00001318, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:062.121    -- Read from flash cache (60 bytes @ 0x00001318)
+T0C90 002:062.147   Data:  80 07 00 0E B0 40 28 43 18 4D 58 51 18 4E 90 59 ...
+T0C90 002:062.173 - 0.079ms returns 60 (0x3C)
+T0C90 002:062.192 JLINK_ReadMemEx(0x00001318, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:062.209    -- Read from flash cache (2 bytes @ 0x00001318)
+T0C90 002:062.236   Data:  80 07
+T0C90 002:062.262 - 0.079ms returns 2 (0x2)
+T0C90 002:062.280 JLINK_ReadMemEx(0x00001318, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:062.298    -- Read from flash cache (60 bytes @ 0x00001318)
+T0C90 002:062.325   Data:  80 07 00 0E B0 40 28 43 18 4D 58 51 18 4E 90 59 ...
+T0C90 002:062.351 - 0.079ms returns 60 (0x3C)
+T0C90 002:062.369 JLINK_ReadMemEx(0x00001318, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:062.387    -- Read from flash cache (2 bytes @ 0x00001318)
+T0C90 002:062.413   Data:  80 07
+T0C90 002:062.439 - 0.078ms returns 2 (0x2)
+T0C90 002:062.457 JLINK_ReadMemEx(0x0000131A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:062.475    -- Read from flash cache (2 bytes @ 0x0000131A)
+T0C90 002:062.501   Data:  00 0E
+T0C90 002:062.529 - 0.080ms returns 2 (0x2)
+T0C90 002:062.547 JLINK_ReadMemEx(0x0000131A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:062.565    -- Read from flash cache (2 bytes @ 0x0000131A)
+T0C90 002:062.591   Data:  00 0E
+T0C90 002:062.617 - 0.078ms returns 2 (0x2)
+T0C90 002:062.636 JLINK_ReadMemEx(0x0000131C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:062.654    -- Read from flash cache (60 bytes @ 0x0000131C)
+T0C90 002:062.681   Data:  B0 40 28 43 18 4D 58 51 18 4E 90 59 18 4B 18 40 ...
+T0C90 002:062.707 - 0.080ms returns 60 (0x3C)
+T0C90 002:062.726 JLINK_ReadMemEx(0x0000131C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:062.744    -- Read from flash cache (2 bytes @ 0x0000131C)
+T0C90 002:062.770   Data:  B0 40
+T0C90 002:062.796 - 0.078ms returns 2 (0x2)
+T0C90 002:062.814 JLINK_ReadMemEx(0x0000131C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:062.832    -- Read from flash cache (60 bytes @ 0x0000131C)
+T0C90 002:062.858   Data:  B0 40 28 43 18 4D 58 51 18 4E 90 59 18 4B 18 40 ...
+T0C90 002:062.884 - 0.078ms returns 60 (0x3C)
+T0C90 002:062.902 JLINK_ReadMemEx(0x0000131C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:062.920    -- Read from flash cache (2 bytes @ 0x0000131C)
+T0C90 002:062.946   Data:  B0 40
+T0C90 002:062.973 - 0.079ms returns 2 (0x2)
+T0C90 002:062.991 JLINK_ReadMemEx(0x0000131E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:063.009    -- Read from flash cache (2 bytes @ 0x0000131E)
+T0C90 002:063.039   Data:  28 43
+T0C90 002:063.065 - 0.083ms returns 2 (0x2)
+T0C90 002:063.084 JLINK_ReadMemEx(0x0000131E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:063.103    -- Read from flash cache (2 bytes @ 0x0000131E)
+T0C90 002:063.130   Data:  28 43
+T0C90 002:063.157 - 0.081ms returns 2 (0x2)
+T0C90 002:063.175 JLINK_ReadMemEx(0x00001320, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:063.193    -- Read from flash cache (60 bytes @ 0x00001320)
+T0C90 002:063.220   Data:  18 4D 58 51 18 4E 90 59 18 4B 18 40 90 51 0B 98 ...
+T0C90 002:063.246 - 0.079ms returns 60 (0x3C)
+T0C90 002:063.265 JLINK_ReadMemEx(0x00001320, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:063.283    -- Read from flash cache (2 bytes @ 0x00001320)
+T0C90 002:063.309   Data:  18 4D
+T0C90 002:063.336 - 0.080ms returns 2 (0x2)
+T0C90 002:063.356 JLINK_ReadMemEx(0x00001320, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:063.375    -- Read from flash cache (60 bytes @ 0x00001320)
+T0C90 002:063.404   Data:  18 4D 58 51 18 4E 90 59 18 4B 18 40 90 51 0B 98 ...
+T0C90 002:063.430 - 0.083ms returns 60 (0x3C)
+T0C90 002:063.449 JLINK_ReadMemEx(0x00001320, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:063.467    -- Read from flash cache (2 bytes @ 0x00001320)
+T0C90 002:063.493   Data:  18 4D
+T0C90 002:063.521 - 0.081ms returns 2 (0x2)
+T0C90 002:063.540 JLINK_ReadMemEx(0x00001322, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:063.558    -- Read from flash cache (2 bytes @ 0x00001322)
+T0C90 002:063.584   Data:  58 51
+T0C90 002:063.611 - 0.079ms returns 2 (0x2)
+T0C90 002:063.629 JLINK_ReadMemEx(0x00001322, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:063.648    -- Read from flash cache (2 bytes @ 0x00001322)
+T0C90 002:063.674   Data:  58 51
+T0C90 002:063.700 - 0.079ms returns 2 (0x2)
+T0C90 002:063.719 JLINK_ReadMemEx(0x00001324, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:063.737    -- Read from flash cache (60 bytes @ 0x00001324)
+T0C90 002:063.764   Data:  18 4E 90 59 18 4B 18 40 90 51 0B 98 08 40 0D 9A ...
+T0C90 002:063.790 - 0.080ms returns 60 (0x3C)
+T0C90 002:063.808 JLINK_ReadMemEx(0x00001324, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:063.826    -- Read from flash cache (2 bytes @ 0x00001324)
+T0C90 002:063.853   Data:  18 4E
+T0C90 002:063.879 - 0.079ms returns 2 (0x2)
+T0C90 002:063.898 JLINK_ReadMemEx(0x00001324, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:063.916    -- Read from flash cache (60 bytes @ 0x00001324)
+T0C90 002:063.943   Data:  18 4E 90 59 18 4B 18 40 90 51 0B 98 08 40 0D 9A ...
+T0C90 002:063.969 - 0.080ms returns 60 (0x3C)
+T0C90 002:063.987 JLINK_ReadMemEx(0x00001324, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:064.005    -- Read from flash cache (2 bytes @ 0x00001324)
+T0C90 002:064.032   Data:  18 4E
+T0C90 002:064.058 - 0.079ms returns 2 (0x2)
+T0C90 002:064.077 JLINK_ReadMemEx(0x00001326, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:064.095    -- Read from flash cache (2 bytes @ 0x00001326)
+T0C90 002:064.121   Data:  90 59
+T0C90 002:064.148 - 0.079ms returns 2 (0x2)
+T0C90 002:064.166 JLINK_ReadMemEx(0x00001326, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:064.185    -- Read from flash cache (2 bytes @ 0x00001326)
+T0C90 002:064.212   Data:  90 59
+T0C90 002:064.238 - 0.081ms returns 2 (0x2)
+T0C90 002:064.257 JLINK_ReadMemEx(0x00001328, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:064.275    -- Read from flash cache (60 bytes @ 0x00001328)
+T0C90 002:064.302   Data:  18 4B 18 40 90 51 0B 98 08 40 0D 9A 82 40 48 09 ...
+T0C90 002:064.328 - 0.080ms returns 60 (0x3C)
+T0C90 002:064.347 JLINK_ReadMemEx(0x00001328, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:064.365    -- Read from flash cache (2 bytes @ 0x00001328)
+T0C90 002:064.391   Data:  18 4B
+T0C90 002:064.417 - 0.079ms returns 2 (0x2)
+T0C90 002:064.436 JLINK_ReadMemEx(0x00001328, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:064.454    -- Read from flash cache (60 bytes @ 0x00001328)
+T0C90 002:064.481   Data:  18 4B 18 40 90 51 0B 98 08 40 0D 9A 82 40 48 09 ...
+T0C90 002:064.507 - 0.079ms returns 60 (0x3C)
+T0C90 002:064.527 JLINK_ReadMemEx(0x00001328, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:064.549    -- Read from flash cache (2 bytes @ 0x00001328)
+T0C90 002:064.575   Data:  18 4B
+T0C90 002:064.602 - 0.083ms returns 2 (0x2)
+T0C90 002:064.620 JLINK_ReadMemEx(0x0000132A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:064.638    -- Read from flash cache (2 bytes @ 0x0000132A)
+T0C90 002:064.665   Data:  18 40
+T0C90 002:064.691 - 0.079ms returns 2 (0x2)
+T0C90 002:064.710 JLINK_ReadMemEx(0x0000132A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:064.728    -- Read from flash cache (2 bytes @ 0x0000132A)
+T0C90 002:064.754   Data:  18 40
+T0C90 002:064.780 - 0.079ms returns 2 (0x2)
+T0C90 002:064.799 JLINK_ReadMemEx(0x0000132C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:064.817    -- Read from flash cache (60 bytes @ 0x0000132C)
+T0C90 002:064.844   Data:  90 51 0B 98 08 40 0D 9A 82 40 48 09 80 00 15 49 ...
+T0C90 002:064.870 - 0.080ms returns 60 (0x3C)
+T0C90 002:064.888 JLINK_ReadMemEx(0x0000132C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:064.907    -- Read from flash cache (2 bytes @ 0x0000132C)
+T0C90 002:064.933   Data:  90 51
+T0C90 002:064.960 - 0.079ms returns 2 (0x2)
+T0C90 002:064.978 JLINK_ReadMemEx(0x0000132C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:064.996    -- Read from flash cache (60 bytes @ 0x0000132C)
+T0C90 002:065.023   Data:  90 51 0B 98 08 40 0D 9A 82 40 48 09 80 00 15 49 ...
+T0C90 002:065.049 - 0.079ms returns 60 (0x3C)
+T0C90 002:065.067 JLINK_ReadMemEx(0x0000132C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:065.086    -- Read from flash cache (2 bytes @ 0x0000132C)
+T0C90 002:065.112   Data:  90 51
+T0C90 002:065.138 - 0.079ms returns 2 (0x2)
+T0C90 002:065.157 JLINK_ReadMemEx(0x0000132E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:065.175    -- Read from flash cache (2 bytes @ 0x0000132E)
+T0C90 002:065.201   Data:  0B 98
+T0C90 002:065.227 - 0.078ms returns 2 (0x2)
+T0C90 002:065.245 JLINK_ReadMemEx(0x0000132E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:065.263    -- Read from flash cache (2 bytes @ 0x0000132E)
+T0C90 002:065.289   Data:  0B 98
+T0C90 002:065.315 - 0.078ms returns 2 (0x2)
+T0C90 002:065.333 JLINK_ReadMemEx(0x00001330, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:065.351    -- Read from flash cache (60 bytes @ 0x00001330)
+T0C90 002:065.377   Data:  08 40 0D 9A 82 40 48 09 80 00 15 49 42 50 15 49 ...
+T0C90 002:065.403 - 0.078ms returns 60 (0x3C)
+T0C90 002:065.421 JLINK_ReadMemEx(0x00001330, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:065.439    -- Read from flash cache (2 bytes @ 0x00001330)
+T0C90 002:065.465   Data:  08 40
+T0C90 002:065.491 - 0.078ms returns 2 (0x2)
+T0C90 002:065.510 JLINK_ReadMemEx(0x00001330, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:065.529    -- Read from flash cache (60 bytes @ 0x00001330)
+T0C90 002:065.556   Data:  08 40 0D 9A 82 40 48 09 80 00 15 49 42 50 15 49 ...
+T0C90 002:065.581 - 0.080ms returns 60 (0x3C)
+T0C90 002:065.600 JLINK_ReadMemEx(0x00001330, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:065.617    -- Read from flash cache (2 bytes @ 0x00001330)
+T0C90 002:065.643   Data:  08 40
+T0C90 002:065.669 - 0.078ms returns 2 (0x2)
+T0C90 002:065.689 JLINK_ReadMemEx(0x00001332, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:065.707    -- Read from flash cache (2 bytes @ 0x00001332)
+T0C90 002:065.733   Data:  0D 9A
+T0C90 002:065.759 - 0.079ms returns 2 (0x2)
+T0C90 002:065.778 JLINK_ReadMemEx(0x00001332, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:065.796    -- Read from flash cache (2 bytes @ 0x00001332)
+T0C90 002:065.822   Data:  0D 9A
+T0C90 002:065.848 - 0.079ms returns 2 (0x2)
+T0C90 002:065.866 JLINK_ReadMemEx(0x00001334, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:065.884    -- Read from flash cache (60 bytes @ 0x00001334)
+T0C90 002:065.910   Data:  82 40 48 09 80 00 15 49 42 50 15 49 42 50 60 68 ...
+T0C90 002:065.936 - 0.079ms returns 60 (0x3C)
+T0C90 002:065.954 JLINK_ReadMemEx(0x00001334, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:065.972    -- Read from flash cache (2 bytes @ 0x00001334)
+T0C90 002:065.998   Data:  82 40
+T0C90 002:066.024 - 0.078ms returns 2 (0x2)
+T0C90 002:066.043 JLINK_ReadMemEx(0x00001334, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:066.061    -- Read from flash cache (60 bytes @ 0x00001334)
+T0C90 002:066.087   Data:  82 40 48 09 80 00 15 49 42 50 15 49 42 50 60 68 ...
+T0C90 002:066.113 - 0.078ms returns 60 (0x3C)
+T0C90 002:066.131 JLINK_ReadMemEx(0x00001334, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:066.149    -- Read from flash cache (2 bytes @ 0x00001334)
+T0C90 002:066.175   Data:  82 40
+T0C90 002:066.201 - 0.078ms returns 2 (0x2)
+T0C90 002:066.219 JLINK_ReadMemEx(0x00001336, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:066.237    -- Read from flash cache (2 bytes @ 0x00001336)
+T0C90 002:066.263   Data:  48 09
+T0C90 002:066.289 - 0.078ms returns 2 (0x2)
+T0C90 002:066.307 JLINK_ReadMemEx(0x00001336, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:066.325    -- Read from flash cache (2 bytes @ 0x00001336)
+T0C90 002:066.352   Data:  48 09
+T0C90 002:066.378 - 0.079ms returns 2 (0x2)
+T0C90 002:066.396 JLINK_ReadMemEx(0x00001338, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:066.414    -- Read from flash cache (60 bytes @ 0x00001338)
+T0C90 002:066.440   Data:  80 00 15 49 42 50 15 49 42 50 60 68 C1 68 0C 9B ...
+T0C90 002:066.466 - 0.079ms returns 60 (0x3C)
+T0C90 002:066.484 JLINK_ReadMemEx(0x00001338, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:066.502    -- Read from flash cache (2 bytes @ 0x00001338)
+T0C90 002:066.530   Data:  80 00
+T0C90 002:066.556 - 0.080ms returns 2 (0x2)
+T0C90 002:066.574 JLINK_ReadMemEx(0x00001338, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:066.592    -- Read from flash cache (60 bytes @ 0x00001338)
+T0C90 002:066.618   Data:  80 00 15 49 42 50 15 49 42 50 60 68 C1 68 0C 9B ...
+T0C90 002:066.644 - 0.078ms returns 60 (0x3C)
+T0C90 002:066.662 JLINK_ReadMemEx(0x00001338, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:066.680    -- Read from flash cache (2 bytes @ 0x00001338)
+T0C90 002:066.706   Data:  80 00
+T0C90 002:066.732 - 0.078ms returns 2 (0x2)
+T0C90 002:066.751 JLINK_ReadMemEx(0x0000133A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:066.769    -- Read from flash cache (2 bytes @ 0x0000133A)
+T0C90 002:066.795   Data:  15 49
+T0C90 002:066.821 - 0.078ms returns 2 (0x2)
+T0C90 002:066.839 JLINK_ReadMemEx(0x0000133A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:066.857    -- Read from flash cache (2 bytes @ 0x0000133A)
+T0C90 002:066.883   Data:  15 49
+T0C90 002:066.909 - 0.078ms returns 2 (0x2)
+T0C90 002:066.927 JLINK_ReadMemEx(0x0000133C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:066.945    -- Read from flash cache (60 bytes @ 0x0000133C)
+T0C90 002:066.971   Data:  42 50 15 49 42 50 60 68 C1 68 0C 9B 0B 40 5A 59 ...
+T0C90 002:066.997 - 0.078ms returns 60 (0x3C)
+T0C90 002:067.015 JLINK_ReadMemEx(0x0000133C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:067.033    -- Read from flash cache (2 bytes @ 0x0000133C)
+T0C90 002:067.059   Data:  42 50
+T0C90 002:067.085 - 0.078ms returns 2 (0x2)
+T0C90 002:067.104 JLINK_ReadMemEx(0x0000133C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:067.122    -- Read from flash cache (60 bytes @ 0x0000133C)
+T0C90 002:067.148   Data:  42 50 15 49 42 50 60 68 C1 68 0C 9B 0B 40 5A 59 ...
+T0C90 002:067.217 - 0.122ms returns 60 (0x3C)
+T0C90 002:067.235 JLINK_ReadMemEx(0x0000133C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:067.254    -- Read from flash cache (2 bytes @ 0x0000133C)
+T0C90 002:067.280   Data:  42 50
+T0C90 002:067.306 - 0.079ms returns 2 (0x2)
+T0C90 002:067.324 JLINK_ReadMemEx(0x0000133E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:067.342    -- Read from flash cache (2 bytes @ 0x0000133E)
+T0C90 002:067.368   Data:  15 49
+T0C90 002:067.394 - 0.078ms returns 2 (0x2)
+T0C90 002:067.413 JLINK_ReadMemEx(0x0000133E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:067.431    -- Read from flash cache (2 bytes @ 0x0000133E)
+T0C90 002:067.457   Data:  15 49
+T0C90 002:067.483 - 0.079ms returns 2 (0x2)
+T0C90 002:067.501 JLINK_ReadMemEx(0x00001340, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:067.522    -- Read from flash cache (60 bytes @ 0x00001340)
+T0C90 002:067.548   Data:  42 50 60 68 C1 68 0C 9B 0B 40 5A 59 2E 46 1D 46 ...
+T0C90 002:067.574 - 0.081ms returns 60 (0x3C)
+T0C90 002:067.592 JLINK_ReadMemEx(0x00001340, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:067.610    -- Read from flash cache (2 bytes @ 0x00001340)
+T0C90 002:067.636   Data:  42 50
+T0C90 002:067.662 - 0.078ms returns 2 (0x2)
+T0C90 002:067.681 JLINK_ReadMemEx(0x00001340, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:067.699    -- Read from flash cache (60 bytes @ 0x00001340)
+T0C90 002:067.725   Data:  42 50 60 68 C1 68 0C 9B 0B 40 5A 59 2E 46 1D 46 ...
+T0C90 002:067.751 - 0.079ms returns 60 (0x3C)
+T0C90 002:067.769 JLINK_ReadMemEx(0x00001340, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:067.787    -- Read from flash cache (2 bytes @ 0x00001340)
+T0C90 002:067.813   Data:  42 50
+T0C90 002:067.839 - 0.078ms returns 2 (0x2)
+T0C90 002:067.858 JLINK_ReadMemEx(0x00001342, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:067.875    -- Read from flash cache (2 bytes @ 0x00001342)
+T0C90 002:067.901   Data:  60 68
+T0C90 002:067.927 - 0.078ms returns 2 (0x2)
+T0C90 002:067.946 JLINK_ReadMemEx(0x00001342, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:067.964    -- Read from flash cache (2 bytes @ 0x00001342)
+T0C90 002:067.990   Data:  60 68
+T0C90 002:068.016 - 0.078ms returns 2 (0x2)
+T0C90 002:068.034 JLINK_ReadMemEx(0x00001344, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:068.052    -- Read from flash cache (60 bytes @ 0x00001344)
+T0C90 002:068.078   Data:  C1 68 0C 9B 0B 40 5A 59 2E 46 1D 46 8B 07 DB 0E ...
+T0C90 002:068.104 - 0.078ms returns 60 (0x3C)
+T0C90 002:068.122 JLINK_ReadMemEx(0x00001344, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:068.140    -- Read from flash cache (2 bytes @ 0x00001344)
+T0C90 002:068.167   Data:  C1 68
+T0C90 002:068.193 - 0.079ms returns 2 (0x2)
+T0C90 002:068.212 JLINK_ReadMemEx(0x00001344, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:068.230    -- Read from flash cache (60 bytes @ 0x00001344)
+T0C90 002:068.256   Data:  C1 68 0C 9B 0B 40 5A 59 2E 46 1D 46 8B 07 DB 0E ...
+T0C90 002:068.282 - 0.079ms returns 60 (0x3C)
+T0C90 002:068.301 JLINK_ReadMemEx(0x00001344, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:068.319    -- Read from flash cache (2 bytes @ 0x00001344)
+T0C90 002:068.345   Data:  C1 68
+T0C90 002:068.372 - 0.079ms returns 2 (0x2)
+T0C90 002:068.390 JLINK_ReadMemEx(0x00001346, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:068.408    -- Read from flash cache (2 bytes @ 0x00001346)
+T0C90 002:068.435   Data:  0C 9B
+T0C90 002:068.461 - 0.079ms returns 2 (0x2)
+T0C90 002:068.479 JLINK_ReadMemEx(0x00001346, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:068.498    -- Read from flash cache (2 bytes @ 0x00001346)
+T0C90 002:068.526   Data:  0C 9B
+T0C90 002:068.552 - 0.081ms returns 2 (0x2)
+T0C90 002:068.571 JLINK_ReadMemEx(0x00001348, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:068.589    -- Read from flash cache (60 bytes @ 0x00001348)
+T0C90 002:068.615   Data:  0B 40 5A 59 2E 46 1D 46 8B 07 DB 0E 0A 9F 9F 40 ...
+T0C90 002:068.642 - 0.080ms returns 60 (0x3C)
+T0C90 002:068.660 JLINK_ReadMemEx(0x00001348, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:068.678    -- Read from flash cache (2 bytes @ 0x00001348)
+T0C90 002:068.706   Data:  0B 40
+T0C90 002:068.732 - 0.081ms returns 2 (0x2)
+T0C90 002:068.751 JLINK_ReadMemEx(0x00001348, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:068.769    -- Read from flash cache (60 bytes @ 0x00001348)
+T0C90 002:068.796   Data:  0B 40 5A 59 2E 46 1D 46 8B 07 DB 0E 0A 9F 9F 40 ...
+T0C90 002:068.822 - 0.079ms returns 60 (0x3C)
+T0C90 002:068.840 JLINK_ReadMemEx(0x00001348, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:068.858    -- Read from flash cache (2 bytes @ 0x00001348)
+T0C90 002:068.885   Data:  0B 40
+T0C90 002:068.911 - 0.079ms returns 2 (0x2)
+T0C90 002:068.930 JLINK_ReadMemEx(0x0000134A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:068.948    -- Read from flash cache (2 bytes @ 0x0000134A)
+T0C90 002:068.974   Data:  5A 59
+T0C90 002:069.000 - 0.079ms returns 2 (0x2)
+T0C90 002:069.019 JLINK_ReadMemEx(0x0000134A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:069.037    -- Read from flash cache (2 bytes @ 0x0000134A)
+T0C90 002:069.063   Data:  5A 59
+T0C90 002:069.090 - 0.079ms returns 2 (0x2)
+T0C90 002:069.108 JLINK_ReadMemEx(0x0000134C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:069.126    -- Read from flash cache (60 bytes @ 0x0000134C)
+T0C90 002:069.153   Data:  2E 46 1D 46 8B 07 DB 0E 0A 9F 9F 40 BA 43 80 7D ...
+T0C90 002:069.179 - 0.080ms returns 60 (0x3C)
+T0C90 002:069.198 JLINK_ReadMemEx(0x0000134C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:069.216    -- Read from flash cache (2 bytes @ 0x0000134C)
+T0C90 002:069.242   Data:  2E 46
+T0C90 002:069.268 - 0.079ms returns 2 (0x2)
+T0C90 002:069.287 JLINK_ReadMemEx(0x0000134C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:069.305    -- Read from flash cache (60 bytes @ 0x0000134C)
+T0C90 002:069.332   Data:  2E 46 1D 46 8B 07 DB 0E 0A 9F 9F 40 BA 43 80 7D ...
+T0C90 002:069.358 - 0.079ms returns 60 (0x3C)
+T0C90 002:069.376 JLINK_ReadMemEx(0x0000134C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:069.394    -- Read from flash cache (2 bytes @ 0x0000134C)
+T0C90 002:069.421   Data:  2E 46
+T0C90 002:069.447 - 0.079ms returns 2 (0x2)
+T0C90 002:069.465 JLINK_ReadMemEx(0x0000134E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:069.483    -- Read from flash cache (2 bytes @ 0x0000134E)
+T0C90 002:069.510   Data:  1D 46
+T0C90 002:069.539 - 0.082ms returns 2 (0x2)
+T0C90 002:069.558 JLINK_ReadMemEx(0x0000134E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:069.576    -- Read from flash cache (2 bytes @ 0x0000134E)
+T0C90 002:069.603   Data:  1D 46
+T0C90 002:069.630 - 0.081ms returns 2 (0x2)
+T0C90 002:069.649 JLINK_ReadMemEx(0x00001350, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:069.667    -- Read from flash cache (60 bytes @ 0x00001350)
+T0C90 002:069.694   Data:  8B 07 DB 0E 0A 9F 9F 40 BA 43 80 7D 80 07 00 0E ...
+T0C90 002:069.721 - 0.081ms returns 60 (0x3C)
+T0C90 002:069.740 JLINK_ReadMemEx(0x00001350, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:069.758    -- Read from flash cache (2 bytes @ 0x00001350)
+T0C90 002:069.785   Data:  8B 07
+T0C90 002:069.812 - 0.081ms returns 2 (0x2)
+T0C90 002:069.831 JLINK_ReadMemEx(0x00001350, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:069.849    -- Read from flash cache (60 bytes @ 0x00001350)
+T0C90 002:069.877   Data:  8B 07 DB 0E 0A 9F 9F 40 BA 43 80 7D 80 07 00 0E ...
+T0C90 002:069.904 - 0.081ms returns 60 (0x3C)
+T0C90 002:069.922 JLINK_ReadMemEx(0x00001350, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:069.940    -- Read from flash cache (2 bytes @ 0x00001350)
+T0C90 002:069.967   Data:  8B 07
+T0C90 002:069.994 - 0.081ms returns 2 (0x2)
+T0C90 002:070.013 JLINK_ReadMemEx(0x00001352, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:070.031    -- Read from flash cache (2 bytes @ 0x00001352)
+T0C90 002:070.058   Data:  DB 0E
+T0C90 002:070.085 - 0.081ms returns 2 (0x2)
+T0C90 002:070.104 JLINK_ReadMemEx(0x00001352, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:070.122    -- Read from flash cache (2 bytes @ 0x00001352)
+T0C90 002:070.149   Data:  DB 0E
+T0C90 002:070.176 - 0.081ms returns 2 (0x2)
+T0C90 002:070.194 JLINK_ReadMemEx(0x00001354, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:070.213    -- Read from flash cache (60 bytes @ 0x00001354)
+T0C90 002:070.242   Data:  0A 9F 9F 40 BA 43 80 7D 80 07 00 0E 98 40 10 43 ...
+T0C90 002:070.269 - 0.083ms returns 60 (0x3C)
+T0C90 002:070.287 JLINK_ReadMemEx(0x00001354, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:070.306    -- Read from flash cache (2 bytes @ 0x00001354)
+T0C90 002:070.333   Data:  0A 9F
+T0C90 002:070.360 - 0.081ms returns 2 (0x2)
+T0C90 002:070.379 JLINK_ReadMemEx(0x00001354, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:070.397    -- Read from flash cache (60 bytes @ 0x00001354)
+T0C90 002:070.424   Data:  0A 9F 9F 40 BA 43 80 7D 80 07 00 0E 98 40 10 43 ...
+T0C90 002:070.451 - 0.081ms returns 60 (0x3C)
+T0C90 002:070.469 JLINK_ReadMemEx(0x00001354, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:070.487    -- Read from flash cache (2 bytes @ 0x00001354)
+T0C90 002:070.514   Data:  0A 9F
+T0C90 002:070.543 - 0.082ms returns 2 (0x2)
+T0C90 002:070.561 JLINK_ReadMemEx(0x00001356, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:070.580    -- Read from flash cache (2 bytes @ 0x00001356)
+T0C90 002:070.606   Data:  9F 40
+T0C90 002:070.633 - 0.081ms returns 2 (0x2)
+T0C90 002:070.652 JLINK_ReadMemEx(0x00001356, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:070.670    -- Read from flash cache (2 bytes @ 0x00001356)
+T0C90 002:070.697   Data:  9F 40
+T0C90 002:070.724 - 0.081ms returns 2 (0x2)
+T0C90 002:070.743 JLINK_ReadMemEx(0x00001358, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:070.761    -- Read from flash cache (60 bytes @ 0x00001358)
+T0C90 002:070.788   Data:  BA 43 80 7D 80 07 00 0E 98 40 10 43 A8 51 88 00 ...
+T0C90 002:070.815 - 0.081ms returns 60 (0x3C)
+T0C90 002:070.833 JLINK_ReadMemEx(0x00001358, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:070.852    -- Read from flash cache (2 bytes @ 0x00001358)
+T0C90 002:070.878   Data:  BA 43
+T0C90 002:070.905 - 0.080ms returns 2 (0x2)
+T0C90 002:070.924 JLINK_ReadMemEx(0x00001358, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:070.942    -- Read from flash cache (60 bytes @ 0x00001358)
+T0C90 002:070.969   Data:  BA 43 80 7D 80 07 00 0E 98 40 10 43 A8 51 88 00 ...
+T0C90 002:070.996 - 0.080ms returns 60 (0x3C)
+T0C90 002:071.014 JLINK_ReadMemEx(0x00001358, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:071.033    -- Read from flash cache (2 bytes @ 0x00001358)
+T0C90 002:071.059   Data:  BA 43
+T0C90 002:071.086 - 0.080ms returns 2 (0x2)
+T0C90 002:071.105 JLINK_ReadMemEx(0x0000135A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:071.123    -- Read from flash cache (2 bytes @ 0x0000135A)
+T0C90 002:071.150   Data:  80 7D
+T0C90 002:071.176 - 0.080ms returns 2 (0x2)
+T0C90 002:071.195 JLINK_ReadMemEx(0x0000135A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:071.213    -- Read from flash cache (2 bytes @ 0x0000135A)
+T0C90 002:071.240   Data:  80 7D
+T0C90 002:071.267 - 0.080ms returns 2 (0x2)
+T0C90 002:071.285 JLINK_ReadMemEx(0x0000135C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:071.304    -- Read from flash cache (60 bytes @ 0x0000135C)
+T0C90 002:071.331   Data:  80 07 00 0E 98 40 10 43 A8 51 88 00 05 49 0C 50 ...
+T0C90 002:071.357 - 0.080ms returns 60 (0x3C)
+T0C90 002:071.376 JLINK_ReadMemEx(0x0000135C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:071.394    -- Read from flash cache (2 bytes @ 0x0000135C)
+T0C90 002:071.421   Data:  80 07
+T0C90 002:071.447 - 0.080ms returns 2 (0x2)
+T0C90 002:071.467 JLINK_ReadMemEx(0x0000135C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:071.485    -- Read from flash cache (60 bytes @ 0x0000135C)
+T0C90 002:071.512   Data:  80 07 00 0E 98 40 10 43 A8 51 88 00 05 49 0C 50 ...
+T0C90 002:071.540 - 0.082ms returns 60 (0x3C)
+T0C90 002:071.559 JLINK_ReadMemEx(0x0000135C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:071.577    -- Read from flash cache (2 bytes @ 0x0000135C)
+T0C90 002:071.604   Data:  80 07
+T0C90 002:071.631 - 0.080ms returns 2 (0x2)
+T0C90 002:071.649 JLINK_ReadMemEx(0x0000135E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:071.668    -- Read from flash cache (2 bytes @ 0x0000135E)
+T0C90 002:071.694   Data:  00 0E
+T0C90 002:071.721 - 0.080ms returns 2 (0x2)
+T0C90 002:071.740 JLINK_ReadMemEx(0x0000135E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:071.759    -- Read from flash cache (2 bytes @ 0x0000135E)
+T0C90 002:071.786   Data:  00 0E
+T0C90 002:071.813 - 0.082ms returns 2 (0x2)
+T0C90 002:071.832 JLINK_ReadMemEx(0x00001360, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:071.850    -- Read from flash cache (60 bytes @ 0x00001360)
+T0C90 002:071.877   Data:  98 40 10 43 A8 51 88 00 05 49 0C 50 0A 48 20 60 ...
+T0C90 002:071.904 - 0.081ms returns 60 (0x3C)
+T0C90 002:071.922 JLINK_ReadMemEx(0x00001360, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:071.941    -- Read from flash cache (2 bytes @ 0x00001360)
+T0C90 002:071.967   Data:  98 40
+T0C90 002:071.994 - 0.080ms returns 2 (0x2)
+T0C90 002:072.013 JLINK_ReadMemEx(0x00001360, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:072.031    -- Read from flash cache (60 bytes @ 0x00001360)
+T0C90 002:072.058   Data:  98 40 10 43 A8 51 88 00 05 49 0C 50 0A 48 20 60 ...
+T0C90 002:072.085 - 0.080ms returns 60 (0x3C)
+T0C90 002:072.103 JLINK_ReadMemEx(0x00001360, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:072.122    -- Read from flash cache (2 bytes @ 0x00001360)
+T0C90 002:072.148   Data:  98 40
+T0C90 002:072.175 - 0.080ms returns 2 (0x2)
+T0C90 002:072.193 JLINK_ReadMemEx(0x00001362, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:072.212    -- Read from flash cache (2 bytes @ 0x00001362)
+T0C90 002:072.238   Data:  10 43
+T0C90 002:072.265 - 0.080ms returns 2 (0x2)
+T0C90 002:072.283 JLINK_ReadMemEx(0x00001362, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:072.301    -- Read from flash cache (2 bytes @ 0x00001362)
+T0C90 002:072.328   Data:  10 43
+T0C90 002:072.355 - 0.080ms returns 2 (0x2)
+T0C90 002:072.373 JLINK_ReadMemEx(0x00001364, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:072.392    -- Read from flash cache (60 bytes @ 0x00001364)
+T0C90 002:072.419   Data:  A8 51 88 00 05 49 0C 50 0A 48 20 60 08 98 0E B0 ...
+T0C90 002:072.445 - 0.080ms returns 60 (0x3C)
+T0C90 002:072.464 JLINK_ReadMemEx(0x00001364, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:072.482    -- Read from flash cache (2 bytes @ 0x00001364)
+T0C90 002:072.508   Data:  A8 51
+T0C90 002:072.536 - 0.081ms returns 2 (0x2)
+T0C90 002:072.555 JLINK_ReadMemEx(0x00001364, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:072.573    -- Read from flash cache (60 bytes @ 0x00001364)
+T0C90 002:072.600   Data:  A8 51 88 00 05 49 0C 50 0A 48 20 60 08 98 0E B0 ...
+T0C90 002:072.627 - 0.080ms returns 60 (0x3C)
+T0C90 002:072.645 JLINK_ReadMemEx(0x00001364, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:072.663    -- Read from flash cache (2 bytes @ 0x00001364)
+T0C90 002:072.690   Data:  A8 51
+T0C90 002:072.717 - 0.080ms returns 2 (0x2)
+T0C90 002:072.735 JLINK_ReadMemEx(0x00001366, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:072.754    -- Read from flash cache (2 bytes @ 0x00001366)
+T0C90 002:072.780   Data:  88 00
+T0C90 002:072.807 - 0.080ms returns 2 (0x2)
+T0C90 002:072.825 JLINK_ReadMemEx(0x00001366, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:072.844    -- Read from flash cache (2 bytes @ 0x00001366)
+T0C90 002:072.870   Data:  88 00
+T0C90 002:072.897 - 0.080ms returns 2 (0x2)
+T0C90 002:072.915 JLINK_ReadMemEx(0x00001368, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:072.934    -- Read from flash cache (60 bytes @ 0x00001368)
+T0C90 002:072.960   Data:  05 49 0C 50 0A 48 20 60 08 98 0E B0 F0 BD C0 46 ...
+T0C90 002:072.987 - 0.080ms returns 60 (0x3C)
+T0C90 002:073.005 JLINK_ReadMemEx(0x00001368, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:073.023    -- Read from flash cache (2 bytes @ 0x00001368)
+T0C90 002:073.050   Data:  05 49
+T0C90 002:073.077 - 0.080ms returns 2 (0x2)
+T0C90 002:073.095 JLINK_ReadMemEx(0x00001368, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:073.113    -- Read from flash cache (60 bytes @ 0x00001368)
+T0C90 002:073.140   Data:  05 49 0C 50 0A 48 20 60 08 98 0E B0 F0 BD C0 46 ...
+T0C90 002:073.167 - 0.080ms returns 60 (0x3C)
+T0C90 002:073.186 JLINK_ReadMemEx(0x00001368, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:073.204    -- Read from flash cache (2 bytes @ 0x00001368)
+T0C90 002:073.231   Data:  05 49
+T0C90 002:073.258 - 0.081ms returns 2 (0x2)
+T0C90 002:073.276 JLINK_ReadMemEx(0x0000136A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:073.296    -- Read from flash cache (2 bytes @ 0x0000136A)
+T0C90 002:073.323   Data:  0C 50
+T0C90 002:073.349 - 0.081ms returns 2 (0x2)
+T0C90 002:073.368 JLINK_ReadMemEx(0x0000136A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:073.386    -- Read from flash cache (2 bytes @ 0x0000136A)
+T0C90 002:073.412   Data:  0C 50
+T0C90 002:073.439 - 0.079ms returns 2 (0x2)
+T0C90 002:073.457 JLINK_ReadMemEx(0x0000136C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:073.475    -- Read from flash cache (60 bytes @ 0x0000136C)
+T0C90 002:073.502   Data:  0A 48 20 60 08 98 0E B0 F0 BD C0 46 00 20 07 40 ...
+T0C90 002:073.530 - 0.081ms returns 60 (0x3C)
+T0C90 002:073.548 JLINK_ReadMemEx(0x0000136C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:073.566    -- Read from flash cache (2 bytes @ 0x0000136C)
+T0C90 002:073.592   Data:  0A 48
+T0C90 002:073.619 - 0.079ms returns 2 (0x2)
+T0C90 002:073.637 JLINK_ReadMemEx(0x0000136C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:073.655    -- Read from flash cache (60 bytes @ 0x0000136C)
+T0C90 002:073.682   Data:  0A 48 20 60 08 98 0E B0 F0 BD C0 46 00 20 07 40 ...
+T0C90 002:073.708 - 0.079ms returns 60 (0x3C)
+T0C90 002:073.727 JLINK_ReadMemEx(0x0000136C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:073.745    -- Read from flash cache (2 bytes @ 0x0000136C)
+T0C90 002:073.771   Data:  0A 48
+T0C90 002:073.798 - 0.079ms returns 2 (0x2)
+T0C90 002:073.816 JLINK_ReadMemEx(0x0000136E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:073.834    -- Read from flash cache (2 bytes @ 0x0000136E)
+T0C90 002:073.861   Data:  20 60
+T0C90 002:073.887 - 0.079ms returns 2 (0x2)
+T0C90 002:073.906 JLINK_ReadMemEx(0x0000136E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:073.924    -- Read from flash cache (2 bytes @ 0x0000136E)
+T0C90 002:073.950   Data:  20 60
+T0C90 002:073.976 - 0.079ms returns 2 (0x2)
+T0C90 002:073.995 JLINK_ReadMemEx(0x00001370, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:074.013    -- Read from flash cache (60 bytes @ 0x00001370)
+T0C90 002:074.039   Data:  08 98 0E B0 F0 BD C0 46 00 20 07 40 00 70 04 40 ...
+T0C90 002:074.065 - 0.079ms returns 60 (0x3C)
+T0C90 002:074.084 JLINK_ReadMemEx(0x00001370, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:074.102    -- Read from flash cache (2 bytes @ 0x00001370)
+T0C90 002:074.128   Data:  08 98
+T0C90 002:074.155 - 0.079ms returns 2 (0x2)
+T0C90 002:074.173 JLINK_ReadMemEx(0x00001370, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:074.191    -- Read from flash cache (60 bytes @ 0x00001370)
+T0C90 002:074.218   Data:  08 98 0E B0 F0 BD C0 46 00 20 07 40 00 70 04 40 ...
+T0C90 002:074.244 - 0.079ms returns 60 (0x3C)
+T0C90 002:074.262 JLINK_ReadMemEx(0x00001370, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:074.280    -- Read from flash cache (2 bytes @ 0x00001370)
+T0C90 002:074.306   Data:  08 98
+T0C90 002:074.332 - 0.079ms returns 2 (0x2)
+T0C90 002:074.350 JLINK_ReadMemEx(0x00001372, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:074.368    -- Read from flash cache (2 bytes @ 0x00001372)
+T0C90 002:074.394   Data:  0E B0
+T0C90 002:074.421 - 0.079ms returns 2 (0x2)
+T0C90 002:074.439 JLINK_ReadMemEx(0x00001372, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:074.457    -- Read from flash cache (2 bytes @ 0x00001372)
+T0C90 002:074.483   Data:  0E B0
+T0C90 002:074.510 - 0.080ms returns 2 (0x2)
+T0C90 002:074.529 JLINK_ReadMemEx(0x00001374, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:074.547    -- Read from flash cache (60 bytes @ 0x00001374)
+T0C90 002:074.574   Data:  F0 BD C0 46 00 20 07 40 00 70 04 40 3C 0B 00 20 ...
+T0C90 002:074.600 - 0.079ms returns 60 (0x3C)
+T0C90 002:074.618 JLINK_ReadMemEx(0x00001374, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:074.636    -- Read from flash cache (2 bytes @ 0x00001374)
+T0C90 002:074.662   Data:  F0 BD
+T0C90 002:074.688 - 0.079ms returns 2 (0x2)
+T0C90 002:074.707 JLINK_ReadMemEx(0x00001374, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:074.725    -- Read from flash cache (60 bytes @ 0x00001374)
+T0C90 002:074.751   Data:  F0 BD C0 46 00 20 07 40 00 70 04 40 3C 0B 00 20 ...
+T0C90 002:074.779 - 0.081ms returns 60 (0x3C)
+T0C90 002:074.797 JLINK_ReadMemEx(0x00001374, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:074.815    -- Read from flash cache (2 bytes @ 0x00001374)
+T0C90 002:074.842   Data:  F0 BD
+T0C90 002:074.868 - 0.079ms returns 2 (0x2)
+T0C90 002:074.886 JLINK_ReadMemEx(0x00001376, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:074.904    -- Read from flash cache (2 bytes @ 0x00001376)
+T0C90 002:074.930   Data:  C0 46
+T0C90 002:074.957 - 0.079ms returns 2 (0x2)
+T0C90 002:074.975 JLINK_ReadMemEx(0x00001376, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:074.993    -- Read from flash cache (2 bytes @ 0x00001376)
+T0C90 002:075.019   Data:  C0 46
+T0C90 002:075.045 - 0.079ms returns 2 (0x2)
+T0C90 002:075.064 JLINK_ReadMemEx(0x00001378, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:075.082    -- Read from flash cache (60 bytes @ 0x00001378)
+T0C90 002:075.108   Data:  00 20 07 40 00 70 04 40 3C 0B 00 20 00 E4 00 E0 ...
+T0C90 002:075.135 - 0.079ms returns 60 (0x3C)
+T0C90 002:075.153 JLINK_ReadMemEx(0x00001378, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:075.171    -- Read from flash cache (2 bytes @ 0x00001378)
+T0C90 002:075.197   Data:  00 20
+T0C90 002:075.223 - 0.079ms returns 2 (0x2)
+T0C90 002:075.242 JLINK_ReadMemEx(0x0000139C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:075.260    -- Read from flash cache (60 bytes @ 0x0000139C)
+T0C90 002:075.286   Data:  10 B5 82 B0 14 46 0A 46 00 93 00 21 23 46 05 F0 ...
+T0C90 002:075.312 - 0.079ms returns 60 (0x3C)
+T0C90 002:075.331 JLINK_ReadMemEx(0x0000139C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:075.348    -- Read from flash cache (2 bytes @ 0x0000139C)
+T0C90 002:075.375   Data:  10 B5
+T0C90 002:075.401 - 0.079ms returns 2 (0x2)
+T0C90 002:075.419 JLINK_ReadMemEx(0x0000139E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:075.437    -- Read from flash cache (2 bytes @ 0x0000139E)
+T0C90 002:075.463   Data:  82 B0
+T0C90 002:075.489 - 0.079ms returns 2 (0x2)
+T0C90 002:075.508 JLINK_ReadMemEx(0x0000139E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:075.527    -- Read from flash cache (2 bytes @ 0x0000139E)
+T0C90 002:075.554   Data:  82 B0
+T0C90 002:075.580 - 0.080ms returns 2 (0x2)
+T0C90 002:075.598 JLINK_ReadMemEx(0x000013A0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:075.616    -- Read from flash cache (60 bytes @ 0x000013A0)
+T0C90 002:075.642   Data:  14 46 0A 46 00 93 00 21 23 46 05 F0 01 FA 02 B0 ...
+T0C90 002:075.669 - 0.079ms returns 60 (0x3C)
+T0C90 002:075.687 JLINK_ReadMemEx(0x000013A0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:075.705    -- Read from flash cache (2 bytes @ 0x000013A0)
+T0C90 002:075.731   Data:  14 46
+T0C90 002:075.757 - 0.079ms returns 2 (0x2)
+T0C90 002:075.775 JLINK_ReadMemEx(0x000013A0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:075.793    -- Read from flash cache (60 bytes @ 0x000013A0)
+T0C90 002:075.820   Data:  14 46 0A 46 00 93 00 21 23 46 05 F0 01 FA 02 B0 ...
+T0C90 002:075.846 - 0.079ms returns 60 (0x3C)
+T0C90 002:075.864 JLINK_ReadMemEx(0x000013A0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:075.882    -- Read from flash cache (2 bytes @ 0x000013A0)
+T0C90 002:075.908   Data:  14 46
+T0C90 002:075.935 - 0.079ms returns 2 (0x2)
+T0C90 002:075.953 JLINK_ReadMemEx(0x000013A2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:075.971    -- Read from flash cache (2 bytes @ 0x000013A2)
+T0C90 002:075.997   Data:  0A 46
+T0C90 002:076.023 - 0.079ms returns 2 (0x2)
+T0C90 002:076.042 JLINK_ReadMemEx(0x000013A2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:076.060    -- Read from flash cache (2 bytes @ 0x000013A2)
+T0C90 002:076.086   Data:  0A 46
+T0C90 002:076.112 - 0.079ms returns 2 (0x2)
+T0C90 002:076.131 JLINK_ReadMemEx(0x000013A4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:076.149    -- Read from flash cache (60 bytes @ 0x000013A4)
+T0C90 002:076.175   Data:  00 93 00 21 23 46 05 F0 01 FA 02 B0 10 BD 10 B5 ...
+T0C90 002:076.201 - 0.079ms returns 60 (0x3C)
+T0C90 002:076.220 JLINK_ReadMemEx(0x000013A4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:076.238    -- Read from flash cache (2 bytes @ 0x000013A4)
+T0C90 002:076.264   Data:  00 93
+T0C90 002:076.292 - 0.080ms returns 2 (0x2)
+T0C90 002:076.310 JLINK_ReadMemEx(0x000013A4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:076.328    -- Read from flash cache (60 bytes @ 0x000013A4)
+T0C90 002:076.355   Data:  00 93 00 21 23 46 05 F0 01 FA 02 B0 10 BD 10 B5 ...
+T0C90 002:076.381 - 0.079ms returns 60 (0x3C)
+T0C90 002:076.399 JLINK_ReadMemEx(0x000013A4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:076.417    -- Read from flash cache (2 bytes @ 0x000013A4)
+T0C90 002:076.444   Data:  00 93
+T0C90 002:076.470 - 0.079ms returns 2 (0x2)
+T0C90 002:076.488 JLINK_ReadMemEx(0x000013A6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:076.506    -- Read from flash cache (2 bytes @ 0x000013A6)
+T0C90 002:076.534   Data:  00 21
+T0C90 002:076.560 - 0.080ms returns 2 (0x2)
+T0C90 002:076.578 JLINK_ReadMemEx(0x000013A6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:076.596    -- Read from flash cache (2 bytes @ 0x000013A6)
+T0C90 002:076.623   Data:  00 21
+T0C90 002:076.649 - 0.079ms returns 2 (0x2)
+T0C90 002:076.667 JLINK_ReadMemEx(0x000013A8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:076.685    -- Read from flash cache (60 bytes @ 0x000013A8)
+T0C90 002:076.712   Data:  23 46 05 F0 01 FA 02 B0 10 BD 10 B5 82 B0 14 46 ...
+T0C90 002:076.738 - 0.079ms returns 60 (0x3C)
+T0C90 002:076.756 JLINK_ReadMemEx(0x000013A8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:076.774    -- Read from flash cache (2 bytes @ 0x000013A8)
+T0C90 002:076.800   Data:  23 46
+T0C90 002:076.826 - 0.079ms returns 2 (0x2)
+T0C90 002:076.845 JLINK_ReadMemEx(0x000013A8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:076.863    -- Read from flash cache (60 bytes @ 0x000013A8)
+T0C90 002:076.890   Data:  23 46 05 F0 01 FA 02 B0 10 BD 10 B5 82 B0 14 46 ...
+T0C90 002:076.916 - 0.079ms returns 60 (0x3C)
+T0C90 002:076.934 JLINK_ReadMemEx(0x000013A8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:076.952    -- Read from flash cache (2 bytes @ 0x000013A8)
+T0C90 002:076.978   Data:  23 46
+T0C90 002:077.004 - 0.079ms returns 2 (0x2)
+T0C90 002:077.022 JLINK_ReadMemEx(0x000013AA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:077.040    -- Read from flash cache (2 bytes @ 0x000013AA)
+T0C90 002:077.066   Data:  05 F0
+T0C90 002:077.093 - 0.079ms returns 2 (0x2)
+T0C90 002:077.111 JLINK_ReadMemEx(0x000013AA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:077.129    -- Read from flash cache (2 bytes @ 0x000013AA)
+T0C90 002:077.155   Data:  05 F0
+T0C90 002:077.181 - 0.079ms returns 2 (0x2)
+T0C90 002:077.200 JLINK_ReadMemEx(0x000013AC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:077.218    -- Read from flash cache (60 bytes @ 0x000013AC)
+T0C90 002:077.244   Data:  01 FA 02 B0 10 BD 10 B5 82 B0 14 46 00 93 00 22 ...
+T0C90 002:077.270 - 0.079ms returns 60 (0x3C)
+T0C90 002:077.288 JLINK_ReadMemEx(0x000013AC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:077.306    -- Read from flash cache (2 bytes @ 0x000013AC)
+T0C90 002:077.332   Data:  01 FA
+T0C90 002:077.359 - 0.079ms returns 2 (0x2)
+T0C90 002:077.377 JLINK_ReadMemEx(0x000013AE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:077.395    -- Read from flash cache (2 bytes @ 0x000013AE)
+T0C90 002:077.421   Data:  02 B0
+T0C90 002:077.448 - 0.079ms returns 2 (0x2)
+T0C90 002:077.466 JLINK_ReadMemEx(0x000013B0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:077.484    -- Read from flash cache (60 bytes @ 0x000013B0)
+T0C90 002:077.511   Data:  10 BD 10 B5 82 B0 14 46 00 93 00 22 23 46 05 F0 ...
+T0C90 002:077.538 - 0.081ms returns 60 (0x3C)
+T0C90 002:077.565 JLINK_ReadMemEx(0x000013B0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:077.586    -- Read from flash cache (2 bytes @ 0x000013B0)
+T0C90 002:077.613   Data:  10 BD
+T0C90 002:077.640 - 0.084ms returns 2 (0x2)
+T0C90 002:077.661 JLINK_ReadMemEx(0x000013B0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:077.679    -- Read from flash cache (60 bytes @ 0x000013B0)
+T0C90 002:077.706   Data:  10 BD 10 B5 82 B0 14 46 00 93 00 22 23 46 05 F0 ...
+T0C90 002:077.732 - 0.080ms returns 60 (0x3C)
+T0C90 002:077.752 JLINK_ReadMemEx(0x000013B0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:077.770    -- Read from flash cache (2 bytes @ 0x000013B0)
+T0C90 002:077.804   Data:  10 BD
+T0C90 002:077.831 - 0.088ms returns 2 (0x2)
+T0C90 002:077.854 JLINK_ReadMemEx(0x000013B2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:077.872    -- Read from flash cache (2 bytes @ 0x000013B2)
+T0C90 002:077.899   Data:  10 B5
+T0C90 002:077.925 - 0.080ms returns 2 (0x2)
+T0C90 002:077.944 JLINK_ReadMemEx(0x000013B2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:077.962    -- Read from flash cache (2 bytes @ 0x000013B2)
+T0C90 002:077.989   Data:  10 B5
+T0C90 002:078.015 - 0.079ms returns 2 (0x2)
+T0C90 002:078.035 JLINK_ReadMemEx(0x000013B4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:078.053    -- Read from flash cache (60 bytes @ 0x000013B4)
+T0C90 002:078.080   Data:  82 B0 14 46 00 93 00 22 23 46 05 F0 F7 F9 02 B0 ...
+T0C90 002:078.106 - 0.079ms returns 60 (0x3C)
+T0C90 002:078.126 JLINK_ReadMemEx(0x000013B4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:078.144    -- Read from flash cache (2 bytes @ 0x000013B4)
+T0C90 002:078.170   Data:  82 B0
+T0C90 002:078.196 - 0.079ms returns 2 (0x2)
+T0C90 002:078.216 JLINK_ReadMemEx(0x000013B4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:078.235    -- Read from flash cache (60 bytes @ 0x000013B4)
+T0C90 002:078.261   Data:  82 B0 14 46 00 93 00 22 23 46 05 F0 F7 F9 02 B0 ...
+T0C90 002:078.287 - 0.079ms returns 60 (0x3C)
+T0C90 002:078.307 JLINK_ReadMemEx(0x000013B4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:078.325    -- Read from flash cache (2 bytes @ 0x000013B4)
+T0C90 002:078.351   Data:  82 B0
+T0C90 002:078.378 - 0.079ms returns 2 (0x2)
+T0C90 002:078.398 JLINK_ReadMemEx(0x000013B6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:078.416    -- Read from flash cache (2 bytes @ 0x000013B6)
+T0C90 002:078.442   Data:  14 46
+T0C90 002:078.468 - 0.079ms returns 2 (0x2)
+T0C90 002:078.488 JLINK_ReadMemEx(0x000013B6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:078.506    -- Read from flash cache (2 bytes @ 0x000013B6)
+T0C90 002:078.534   Data:  14 46
+T0C90 002:078.561 - 0.081ms returns 2 (0x2)
+T0C90 002:078.581 JLINK_ReadMemEx(0x000013B8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:078.599    -- Read from flash cache (60 bytes @ 0x000013B8)
+T0C90 002:078.625   Data:  00 93 00 22 23 46 05 F0 F7 F9 02 B0 10 BD 90 B4 ...
+T0C90 002:078.651 - 0.079ms returns 60 (0x3C)
+T0C90 002:078.671 JLINK_ReadMemEx(0x000013B8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:078.689    -- Read from flash cache (2 bytes @ 0x000013B8)
+T0C90 002:078.716   Data:  00 93
+T0C90 002:078.742 - 0.079ms returns 2 (0x2)
+T0C90 002:078.762 JLINK_ReadMemEx(0x000013B8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:078.780    -- Read from flash cache (60 bytes @ 0x000013B8)
+T0C90 002:078.806   Data:  00 93 00 22 23 46 05 F0 F7 F9 02 B0 10 BD 90 B4 ...
+T0C90 002:078.832 - 0.079ms returns 60 (0x3C)
+T0C90 002:078.852 JLINK_ReadMemEx(0x000013B8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:078.870    -- Read from flash cache (2 bytes @ 0x000013B8)
+T0C90 002:078.896   Data:  00 93
+T0C90 002:078.922 - 0.079ms returns 2 (0x2)
+T0C90 002:078.942 JLINK_ReadMemEx(0x000013BA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:078.960    -- Read from flash cache (2 bytes @ 0x000013BA)
+T0C90 002:078.987   Data:  00 22
+T0C90 002:079.013 - 0.079ms returns 2 (0x2)
+T0C90 002:079.033 JLINK_ReadMemEx(0x000013BA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:079.051    -- Read from flash cache (2 bytes @ 0x000013BA)
+T0C90 002:079.077   Data:  00 22
+T0C90 002:079.103 - 0.079ms returns 2 (0x2)
+T0C90 002:079.123 JLINK_ReadMemEx(0x000013BC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:079.141    -- Read from flash cache (60 bytes @ 0x000013BC)
+T0C90 002:079.168   Data:  23 46 05 F0 F7 F9 02 B0 10 BD 90 B4 02 9C 02 94 ...
+T0C90 002:079.194 - 0.079ms returns 60 (0x3C)
+T0C90 002:079.214 JLINK_ReadMemEx(0x000013BC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:079.232    -- Read from flash cache (2 bytes @ 0x000013BC)
+T0C90 002:079.259   Data:  23 46
+T0C90 002:079.285 - 0.080ms returns 2 (0x2)
+T0C90 002:079.306 JLINK_ReadMemEx(0x000013BC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:079.325    -- Read from flash cache (60 bytes @ 0x000013BC)
+T0C90 002:079.352   Data:  23 46 05 F0 F7 F9 02 B0 10 BD 90 B4 02 9C 02 94 ...
+T0C90 002:079.379 - 0.082ms returns 60 (0x3C)
+T0C90 002:079.399 JLINK_ReadMemEx(0x000013BC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:079.417    -- Read from flash cache (2 bytes @ 0x000013BC)
+T0C90 002:079.444   Data:  23 46
+T0C90 002:079.470 - 0.080ms returns 2 (0x2)
+T0C90 002:079.491 JLINK_ReadMemEx(0x000013BE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:079.509    -- Read from flash cache (2 bytes @ 0x000013BE)
+T0C90 002:079.562   Data:  05 F0
+T0C90 002:079.589 - 0.107ms returns 2 (0x2)
+T0C90 002:079.610 JLINK_ReadMemEx(0x000013BE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:079.629    -- Read from flash cache (2 bytes @ 0x000013BE)
+T0C90 002:079.655   Data:  05 F0
+T0C90 002:079.682 - 0.080ms returns 2 (0x2)
+T0C90 002:079.702 JLINK_ReadMemEx(0x000013C0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:079.720    -- Read from flash cache (60 bytes @ 0x000013C0)
+T0C90 002:079.747   Data:  F7 F9 02 B0 10 BD 90 B4 02 9C 02 94 90 BC 05 F0 ...
+T0C90 002:079.774 - 0.080ms returns 60 (0x3C)
+T0C90 002:079.794 JLINK_ReadMemEx(0x000013C0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:079.812    -- Read from flash cache (2 bytes @ 0x000013C0)
+T0C90 002:079.838   Data:  F7 F9
+T0C90 002:079.865 - 0.080ms returns 2 (0x2)
+T0C90 002:079.885 JLINK_ReadMemEx(0x000013C2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:079.903    -- Read from flash cache (2 bytes @ 0x000013C2)
+T0C90 002:079.930   Data:  02 B0
+T0C90 002:079.957 - 0.080ms returns 2 (0x2)
+T0C90 002:079.977 JLINK_ReadMemEx(0x000013C4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:079.995    -- Read from flash cache (60 bytes @ 0x000013C4)
+T0C90 002:080.022   Data:  10 BD 90 B4 02 9C 02 94 90 BC 05 F0 EF B9 00 F0 ...
+T0C90 002:080.048 - 0.080ms returns 60 (0x3C)
+T0C90 002:080.068 JLINK_ReadMemEx(0x000013C4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:080.087    -- Read from flash cache (2 bytes @ 0x000013C4)
+T0C90 002:080.113   Data:  10 BD
+T0C90 002:080.140 - 0.080ms returns 2 (0x2)
+T0C90 002:080.160 JLINK_ReadMemEx(0x000013C4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:080.178    -- Read from flash cache (60 bytes @ 0x000013C4)
+T0C90 002:080.205   Data:  10 BD 90 B4 02 9C 02 94 90 BC 05 F0 EF B9 00 F0 ...
+T0C90 002:080.231 - 0.079ms returns 60 (0x3C)
+T0C90 002:080.251 JLINK_ReadMemEx(0x000013C4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:080.269    -- Read from flash cache (2 bytes @ 0x000013C4)
+T0C90 002:080.295   Data:  10 BD
+T0C90 002:080.321 - 0.079ms returns 2 (0x2)
+T0C90 002:080.341 JLINK_ReadMemEx(0x000013C6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:080.359    -- Read from flash cache (2 bytes @ 0x000013C6)
+T0C90 002:080.385   Data:  90 B4
+T0C90 002:080.411 - 0.079ms returns 2 (0x2)
+T0C90 002:080.431 JLINK_ReadMemEx(0x000013C6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:080.449    -- Read from flash cache (2 bytes @ 0x000013C6)
+T0C90 002:080.476   Data:  90 B4
+T0C90 002:080.502 - 0.079ms returns 2 (0x2)
+T0C90 002:080.524 JLINK_ReadMemEx(0x000013C8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:080.542    -- Read from flash cache (60 bytes @ 0x000013C8)
+T0C90 002:080.568   Data:  02 9C 02 94 90 BC 05 F0 EF B9 00 F0 1F F8 FF F7 ...
+T0C90 002:080.595 - 0.079ms returns 60 (0x3C)
+T0C90 002:080.614 JLINK_ReadMemEx(0x000013C8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:080.632    -- Read from flash cache (2 bytes @ 0x000013C8)
+T0C90 002:080.659   Data:  02 9C
+T0C90 002:080.685 - 0.079ms returns 2 (0x2)
+T0C90 002:080.705 JLINK_ReadMemEx(0x000013C8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:080.723    -- Read from flash cache (60 bytes @ 0x000013C8)
+T0C90 002:080.749   Data:  02 9C 02 94 90 BC 05 F0 EF B9 00 F0 1F F8 FF F7 ...
+T0C90 002:080.776 - 0.079ms returns 60 (0x3C)
+T0C90 002:080.795 JLINK_ReadMemEx(0x000013C8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:080.813    -- Read from flash cache (2 bytes @ 0x000013C8)
+T0C90 002:080.840   Data:  02 9C
+T0C90 002:080.866 - 0.079ms returns 2 (0x2)
+T0C90 002:080.885 JLINK_ReadMemEx(0x000013CA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:080.905    -- Read from flash cache (2 bytes @ 0x000013CA)
+T0C90 002:080.932   Data:  02 94
+T0C90 002:080.958 - 0.081ms returns 2 (0x2)
+T0C90 002:080.978 JLINK_ReadMemEx(0x000013CA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:080.996    -- Read from flash cache (2 bytes @ 0x000013CA)
+T0C90 002:081.023   Data:  02 94
+T0C90 002:081.049 - 0.079ms returns 2 (0x2)
+T0C90 002:081.069 JLINK_ReadMemEx(0x000013CC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:081.087    -- Read from flash cache (60 bytes @ 0x000013CC)
+T0C90 002:081.113   Data:  90 BC 05 F0 EF B9 00 F0 1F F8 FF F7 87 FA FE E7 ...
+T0C90 002:081.139 - 0.079ms returns 60 (0x3C)
+T0C90 002:081.159 JLINK_ReadMemEx(0x000013CC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:081.177    -- Read from flash cache (2 bytes @ 0x000013CC)
+T0C90 002:081.203   Data:  90 BC
+T0C90 002:081.230 - 0.079ms returns 2 (0x2)
+T0C90 002:081.250 JLINK_ReadMemEx(0x000013CC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:081.268    -- Read from flash cache (60 bytes @ 0x000013CC)
+T0C90 002:081.294   Data:  90 BC 05 F0 EF B9 00 F0 1F F8 FF F7 87 FA FE E7 ...
+T0C90 002:081.320 - 0.079ms returns 60 (0x3C)
+T0C90 002:081.340 JLINK_ReadMemEx(0x000013CC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:081.358    -- Read from flash cache (2 bytes @ 0x000013CC)
+T0C90 002:081.384   Data:  90 BC
+T0C90 002:081.411 - 0.079ms returns 2 (0x2)
+T0C90 002:081.432 JLINK_ReadMemEx(0x000013CE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:081.450    -- Read from flash cache (2 bytes @ 0x000013CE)
+T0C90 002:081.476   Data:  05 F0
+T0C90 002:081.502 - 0.079ms returns 2 (0x2)
+T0C90 002:081.524 JLINK_ReadMemEx(0x000013CE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:081.542    -- Read from flash cache (2 bytes @ 0x000013CE)
+T0C90 002:081.568   Data:  05 F0
+T0C90 002:081.594 - 0.079ms returns 2 (0x2)
+T0C90 002:081.614 JLINK_ReadMemEx(0x000013D0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 002:081.632    -- Read from flash cache (60 bytes @ 0x000013D0)
+T0C90 002:081.659   Data:  EF B9 00 F0 1F F8 FF F7 87 FA FE E7 80 B5 06 F0 ...
+T0C90 002:081.685 - 0.079ms returns 60 (0x3C)
+T0C90 002:081.705 JLINK_ReadMemEx(0x000013D0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 002:081.723    -- Read from flash cache (2 bytes @ 0x000013D0)
+T0C90 002:081.749   Data:  EF B9
+T0C90 002:081.775 - 0.079ms returns 2 (0x2)
+T2E88 003:751.717 JLINK_ReadMemEx(0x000013D2, 0x2 Bytes, Flags = 0x02000000)
+T2E88 003:751.763    -- Read from flash cache (2 bytes @ 0x000013D2)
+T2E88 003:751.798   Data:  00 F0
+T2E88 003:751.832 - 0.127ms returns 2 (0x2)
+T2E88 003:751.858 JLINK_HasError()
+T2E88 003:751.883 JLINK_SetBPEx(Addr = 0x00005B82, Type = 0xFFFFFFF2)
+T2E88 003:751.915 - 0.043ms returns 0x00000001
+T2E88 003:751.939 JLINK_HasError()
+T2E88 003:751.963 JLINK_HasError()
+T2E88 003:751.991 JLINK_ReadMemEx(0x40019000, 0x8 Bytes, Flags = 0x02000004)
+T2E88 003:752.021   CPU_ReadMem(8 bytes @ 0x40019000)
+T2E88 003:752.888   Data:  00 00 00 00 00 00 00 00
+T2E88 003:752.920 - 0.938ms returns 8 (0x8)
+T2E88 003:752.941 JLINK_Go()
+T2E88 003:753.600   CPU_WriteMem(4 bytes @ 0xE0002000)
+T2E88 003:754.393   CPU_ReadMem(4 bytes @ 0xE0001000)
+T2E88 003:755.113   CPU_WriteMem(4 bytes @ 0xE0001000)
+T2E88 003:755.912   CPU_WriteMem(4 bytes @ 0xE0002008)
+T2E88 003:755.950   CPU_WriteMem(4 bytes @ 0xE000200C)
+T2E88 003:755.987   CPU_WriteMem(4 bytes @ 0xE0002010)
+T2E88 003:756.021   CPU_WriteMem(4 bytes @ 0xE0002014)
+T2E88 003:758.123   CPU_WriteMem(4 bytes @ 0xE0001004)
+T2E88 003:759.759 - 6.838ms
+T2E88 003:860.002 JLINK_HasError()
+T2E88 003:860.051 JLINK_IsHalted()
+T2E88 003:860.758 - 0.718ms returns FALSE
+T2E88 003:961.279 JLINK_HasError()
+T2E88 003:961.340 JLINK_IsHalted()
+T2E88 003:962.108 - 0.799ms returns FALSE
+T2E88 004:062.546 JLINK_HasError()
+T2E88 004:062.591 JLINK_IsHalted()
+T2E88 004:063.300 - 0.722ms returns FALSE
+T2E88 004:163.555 JLINK_HasError()
+T2E88 004:163.591 JLINK_IsHalted()
+T2E88 004:168.637 - 5.075ms returns TRUE
+T2E88 004:168.683 JLINK_HasError()
+T2E88 004:168.709 JLINK_Halt()
+T2E88 004:168.740 - 0.042ms returns 0x00
+T2E88 004:168.765 JLINK_IsHalted()
+T2E88 004:168.789 - 0.036ms returns TRUE
+T2E88 004:168.814 JLINK_IsHalted()
+T2E88 004:168.838 - 0.035ms returns TRUE
+T2E88 004:168.863 JLINK_IsHalted()
+T2E88 004:168.887 - 0.035ms returns TRUE
+T2E88 004:168.912 JLINK_HasError()
+T2E88 004:168.938 JLINK_ReadReg(R15 (PC))
+T2E88 004:168.969   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T2E88 004:169.703 - 0.784ms returns 0x00005B82
+T2E88 004:169.738 JLINK_ReadReg(XPSR)
+T2E88 004:169.765 - 0.038ms returns 0x61000000
+T2E88 004:169.792 JLINK_HasError()
+T2E88 004:169.816 JLINK_ClrBPEx(BPHandle = 0x00000001)
+T2E88 004:169.840 - 0.034ms returns 0x00
+T2E88 004:169.863 JLINK_HasError()
+T2E88 004:169.886 JLINK_HasError()
+T2E88 004:169.909 JLINK_ReadMemU32(0xE000ED30, 0x1 Items)
+T2E88 004:169.935   CPU_ReadMem(4 bytes @ 0xE000ED30)
+T2E88 004:170.661   Data:  02 00 00 00
+T2E88 004:170.693 - 0.792ms returns 1 (0x1)
+T2E88 004:170.713 JLINK_ReadMemU32(0xE0001028, 0x1 Items)
+T2E88 004:170.734   CPU_ReadMem(4 bytes @ 0xE0001028)
+T2E88 004:171.476   Data:  00 00 00 50
+T2E88 004:171.505   Debug reg: DWT_FUNC[0]
+T2E88 004:171.532 - 0.828ms returns 1 (0x1)
+T2E88 004:171.588 JLINK_ReadMemU32(0xE0001038, 0x1 Items)
+T2E88 004:171.610   CPU_ReadMem(4 bytes @ 0xE0001038)
+T2E88 004:172.326   Data:  00 00 00 D0
+T2E88 004:172.355   Debug reg: DWT_FUNC[1]
+T2E88 004:172.382 - 0.803ms returns 1 (0x1)
+T2E88 004:172.431 JLINK_HasError()
+T2E88 004:172.452 JLINK_ReadReg(R0)
+T2E88 004:172.472 - 0.029ms returns 0x00001DE5
+T2E88 004:172.491 JLINK_ReadReg(R1)
+T2E88 004:172.510 - 0.027ms returns 0x0000AB7F
+T2E88 004:172.529 JLINK_ReadReg(R2)
+T2E88 004:172.590 - 0.073ms returns 0x00000000
+T2E88 004:172.612 JLINK_ReadReg(R3)
+T2E88 004:172.631 - 0.028ms returns 0x80001000
+T2E88 004:172.651 JLINK_ReadReg(R4)
+T2E88 004:172.670 - 0.028ms returns 0xDEADBEEF
+T2E88 004:172.689 JLINK_ReadReg(R5)
+T2E88 004:172.709 - 0.029ms returns 0xDEADBEEF
+T2E88 004:172.728 JLINK_ReadReg(R6)
+T2E88 004:172.747 - 0.027ms returns 0xDEADBEEF
+T2E88 004:172.766 JLINK_ReadReg(R7)
+T2E88 004:172.785 - 0.027ms returns 0xDEADBEEF
+T2E88 004:172.804 JLINK_ReadReg(R8)
+T2E88 004:172.823 - 0.028ms returns 0xDEADBEEF
+T2E88 004:172.842 JLINK_ReadReg(R9)
+T2E88 004:172.861 - 0.027ms returns 0xDEADBEEF
+T2E88 004:172.881 JLINK_ReadReg(R10)
+T2E88 004:172.899 - 0.027ms returns 0xDEADBEEF
+T2E88 004:172.918 JLINK_ReadReg(R11)
+T2E88 004:172.936 - 0.027ms returns 0xDEADBEEF
+T2E88 004:172.956 JLINK_ReadReg(R12)
+T2E88 004:172.974 - 0.027ms returns 0x00000000
+T2E88 004:172.993 JLINK_ReadReg(R13 (SP))
+T2E88 004:173.013 - 0.028ms returns 0x20001ED8
+T2E88 004:173.032 JLINK_ReadReg(R14)
+T2E88 004:173.051 - 0.028ms returns 0x00001DE5
+T2E88 004:173.070 JLINK_ReadReg(R15 (PC))
+T2E88 004:173.089 - 0.028ms returns 0x00005B82
+T2E88 004:173.108 JLINK_ReadReg(XPSR)
+T2E88 004:173.127 - 0.028ms returns 0x61000000
+T2E88 004:173.146 JLINK_ReadReg(MSP)
+T2E88 004:173.164 - 0.027ms returns 0x200014C0
+T2E88 004:173.183 JLINK_ReadReg(PSP)
+T2E88 004:173.202 - 0.028ms returns 0x20001ED8
+T2E88 004:173.221 JLINK_ReadReg(CFBP)
+T2E88 004:173.240 - 0.027ms returns 0x02000000
+T0C90 004:177.922 JLINK_HasError()
+T0C90 004:180.176 JLINK_ReadMemEx(0x00005A82, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:180.207    -- Read from flash cache (2 bytes @ 0x00005A82)
+T0C90 004:180.235   Data:  00 01
+T0C90 004:180.263 - 0.096ms returns 2 (0x2)
+T0C90 004:180.283 JLINK_ReadMemEx(0x00005A84, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:180.303    -- Read from flash cache (60 bytes @ 0x00005A84)
+T0C90 004:180.331   Data:  88 42 02 D1 22 A0 24 A1 01 E0 08 99 1E A0 02 F0 ...
+T0C90 004:180.358 - 0.083ms returns 60 (0x3C)
+T0C90 004:180.377 JLINK_ReadMemEx(0x00005A84, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:180.396    -- Read from flash cache (2 bytes @ 0x00005A84)
+T0C90 004:180.423   Data:  88 42
+T0C90 004:180.451 - 0.082ms returns 2 (0x2)
+T0C90 004:180.471 JLINK_ReadMemEx(0x00005A84, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:180.490    -- Read from flash cache (60 bytes @ 0x00005A84)
+T0C90 004:180.523   Data:  88 42 02 D1 22 A0 24 A1 01 E0 08 99 1E A0 02 F0 ...
+T0C90 004:180.559 - 0.104ms returns 60 (0x3C)
+T0C90 004:180.588 JLINK_ReadMemEx(0x00005A84, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:180.609    -- Read from flash cache (2 bytes @ 0x00005A84)
+T0C90 004:180.637   Data:  88 42
+T0C90 004:180.664 - 0.085ms returns 2 (0x2)
+T0C90 004:180.684 JLINK_ReadMemEx(0x00005A86, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:180.703    -- Read from flash cache (2 bytes @ 0x00005A86)
+T0C90 004:180.731   Data:  02 D1
+T0C90 004:180.758 - 0.083ms returns 2 (0x2)
+T0C90 004:180.778 JLINK_ReadMemEx(0x00005A86, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:180.797    -- Read from flash cache (2 bytes @ 0x00005A86)
+T0C90 004:180.824   Data:  02 D1
+T0C90 004:180.851 - 0.082ms returns 2 (0x2)
+T0C90 004:180.871 JLINK_ReadMemEx(0x00005A88, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:180.889    -- Read from flash cache (60 bytes @ 0x00005A88)
+T0C90 004:180.917   Data:  22 A0 24 A1 01 E0 08 99 1E A0 02 F0 55 FC 30 46 ...
+T0C90 004:180.944 - 0.083ms returns 60 (0x3C)
+T0C90 004:180.963 JLINK_ReadMemEx(0x00005A88, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:180.982    -- Read from flash cache (2 bytes @ 0x00005A88)
+T0C90 004:181.009   Data:  22 A0
+T0C90 004:181.037 - 0.082ms returns 2 (0x2)
+T0C90 004:181.056 JLINK_ReadMemEx(0x00005A88, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:181.075    -- Read from flash cache (60 bytes @ 0x00005A88)
+T0C90 004:181.102   Data:  22 A0 24 A1 01 E0 08 99 1E A0 02 F0 55 FC 30 46 ...
+T0C90 004:181.129 - 0.082ms returns 60 (0x3C)
+T0C90 004:181.148 JLINK_ReadMemEx(0x00005A88, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:181.167    -- Read from flash cache (2 bytes @ 0x00005A88)
+T0C90 004:181.194   Data:  22 A0
+T0C90 004:181.222 - 0.082ms returns 2 (0x2)
+T0C90 004:181.241 JLINK_ReadMemEx(0x00005A8A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:181.259    -- Read from flash cache (2 bytes @ 0x00005A8A)
+T0C90 004:181.287   Data:  24 A1
+T0C90 004:181.314 - 0.082ms returns 2 (0x2)
+T0C90 004:181.333 JLINK_ReadMemEx(0x00005A8A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:181.352    -- Read from flash cache (2 bytes @ 0x00005A8A)
+T0C90 004:181.379   Data:  24 A1
+T0C90 004:181.406 - 0.081ms returns 2 (0x2)
+T0C90 004:181.424 JLINK_ReadMemEx(0x00005A8C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:181.443    -- Read from flash cache (60 bytes @ 0x00005A8C)
+T0C90 004:181.470   Data:  01 E0 08 99 1E A0 02 F0 55 FC 30 46 02 F0 00 F9 ...
+T0C90 004:181.497 - 0.081ms returns 60 (0x3C)
+T0C90 004:181.516 JLINK_ReadMemEx(0x00005A8C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:181.534    -- Read from flash cache (2 bytes @ 0x00005A8C)
+T0C90 004:181.574   Data:  01 E0
+T0C90 004:181.601 - 0.094ms returns 2 (0x2)
+T0C90 004:181.620 JLINK_ReadMemEx(0x00005A8C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:181.639    -- Read from flash cache (60 bytes @ 0x00005A8C)
+T0C90 004:181.667   Data:  01 E0 08 99 1E A0 02 F0 55 FC 30 46 02 F0 00 F9 ...
+T0C90 004:181.693 - 0.082ms returns 60 (0x3C)
+T0C90 004:181.712 JLINK_ReadMemEx(0x00005A8C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:181.731    -- Read from flash cache (2 bytes @ 0x00005A8C)
+T0C90 004:181.758   Data:  01 E0
+T0C90 004:181.785 - 0.081ms returns 2 (0x2)
+T0C90 004:181.803 JLINK_ReadMemEx(0x00005A8E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:181.822    -- Read from flash cache (2 bytes @ 0x00005A8E)
+T0C90 004:181.849   Data:  08 99
+T0C90 004:181.876 - 0.081ms returns 2 (0x2)
+T0C90 004:181.895 JLINK_ReadMemEx(0x00005A8E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:181.913    -- Read from flash cache (2 bytes @ 0x00005A8E)
+T0C90 004:181.940   Data:  08 99
+T0C90 004:181.967 - 0.081ms returns 2 (0x2)
+T0C90 004:181.986 JLINK_ReadMemEx(0x00005A90, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:182.005    -- Read from flash cache (60 bytes @ 0x00005A90)
+T0C90 004:182.032   Data:  1E A0 02 F0 55 FC 30 46 02 F0 00 F9 00 21 14 48 ...
+T0C90 004:182.059 - 0.081ms returns 60 (0x3C)
+T0C90 004:182.077 JLINK_ReadMemEx(0x00005A90, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:182.098    -- Read from flash cache (2 bytes @ 0x00005A90)
+T0C90 004:182.127   Data:  1E A0
+T0C90 004:182.154 - 0.085ms returns 2 (0x2)
+T0C90 004:182.174 JLINK_ReadMemEx(0x00005A90, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:182.192    -- Read from flash cache (60 bytes @ 0x00005A90)
+T0C90 004:182.220   Data:  1E A0 02 F0 55 FC 30 46 02 F0 00 F9 00 21 14 48 ...
+T0C90 004:182.246 - 0.081ms returns 60 (0x3C)
+T0C90 004:182.265 JLINK_ReadMemEx(0x00005A90, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:182.284    -- Read from flash cache (2 bytes @ 0x00005A90)
+T0C90 004:182.311   Data:  1E A0
+T0C90 004:182.338 - 0.081ms returns 2 (0x2)
+T0C90 004:182.356 JLINK_ReadMemEx(0x00005A92, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:182.375    -- Read from flash cache (2 bytes @ 0x00005A92)
+T0C90 004:182.402   Data:  02 F0
+T0C90 004:182.428 - 0.080ms returns 2 (0x2)
+T0C90 004:182.447 JLINK_ReadMemEx(0x00005A92, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:182.466    -- Read from flash cache (2 bytes @ 0x00005A92)
+T0C90 004:182.492   Data:  02 F0
+T0C90 004:182.519 - 0.080ms returns 2 (0x2)
+T0C90 004:182.538 JLINK_ReadMemEx(0x00005A94, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:182.561    -- Read from flash cache (60 bytes @ 0x00005A94)
+T0C90 004:182.588   Data:  55 FC 30 46 02 F0 00 F9 00 21 14 48 40 F2 04 12 ...
+T0C90 004:182.615 - 0.086ms returns 60 (0x3C)
+T0C90 004:182.634 JLINK_ReadMemEx(0x00005A94, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:182.652    -- Read from flash cache (2 bytes @ 0x00005A94)
+T0C90 004:182.679   Data:  55 FC
+T0C90 004:182.706 - 0.080ms returns 2 (0x2)
+T0C90 004:182.725 JLINK_ReadMemEx(0x00005A96, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:182.743    -- Read from flash cache (2 bytes @ 0x00005A96)
+T0C90 004:182.770   Data:  30 46
+T0C90 004:182.796 - 0.080ms returns 2 (0x2)
+T0C90 004:182.815 JLINK_ReadMemEx(0x00005A98, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:182.833    -- Read from flash cache (60 bytes @ 0x00005A98)
+T0C90 004:182.860   Data:  02 F0 00 F9 00 21 14 48 40 F2 04 12 02 F0 1E FD ...
+T0C90 004:182.887 - 0.080ms returns 60 (0x3C)
+T0C90 004:182.905 JLINK_ReadMemEx(0x00005A98, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:182.924    -- Read from flash cache (2 bytes @ 0x00005A98)
+T0C90 004:182.950   Data:  02 F0
+T0C90 004:182.977 - 0.080ms returns 2 (0x2)
+T0C90 004:182.996 JLINK_ReadMemEx(0x00005A98, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:183.014    -- Read from flash cache (60 bytes @ 0x00005A98)
+T0C90 004:183.041   Data:  02 F0 00 F9 00 21 14 48 40 F2 04 12 02 F0 1E FD ...
+T0C90 004:183.067 - 0.080ms returns 60 (0x3C)
+T0C90 004:183.086 JLINK_ReadMemEx(0x00005A98, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:183.104    -- Read from flash cache (2 bytes @ 0x00005A98)
+T0C90 004:183.131   Data:  02 F0
+T0C90 004:183.158 - 0.080ms returns 2 (0x2)
+T0C90 004:183.176 JLINK_ReadMemEx(0x00005A9A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:183.194    -- Read from flash cache (2 bytes @ 0x00005A9A)
+T0C90 004:183.221   Data:  00 F9
+T0C90 004:183.248 - 0.080ms returns 2 (0x2)
+T0C90 004:183.267 JLINK_ReadMemEx(0x00005A9C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:183.285    -- Read from flash cache (60 bytes @ 0x00005A9C)
+T0C90 004:183.312   Data:  00 21 14 48 40 F2 04 12 02 F0 1E FD 07 48 40 88 ...
+T0C90 004:183.338 - 0.080ms returns 60 (0x3C)
+T0C90 004:183.357 JLINK_ReadMemEx(0x00005A9C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:183.375    -- Read from flash cache (2 bytes @ 0x00005A9C)
+T0C90 004:183.402   Data:  00 21
+T0C90 004:183.428 - 0.080ms returns 2 (0x2)
+T0C90 004:183.447 JLINK_ReadMemEx(0x00005A9E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:183.465    -- Read from flash cache (2 bytes @ 0x00005A9E)
+T0C90 004:183.492   Data:  14 48
+T0C90 004:183.519 - 0.080ms returns 2 (0x2)
+T0C90 004:183.537 JLINK_ReadMemEx(0x00005A9E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:183.560    -- Read from flash cache (2 bytes @ 0x00005A9E)
+T0C90 004:183.587   Data:  14 48
+T0C90 004:183.614 - 0.085ms returns 2 (0x2)
+T0C90 004:183.633 JLINK_ReadMemEx(0x00005AA0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:183.653    -- Read from flash cache (60 bytes @ 0x00005AA0)
+T0C90 004:183.681   Data:  40 F2 04 12 02 F0 1E FD 07 48 40 88 02 28 C1 D0 ...
+T0C90 004:183.708 - 0.083ms returns 60 (0x3C)
+T0C90 004:183.726 JLINK_ReadMemEx(0x00005AA0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:183.745    -- Read from flash cache (2 bytes @ 0x00005AA0)
+T0C90 004:183.771   Data:  40 F2
+T0C90 004:183.798 - 0.080ms returns 2 (0x2)
+T0C90 004:183.817 JLINK_ReadMemEx(0x00005AA0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:183.835    -- Read from flash cache (60 bytes @ 0x00005AA0)
+T0C90 004:183.862   Data:  40 F2 04 12 02 F0 1E FD 07 48 40 88 02 28 C1 D0 ...
+T0C90 004:183.889 - 0.080ms returns 60 (0x3C)
+T0C90 004:183.907 JLINK_ReadMemEx(0x00005AA0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:183.926    -- Read from flash cache (2 bytes @ 0x00005AA0)
+T0C90 004:183.952   Data:  40 F2
+T0C90 004:183.979 - 0.080ms returns 2 (0x2)
+T0C90 004:183.998 JLINK_ReadMemEx(0x00005AA2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:184.016    -- Read from flash cache (2 bytes @ 0x00005AA2)
+T0C90 004:184.043   Data:  04 12
+T0C90 004:184.069 - 0.080ms returns 2 (0x2)
+T0C90 004:184.088 JLINK_ReadMemEx(0x00005AA4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:184.107    -- Read from flash cache (60 bytes @ 0x00005AA4)
+T0C90 004:184.133   Data:  02 F0 1E FD 07 48 40 88 02 28 C1 D0 05 48 FD F7 ...
+T0C90 004:184.160 - 0.080ms returns 60 (0x3C)
+T0C90 004:184.179 JLINK_ReadMemEx(0x00005AA4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:184.197    -- Read from flash cache (2 bytes @ 0x00005AA4)
+T0C90 004:184.223   Data:  02 F0
+T0C90 004:184.250 - 0.080ms returns 2 (0x2)
+T0C90 004:184.269 JLINK_ReadMemEx(0x00005AA6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:184.287    -- Read from flash cache (2 bytes @ 0x00005AA6)
+T0C90 004:184.314   Data:  1E FD
+T0C90 004:184.340 - 0.080ms returns 2 (0x2)
+T0C90 004:184.359 JLINK_ReadMemEx(0x00005AA8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:184.378    -- Read from flash cache (60 bytes @ 0x00005AA8)
+T0C90 004:184.405   Data:  07 48 40 88 02 28 C1 D0 05 48 FD F7 B9 FB 14 B9 ...
+T0C90 004:184.431 - 0.080ms returns 60 (0x3C)
+T0C90 004:184.450 JLINK_ReadMemEx(0x00005AA8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:184.468    -- Read from flash cache (2 bytes @ 0x00005AA8)
+T0C90 004:184.495   Data:  07 48
+T0C90 004:184.521 - 0.080ms returns 2 (0x2)
+T0C90 004:184.540 JLINK_ReadMemEx(0x00005AAA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:184.561    -- Read from flash cache (2 bytes @ 0x00005AAA)
+T0C90 004:184.588   Data:  40 88
+T0C90 004:184.614 - 0.083ms returns 2 (0x2)
+T0C90 004:184.633 JLINK_ReadMemEx(0x00005AAA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:184.652    -- Read from flash cache (2 bytes @ 0x00005AAA)
+T0C90 004:184.678   Data:  40 88
+T0C90 004:184.705 - 0.080ms returns 2 (0x2)
+T0C90 004:184.724 JLINK_ReadMemEx(0x00005AAC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:184.742    -- Read from flash cache (60 bytes @ 0x00005AAC)
+T0C90 004:184.769   Data:  02 28 C1 D0 05 48 FD F7 B9 FB 14 B9 28 46 02 F0 ...
+T0C90 004:184.796 - 0.081ms returns 60 (0x3C)
+T0C90 004:184.814 JLINK_ReadMemEx(0x00005AAC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:184.832    -- Read from flash cache (2 bytes @ 0x00005AAC)
+T0C90 004:184.859   Data:  02 28
+T0C90 004:184.886 - 0.080ms returns 2 (0x2)
+T0C90 004:184.905 JLINK_ReadMemEx(0x00005AAC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:184.923    -- Read from flash cache (60 bytes @ 0x00005AAC)
+T0C90 004:184.950   Data:  02 28 C1 D0 05 48 FD F7 B9 FB 14 B9 28 46 02 F0 ...
+T0C90 004:184.976 - 0.080ms returns 60 (0x3C)
+T0C90 004:184.995 JLINK_ReadMemEx(0x00005AAC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:185.013    -- Read from flash cache (2 bytes @ 0x00005AAC)
+T0C90 004:185.040   Data:  02 28
+T0C90 004:185.067 - 0.080ms returns 2 (0x2)
+T0C90 004:185.085 JLINK_ReadMemEx(0x00005AAE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:185.104    -- Read from flash cache (2 bytes @ 0x00005AAE)
+T0C90 004:185.130   Data:  C1 D0
+T0C90 004:185.157 - 0.081ms returns 2 (0x2)
+T0C90 004:185.178 JLINK_ReadMemEx(0x00005AAE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:185.196    -- Read from flash cache (2 bytes @ 0x00005AAE)
+T0C90 004:185.223   Data:  C1 D0
+T0C90 004:185.249 - 0.080ms returns 2 (0x2)
+T0C90 004:185.268 JLINK_ReadMemEx(0x00005AB0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:185.287    -- Read from flash cache (60 bytes @ 0x00005AB0)
+T0C90 004:185.314   Data:  05 48 FD F7 B9 FB 14 B9 28 46 02 F0 EF F8 13 B0 ...
+T0C90 004:185.340 - 0.081ms returns 60 (0x3C)
+T0C90 004:185.359 JLINK_ReadMemEx(0x00005AB0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:185.377    -- Read from flash cache (2 bytes @ 0x00005AB0)
+T0C90 004:185.404   Data:  05 48
+T0C90 004:185.430 - 0.080ms returns 2 (0x2)
+T0C90 004:185.449 JLINK_ReadMemEx(0x00005AB0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:185.468    -- Read from flash cache (60 bytes @ 0x00005AB0)
+T0C90 004:185.495   Data:  05 48 FD F7 B9 FB 14 B9 28 46 02 F0 EF F8 13 B0 ...
+T0C90 004:185.521 - 0.080ms returns 60 (0x3C)
+T0C90 004:185.540 JLINK_ReadMemEx(0x00005AB0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:185.574    -- Read from flash cache (2 bytes @ 0x00005AB0)
+T0C90 004:185.608   Data:  05 48
+T0C90 004:185.642 - 0.113ms returns 2 (0x2)
+T0C90 004:185.667 JLINK_ReadMemEx(0x00005AB2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:185.690    -- Read from flash cache (2 bytes @ 0x00005AB2)
+T0C90 004:185.724   Data:  FD F7
+T0C90 004:185.757 - 0.101ms returns 2 (0x2)
+T0C90 004:185.782 JLINK_ReadMemEx(0x00005AB2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:185.805    -- Read from flash cache (2 bytes @ 0x00005AB2)
+T0C90 004:185.838   Data:  FD F7
+T0C90 004:185.871 - 0.100ms returns 2 (0x2)
+T0C90 004:185.895 JLINK_ReadMemEx(0x00005AB4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:185.917    -- Read from flash cache (60 bytes @ 0x00005AB4)
+T0C90 004:185.951   Data:  B9 FB 14 B9 28 46 02 F0 EF F8 13 B0 F0 BD C0 46 ...
+T0C90 004:185.984 - 0.100ms returns 60 (0x3C)
+T0C90 004:186.007 JLINK_ReadMemEx(0x00005AB4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:186.030    -- Read from flash cache (2 bytes @ 0x00005AB4)
+T0C90 004:186.064   Data:  B9 FB
+T0C90 004:186.097 - 0.100ms returns 2 (0x2)
+T0C90 004:186.121 JLINK_ReadMemEx(0x00005AB6, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:186.144    -- Read from flash cache (2 bytes @ 0x00005AB6)
+T0C90 004:186.177   Data:  14 B9
+T0C90 004:186.210 - 0.100ms returns 2 (0x2)
+T0C90 004:186.234 JLINK_ReadMemEx(0x00005AB8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:186.257    -- Read from flash cache (60 bytes @ 0x00005AB8)
+T0C90 004:186.290   Data:  28 46 02 F0 EF F8 13 B0 F0 BD C0 46 EC 00 00 20 ...
+T0C90 004:186.316 - 0.091ms returns 60 (0x3C)
+T0C90 004:186.335 JLINK_ReadMemEx(0x00005AB8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:186.353    -- Read from flash cache (2 bytes @ 0x00005AB8)
+T0C90 004:186.380   Data:  28 46
+T0C90 004:186.407 - 0.080ms returns 2 (0x2)
+T0C90 004:186.425 JLINK_ReadMemEx(0x00005AB8, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:186.444    -- Read from flash cache (60 bytes @ 0x00005AB8)
+T0C90 004:186.471   Data:  28 46 02 F0 EF F8 13 B0 F0 BD C0 46 EC 00 00 20 ...
+T0C90 004:186.497 - 0.080ms returns 60 (0x3C)
+T0C90 004:186.516 JLINK_ReadMemEx(0x00005AB8, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:186.534    -- Read from flash cache (2 bytes @ 0x00005AB8)
+T0C90 004:186.563   Data:  28 46
+T0C90 004:186.590 - 0.082ms returns 2 (0x2)
+T0C90 004:186.608 JLINK_ReadMemEx(0x00005ABA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:186.627    -- Read from flash cache (2 bytes @ 0x00005ABA)
+T0C90 004:186.655   Data:  02 F0
+T0C90 004:186.681 - 0.081ms returns 2 (0x2)
+T0C90 004:186.700 JLINK_ReadMemEx(0x00005ABA, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:186.719    -- Read from flash cache (2 bytes @ 0x00005ABA)
+T0C90 004:186.746   Data:  02 F0
+T0C90 004:186.772 - 0.081ms returns 2 (0x2)
+T0C90 004:186.791 JLINK_ReadMemEx(0x00005ABC, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:186.809    -- Read from flash cache (60 bytes @ 0x00005ABC)
+T0C90 004:186.836   Data:  EF F8 13 B0 F0 BD C0 46 EC 00 00 20 44 09 00 20 ...
+T0C90 004:186.866 - 0.083ms returns 60 (0x3C)
+T0C90 004:186.885 JLINK_ReadMemEx(0x00005ABC, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:186.903    -- Read from flash cache (2 bytes @ 0x00005ABC)
+T0C90 004:186.930   Data:  EF F8
+T0C90 004:186.956 - 0.080ms returns 2 (0x2)
+T0C90 004:186.975 JLINK_ReadMemEx(0x00005ABE, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:186.994    -- Read from flash cache (2 bytes @ 0x00005ABE)
+T0C90 004:187.020   Data:  13 B0
+T0C90 004:187.047 - 0.080ms returns 2 (0x2)
+T0C90 004:187.066 JLINK_ReadMemEx(0x00005AC0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:187.084    -- Read from flash cache (60 bytes @ 0x00005AC0)
+T0C90 004:187.111   Data:  F0 BD C0 46 EC 00 00 20 44 09 00 20 4E 6F 20 73 ...
+T0C90 004:187.138 - 0.080ms returns 60 (0x3C)
+T0C90 004:187.156 JLINK_ReadMemEx(0x00005AC0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:187.174    -- Read from flash cache (2 bytes @ 0x00005AC0)
+T0C90 004:187.201   Data:  F0 BD
+T0C90 004:187.227 - 0.080ms returns 2 (0x2)
+T0C90 004:187.247 JLINK_ReadMemEx(0x00005AC0, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:187.265    -- Read from flash cache (60 bytes @ 0x00005AC0)
+T0C90 004:187.292   Data:  F0 BD C0 46 EC 00 00 20 44 09 00 20 4E 6F 20 73 ...
+T0C90 004:187.319 - 0.081ms returns 60 (0x3C)
+T0C90 004:187.337 JLINK_ReadMemEx(0x00005AC0, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:187.356    -- Read from flash cache (2 bytes @ 0x00005AC0)
+T0C90 004:187.382   Data:  F0 BD
+T0C90 004:187.409 - 0.080ms returns 2 (0x2)
+T0C90 004:187.427 JLINK_ReadMemEx(0x00005AC2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:187.446    -- Read from flash cache (2 bytes @ 0x00005AC2)
+T0C90 004:187.472   Data:  C0 46
+T0C90 004:187.499 - 0.080ms returns 2 (0x2)
+T0C90 004:187.518 JLINK_ReadMemEx(0x00005AC2, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:187.536    -- Read from flash cache (2 bytes @ 0x00005AC2)
+T0C90 004:187.564   Data:  C0 46
+T0C90 004:187.591 - 0.082ms returns 2 (0x2)
+T0C90 004:187.610 JLINK_ReadMemEx(0x00005AC4, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:187.628    -- Read from flash cache (60 bytes @ 0x00005AC4)
+T0C90 004:187.655   Data:  EC 00 00 20 44 09 00 20 4E 6F 20 73 75 63 68 20 ...
+T0C90 004:187.681 - 0.080ms returns 60 (0x3C)
+T0C90 004:187.700 JLINK_ReadMemEx(0x00005AC4, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:187.718    -- Read from flash cache (2 bytes @ 0x00005AC4)
+T0C90 004:187.745   Data:  EC 00
+T0C90 004:187.772 - 0.080ms returns 2 (0x2)
+T0C90 004:187.791 JLINK_ReadMemEx(0x00005B24, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:187.810    -- Read from flash cache (60 bytes @ 0x00005B24)
+T0C90 004:187.837   Data:  F0 B5 81 B0 16 46 0D 46 FE F7 00 F9 0F 21 CC 43 ...
+T0C90 004:187.863 - 0.080ms returns 60 (0x3C)
+T0C90 004:187.882 JLINK_ReadMemEx(0x00005B24, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:187.900    -- Read from flash cache (2 bytes @ 0x00005B24)
+T0C90 004:187.927   Data:  F0 B5
+T0C90 004:187.953 - 0.080ms returns 2 (0x2)
+T0C90 004:187.972 JLINK_ReadMemEx(0x00005B26, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:187.990    -- Read from flash cache (2 bytes @ 0x00005B26)
+T0C90 004:188.017   Data:  81 B0
+T0C90 004:188.043 - 0.080ms returns 2 (0x2)
+T0C90 004:188.062 JLINK_ReadMemEx(0x00005B26, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:188.081    -- Read from flash cache (2 bytes @ 0x00005B26)
+T0C90 004:188.107   Data:  81 B0
+T0C90 004:188.134 - 0.080ms returns 2 (0x2)
+T0C90 004:188.153 JLINK_ReadMemEx(0x00005B28, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:188.171    -- Read from flash cache (60 bytes @ 0x00005B28)
+T0C90 004:188.198   Data:  16 46 0D 46 FE F7 00 F9 0F 21 CC 43 27 46 E0 B1 ...
+T0C90 004:188.225 - 0.080ms returns 60 (0x3C)
+T0C90 004:188.243 JLINK_ReadMemEx(0x00005B28, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:188.261    -- Read from flash cache (2 bytes @ 0x00005B28)
+T0C90 004:188.288   Data:  16 46
+T0C90 004:188.314 - 0.079ms returns 2 (0x2)
+T0C90 004:188.333 JLINK_ReadMemEx(0x00005B28, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:188.351    -- Read from flash cache (60 bytes @ 0x00005B28)
+T0C90 004:188.432   Data:  16 46 0D 46 FE F7 00 F9 0F 21 CC 43 27 46 E0 B1 ...
+T0C90 004:188.459 - 0.135ms returns 60 (0x3C)
+T0C90 004:188.478 JLINK_ReadMemEx(0x00005B28, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:188.514    -- Read from flash cache (2 bytes @ 0x00005B28)
+T0C90 004:188.541   Data:  16 46
+T0C90 004:188.569 - 0.100ms returns 2 (0x2)
+T0C90 004:188.588 JLINK_ReadMemEx(0x00005B2A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:188.607    -- Read from flash cache (2 bytes @ 0x00005B2A)
+T0C90 004:188.634   Data:  0D 46
+T0C90 004:188.660 - 0.080ms returns 2 (0x2)
+T0C90 004:188.679 JLINK_ReadMemEx(0x00005B2A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:188.697    -- Read from flash cache (2 bytes @ 0x00005B2A)
+T0C90 004:188.723   Data:  0D 46
+T0C90 004:188.750 - 0.079ms returns 2 (0x2)
+T0C90 004:188.769 JLINK_ReadMemEx(0x00005B2C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:188.787    -- Read from flash cache (60 bytes @ 0x00005B2C)
+T0C90 004:188.813   Data:  FE F7 00 F9 0F 21 CC 43 27 46 E0 B1 56 B1 02 2E ...
+T0C90 004:188.839 - 0.079ms returns 60 (0x3C)
+T0C90 004:188.858 JLINK_ReadMemEx(0x00005B2C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:188.876    -- Read from flash cache (2 bytes @ 0x00005B2C)
+T0C90 004:188.902   Data:  FE F7
+T0C90 004:188.928 - 0.079ms returns 2 (0x2)
+T0C90 004:188.946 JLINK_ReadMemEx(0x00005B2C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:188.964    -- Read from flash cache (60 bytes @ 0x00005B2C)
+T0C90 004:188.991   Data:  FE F7 00 F9 0F 21 CC 43 27 46 E0 B1 56 B1 02 2E ...
+T0C90 004:189.017 - 0.079ms returns 60 (0x3C)
+T0C90 004:189.035 JLINK_ReadMemEx(0x00005B2C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:189.053    -- Read from flash cache (2 bytes @ 0x00005B2C)
+T0C90 004:189.080   Data:  FE F7
+T0C90 004:189.106 - 0.079ms returns 2 (0x2)
+T0C90 004:189.124 JLINK_ReadMemEx(0x00005B2E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:189.142    -- Read from flash cache (2 bytes @ 0x00005B2E)
+T0C90 004:189.168   Data:  00 F9
+T0C90 004:189.195 - 0.079ms returns 2 (0x2)
+T0C90 004:189.213 JLINK_ReadMemEx(0x00005B30, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:189.231    -- Read from flash cache (60 bytes @ 0x00005B30)
+T0C90 004:189.257   Data:  0F 21 CC 43 27 46 E0 B1 56 B1 02 2E 04 D0 01 2E ...
+T0C90 004:189.283 - 0.079ms returns 60 (0x3C)
+T0C90 004:189.302 JLINK_ReadMemEx(0x00005B30, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:189.320    -- Read from flash cache (2 bytes @ 0x00005B30)
+T0C90 004:189.346   Data:  0F 21
+T0C90 004:189.372 - 0.079ms returns 2 (0x2)
+T0C90 004:189.391 JLINK_ReadMemEx(0x00005B32, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:189.409    -- Read from flash cache (2 bytes @ 0x00005B32)
+T0C90 004:189.435   Data:  CC 43
+T0C90 004:189.462 - 0.079ms returns 2 (0x2)
+T0C90 004:189.480 JLINK_ReadMemEx(0x00005B32, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:189.499    -- Read from flash cache (2 bytes @ 0x00005B32)
+T0C90 004:189.525   Data:  CC 43
+T0C90 004:189.553 - 0.081ms returns 2 (0x2)
+T0C90 004:189.571 JLINK_ReadMemEx(0x00005B34, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:189.590    -- Read from flash cache (60 bytes @ 0x00005B34)
+T0C90 004:189.616   Data:  27 46 E0 B1 56 B1 02 2E 04 D0 01 2E 13 D1 01 46 ...
+T0C90 004:189.643 - 0.080ms returns 60 (0x3C)
+T0C90 004:189.661 JLINK_ReadMemEx(0x00005B34, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:189.679    -- Read from flash cache (2 bytes @ 0x00005B34)
+T0C90 004:189.705   Data:  27 46
+T0C90 004:189.732 - 0.079ms returns 2 (0x2)
+T0C90 004:189.750 JLINK_ReadMemEx(0x00005B34, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:189.768    -- Read from flash cache (60 bytes @ 0x00005B34)
+T0C90 004:189.795   Data:  27 46 E0 B1 56 B1 02 2E 04 D0 01 2E 13 D1 01 46 ...
+T0C90 004:189.821 - 0.080ms returns 60 (0x3C)
+T0C90 004:189.840 JLINK_ReadMemEx(0x00005B34, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:189.858    -- Read from flash cache (2 bytes @ 0x00005B34)
+T0C90 004:189.884   Data:  27 46
+T0C90 004:189.910 - 0.079ms returns 2 (0x2)
+T0C90 004:189.929 JLINK_ReadMemEx(0x00005B36, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:189.948    -- Read from flash cache (2 bytes @ 0x00005B36)
+T0C90 004:189.975   Data:  E0 B1
+T0C90 004:190.002 - 0.081ms returns 2 (0x2)
+T0C90 004:190.020 JLINK_ReadMemEx(0x00005B36, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:190.039    -- Read from flash cache (2 bytes @ 0x00005B36)
+T0C90 004:190.065   Data:  E0 B1
+T0C90 004:190.091 - 0.079ms returns 2 (0x2)
+T0C90 004:190.110 JLINK_ReadMemEx(0x00005B38, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:190.128    -- Read from flash cache (60 bytes @ 0x00005B38)
+T0C90 004:190.155   Data:  56 B1 02 2E 04 D0 01 2E 13 D1 01 46 1C 31 01 E0 ...
+T0C90 004:190.181 - 0.079ms returns 60 (0x3C)
+T0C90 004:190.199 JLINK_ReadMemEx(0x00005B38, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:190.217    -- Read from flash cache (2 bytes @ 0x00005B38)
+T0C90 004:190.244   Data:  56 B1
+T0C90 004:190.270 - 0.079ms returns 2 (0x2)
+T0C90 004:190.289 JLINK_ReadMemEx(0x00005B38, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:190.307    -- Read from flash cache (60 bytes @ 0x00005B38)
+T0C90 004:190.334   Data:  56 B1 02 2E 04 D0 01 2E 13 D1 01 46 1C 31 01 E0 ...
+T0C90 004:190.361 - 0.080ms returns 60 (0x3C)
+T0C90 004:190.379 JLINK_ReadMemEx(0x00005B38, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:190.398    -- Read from flash cache (2 bytes @ 0x00005B38)
+T0C90 004:190.425   Data:  56 B1
+T0C90 004:190.451 - 0.080ms returns 2 (0x2)
+T0C90 004:190.470 JLINK_ReadMemEx(0x00005B3A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:190.488    -- Read from flash cache (2 bytes @ 0x00005B3A)
+T0C90 004:190.515   Data:  02 2E
+T0C90 004:190.542 - 0.082ms returns 2 (0x2)
+T0C90 004:190.562 JLINK_ReadMemEx(0x00005B3A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:190.581    -- Read from flash cache (2 bytes @ 0x00005B3A)
+T0C90 004:190.608   Data:  02 2E
+T0C90 004:190.634 - 0.081ms returns 2 (0x2)
+T0C90 004:190.653 JLINK_ReadMemEx(0x00005B3C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:190.671    -- Read from flash cache (60 bytes @ 0x00005B3C)
+T0C90 004:190.698   Data:  04 D0 01 2E 13 D1 01 46 1C 31 01 E0 01 46 18 31 ...
+T0C90 004:190.725 - 0.080ms returns 60 (0x3C)
+T0C90 004:190.744 JLINK_ReadMemEx(0x00005B3C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:190.762    -- Read from flash cache (2 bytes @ 0x00005B3C)
+T0C90 004:190.789   Data:  04 D0
+T0C90 004:190.815 - 0.080ms returns 2 (0x2)
+T0C90 004:190.834 JLINK_ReadMemEx(0x00005B3C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:190.852    -- Read from flash cache (60 bytes @ 0x00005B3C)
+T0C90 004:190.879   Data:  04 D0 01 2E 13 D1 01 46 1C 31 01 E0 01 46 18 31 ...
+T0C90 004:190.906 - 0.080ms returns 60 (0x3C)
+T0C90 004:190.924 JLINK_ReadMemEx(0x00005B3C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:190.943    -- Read from flash cache (2 bytes @ 0x00005B3C)
+T0C90 004:190.969   Data:  04 D0
+T0C90 004:190.996 - 0.080ms returns 2 (0x2)
+T0C90 004:191.015 JLINK_ReadMemEx(0x00005B3E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:191.033    -- Read from flash cache (2 bytes @ 0x00005B3E)
+T0C90 004:191.060   Data:  01 2E
+T0C90 004:191.086 - 0.080ms returns 2 (0x2)
+T0C90 004:191.105 JLINK_ReadMemEx(0x00005B3E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:191.123    -- Read from flash cache (2 bytes @ 0x00005B3E)
+T0C90 004:191.150   Data:  01 2E
+T0C90 004:191.177 - 0.080ms returns 2 (0x2)
+T0C90 004:191.195 JLINK_ReadMemEx(0x00005B40, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:191.213    -- Read from flash cache (60 bytes @ 0x00005B40)
+T0C90 004:191.240   Data:  13 D1 01 46 1C 31 01 E0 01 46 18 31 09 68 4D 19 ...
+T0C90 004:191.267 - 0.080ms returns 60 (0x3C)
+T0C90 004:191.286 JLINK_ReadMemEx(0x00005B40, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:191.304    -- Read from flash cache (2 bytes @ 0x00005B40)
+T0C90 004:191.331   Data:  13 D1
+T0C90 004:191.357 - 0.080ms returns 2 (0x2)
+T0C90 004:191.376 JLINK_ReadMemEx(0x00005B40, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:191.394    -- Read from flash cache (60 bytes @ 0x00005B40)
+T0C90 004:191.421   Data:  13 D1 01 46 1C 31 01 E0 01 46 18 31 09 68 4D 19 ...
+T0C90 004:191.448 - 0.080ms returns 60 (0x3C)
+T0C90 004:191.467 JLINK_ReadMemEx(0x00005B40, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:191.486    -- Read from flash cache (2 bytes @ 0x00005B40)
+T0C90 004:191.513   Data:  13 D1
+T0C90 004:191.540 - 0.081ms returns 2 (0x2)
+T0C90 004:191.560 JLINK_ReadMemEx(0x00005B42, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:191.578    -- Read from flash cache (2 bytes @ 0x00005B42)
+T0C90 004:191.605   Data:  01 46
+T0C90 004:191.632 - 0.080ms returns 2 (0x2)
+T0C90 004:191.651 JLINK_ReadMemEx(0x00005B42, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:191.669    -- Read from flash cache (2 bytes @ 0x00005B42)
+T0C90 004:191.696   Data:  01 46
+T0C90 004:191.722 - 0.080ms returns 2 (0x2)
+T0C90 004:191.741 JLINK_ReadMemEx(0x00005B44, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:191.759    -- Read from flash cache (60 bytes @ 0x00005B44)
+T0C90 004:191.786   Data:  1C 31 01 E0 01 46 18 31 09 68 4D 19 00 2D 0A D4 ...
+T0C90 004:191.813 - 0.080ms returns 60 (0x3C)
+T0C90 004:191.832 JLINK_ReadMemEx(0x00005B44, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:191.850    -- Read from flash cache (2 bytes @ 0x00005B44)
+T0C90 004:191.877   Data:  1C 31
+T0C90 004:191.903 - 0.080ms returns 2 (0x2)
+T0C90 004:191.922 JLINK_ReadMemEx(0x00005B44, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:191.940    -- Read from flash cache (60 bytes @ 0x00005B44)
+T0C90 004:191.967   Data:  1C 31 01 E0 01 46 18 31 09 68 4D 19 00 2D 0A D4 ...
+T0C90 004:191.994 - 0.080ms returns 60 (0x3C)
+T0C90 004:192.013 JLINK_ReadMemEx(0x00005B44, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:192.031    -- Read from flash cache (2 bytes @ 0x00005B44)
+T0C90 004:192.058   Data:  1C 31
+T0C90 004:192.084 - 0.080ms returns 2 (0x2)
+T0C90 004:192.103 JLINK_ReadMemEx(0x00005B46, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:192.121    -- Read from flash cache (2 bytes @ 0x00005B46)
+T0C90 004:192.148   Data:  01 E0
+T0C90 004:192.174 - 0.080ms returns 2 (0x2)
+T0C90 004:192.193 JLINK_ReadMemEx(0x00005B46, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:192.212    -- Read from flash cache (2 bytes @ 0x00005B46)
+T0C90 004:192.238   Data:  01 E0
+T0C90 004:192.265 - 0.080ms returns 2 (0x2)
+T0C90 004:192.284 JLINK_ReadMemEx(0x00005B48, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:192.302    -- Read from flash cache (60 bytes @ 0x00005B48)
+T0C90 004:192.328   Data:  01 46 18 31 09 68 4D 19 00 2D 0A D4 06 46 29 46 ...
+T0C90 004:192.355 - 0.080ms returns 60 (0x3C)
+T0C90 004:192.373 JLINK_ReadMemEx(0x00005B48, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:192.391    -- Read from flash cache (2 bytes @ 0x00005B48)
+T0C90 004:192.418   Data:  01 46
+T0C90 004:192.444 - 0.079ms returns 2 (0x2)
+T0C90 004:192.463 JLINK_ReadMemEx(0x00005B48, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:192.481    -- Read from flash cache (60 bytes @ 0x00005B48)
+T0C90 004:192.507   Data:  01 46 18 31 09 68 4D 19 00 2D 0A D4 06 46 29 46 ...
+T0C90 004:192.534 - 0.079ms returns 60 (0x3C)
+T0C90 004:192.553 JLINK_ReadMemEx(0x00005B48, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:192.572    -- Read from flash cache (2 bytes @ 0x00005B48)
+T0C90 004:192.598   Data:  01 46
+T0C90 004:192.624 - 0.079ms returns 2 (0x2)
+T0C90 004:192.643 JLINK_ReadMemEx(0x00005B4A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:192.661    -- Read from flash cache (2 bytes @ 0x00005B4A)
+T0C90 004:192.687   Data:  18 31
+T0C90 004:192.714 - 0.079ms returns 2 (0x2)
+T0C90 004:192.732 JLINK_ReadMemEx(0x00005B4A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:192.750    -- Read from flash cache (2 bytes @ 0x00005B4A)
+T0C90 004:192.776   Data:  18 31
+T0C90 004:192.803 - 0.079ms returns 2 (0x2)
+T0C90 004:192.821 JLINK_ReadMemEx(0x00005B4C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:192.839    -- Read from flash cache (60 bytes @ 0x00005B4C)
+T0C90 004:192.866   Data:  09 68 4D 19 00 2D 0A D4 06 46 29 46 FD F7 91 FB ...
+T0C90 004:192.892 - 0.079ms returns 60 (0x3C)
+T0C90 004:192.910 JLINK_ReadMemEx(0x00005B4C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:192.928    -- Read from flash cache (2 bytes @ 0x00005B4C)
+T0C90 004:192.955   Data:  09 68
+T0C90 004:192.981 - 0.079ms returns 2 (0x2)
+T0C90 004:193.000 JLINK_ReadMemEx(0x00005B4C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:193.019    -- Read from flash cache (60 bytes @ 0x00005B4C)
+T0C90 004:193.046   Data:  09 68 4D 19 00 2D 0A D4 06 46 29 46 FD F7 91 FB ...
+T0C90 004:193.072 - 0.080ms returns 60 (0x3C)
+T0C90 004:193.090 JLINK_ReadMemEx(0x00005B4C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:193.108    -- Read from flash cache (2 bytes @ 0x00005B4C)
+T0C90 004:193.135   Data:  09 68
+T0C90 004:193.161 - 0.079ms returns 2 (0x2)
+T0C90 004:193.180 JLINK_ReadMemEx(0x00005B4E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:193.198    -- Read from flash cache (2 bytes @ 0x00005B4E)
+T0C90 004:193.224   Data:  4D 19
+T0C90 004:193.250 - 0.079ms returns 2 (0x2)
+T0C90 004:193.269 JLINK_ReadMemEx(0x00005B4E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:193.287    -- Read from flash cache (2 bytes @ 0x00005B4E)
+T0C90 004:193.314   Data:  4D 19
+T0C90 004:193.340 - 0.080ms returns 2 (0x2)
+T0C90 004:193.359 JLINK_ReadMemEx(0x00005B50, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:193.377    -- Read from flash cache (60 bytes @ 0x00005B50)
+T0C90 004:193.404   Data:  00 2D 0A D4 06 46 29 46 FD F7 91 FB 07 46 30 46 ...
+T0C90 004:193.431 - 0.080ms returns 60 (0x3C)
+T0C90 004:193.449 JLINK_ReadMemEx(0x00005B50, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:193.468    -- Read from flash cache (2 bytes @ 0x00005B50)
+T0C90 004:193.494   Data:  00 2D
+T0C90 004:193.521 - 0.080ms returns 2 (0x2)
+T0C90 004:193.540 JLINK_ReadMemEx(0x00005B50, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:193.560    -- Read from flash cache (60 bytes @ 0x00005B50)
+T0C90 004:193.589   Data:  00 2D 0A D4 06 46 29 46 FD F7 91 FB 07 46 30 46 ...
+T0C90 004:193.615 - 0.084ms returns 60 (0x3C)
+T0C90 004:193.634 JLINK_ReadMemEx(0x00005B50, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:193.652    -- Read from flash cache (2 bytes @ 0x00005B50)
+T0C90 004:193.679   Data:  00 2D
+T0C90 004:193.705 - 0.080ms returns 2 (0x2)
+T0C90 004:193.724 JLINK_ReadMemEx(0x00005B52, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:193.742    -- Read from flash cache (2 bytes @ 0x00005B52)
+T0C90 004:193.769   Data:  0A D4
+T0C90 004:193.796 - 0.080ms returns 2 (0x2)
+T0C90 004:193.815 JLINK_ReadMemEx(0x00005B52, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:193.833    -- Read from flash cache (2 bytes @ 0x00005B52)
+T0C90 004:193.860   Data:  0A D4
+T0C90 004:193.886 - 0.080ms returns 2 (0x2)
+T0C90 004:193.905 JLINK_ReadMemEx(0x00005B54, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:193.923    -- Read from flash cache (60 bytes @ 0x00005B54)
+T0C90 004:193.950   Data:  06 46 29 46 FD F7 91 FB 07 46 30 46 FE F7 F8 F9 ...
+T0C90 004:193.977 - 0.080ms returns 60 (0x3C)
+T0C90 004:193.996 JLINK_ReadMemEx(0x00005B54, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:194.014    -- Read from flash cache (2 bytes @ 0x00005B54)
+T0C90 004:194.041   Data:  06 46
+T0C90 004:194.067 - 0.080ms returns 2 (0x2)
+T0C90 004:194.086 JLINK_ReadMemEx(0x00005B54, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:194.104    -- Read from flash cache (60 bytes @ 0x00005B54)
+T0C90 004:194.131   Data:  06 46 29 46 FD F7 91 FB 07 46 30 46 FE F7 F8 F9 ...
+T0C90 004:194.158 - 0.081ms returns 60 (0x3C)
+T0C90 004:194.177 JLINK_ReadMemEx(0x00005B54, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:194.195    -- Read from flash cache (2 bytes @ 0x00005B54)
+T0C90 004:194.222   Data:  06 46
+T0C90 004:194.248 - 0.080ms returns 2 (0x2)
+T0C90 004:194.267 JLINK_ReadMemEx(0x00005B56, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:194.285    -- Read from flash cache (2 bytes @ 0x00005B56)
+T0C90 004:194.312   Data:  29 46
+T0C90 004:194.339 - 0.080ms returns 2 (0x2)
+T0C90 004:194.357 JLINK_ReadMemEx(0x00005B56, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:194.376    -- Read from flash cache (2 bytes @ 0x00005B56)
+T0C90 004:194.402   Data:  29 46
+T0C90 004:194.429 - 0.080ms returns 2 (0x2)
+T0C90 004:194.448 JLINK_ReadMemEx(0x00005B58, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:194.466    -- Read from flash cache (60 bytes @ 0x00005B58)
+T0C90 004:194.493   Data:  FD F7 91 FB 07 46 30 46 FE F7 F8 F9 00 2F 09 D5 ...
+T0C90 004:194.521 - 0.082ms returns 60 (0x3C)
+T0C90 004:194.540 JLINK_ReadMemEx(0x00005B58, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:194.560    -- Read from flash cache (2 bytes @ 0x00005B58)
+T0C90 004:194.602   Data:  FD F7
+T0C90 004:194.629 - 0.098ms returns 2 (0x2)
+T0C90 004:194.648 JLINK_ReadMemEx(0x00005B58, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:194.666    -- Read from flash cache (60 bytes @ 0x00005B58)
+T0C90 004:194.693   Data:  FD F7 91 FB 07 46 30 46 FE F7 F8 F9 00 2F 09 D5 ...
+T0C90 004:194.720 - 0.081ms returns 60 (0x3C)
+T0C90 004:194.739 JLINK_ReadMemEx(0x00005B58, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:194.757    -- Read from flash cache (2 bytes @ 0x00005B58)
+T0C90 004:194.784   Data:  FD F7
+T0C90 004:194.810 - 0.080ms returns 2 (0x2)
+T0C90 004:194.829 JLINK_ReadMemEx(0x00005B5A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:194.847    -- Read from flash cache (2 bytes @ 0x00005B5A)
+T0C90 004:194.874   Data:  91 FB
+T0C90 004:194.901 - 0.080ms returns 2 (0x2)
+T0C90 004:194.919 JLINK_ReadMemEx(0x00005B5C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:194.938    -- Read from flash cache (60 bytes @ 0x00005B5C)
+T0C90 004:194.965   Data:  07 46 30 46 FE F7 F8 F9 00 2F 09 D5 03 E0 FE F7 ...
+T0C90 004:194.991 - 0.080ms returns 60 (0x3C)
+T0C90 004:195.010 JLINK_ReadMemEx(0x00005B5C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:195.028    -- Read from flash cache (2 bytes @ 0x00005B5C)
+T0C90 004:195.055   Data:  07 46
+T0C90 004:195.082 - 0.080ms returns 2 (0x2)
+T0C90 004:195.100 JLINK_ReadMemEx(0x00005B5E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:195.119    -- Read from flash cache (2 bytes @ 0x00005B5E)
+T0C90 004:195.145   Data:  30 46
+T0C90 004:195.172 - 0.080ms returns 2 (0x2)
+T0C90 004:195.191 JLINK_ReadMemEx(0x00005B5E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:195.209    -- Read from flash cache (2 bytes @ 0x00005B5E)
+T0C90 004:195.236   Data:  30 46
+T0C90 004:195.262 - 0.080ms returns 2 (0x2)
+T0C90 004:195.281 JLINK_ReadMemEx(0x00005B60, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:195.299    -- Read from flash cache (60 bytes @ 0x00005B60)
+T0C90 004:195.326   Data:  FE F7 F8 F9 00 2F 09 D5 03 E0 FE F7 F3 F9 27 46 ...
+T0C90 004:195.353 - 0.080ms returns 60 (0x3C)
+T0C90 004:195.371 JLINK_ReadMemEx(0x00005B60, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:195.390    -- Read from flash cache (2 bytes @ 0x00005B60)
+T0C90 004:195.416   Data:  FE F7
+T0C90 004:195.443 - 0.080ms returns 2 (0x2)
+T0C90 004:195.462 JLINK_ReadMemEx(0x00005B60, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:195.480    -- Read from flash cache (60 bytes @ 0x00005B60)
+T0C90 004:195.507   Data:  FE F7 F8 F9 00 2F 09 D5 03 E0 FE F7 F3 F9 27 46 ...
+T0C90 004:195.533 - 0.080ms returns 60 (0x3C)
+T0C90 004:195.554 JLINK_ReadMemEx(0x00005B60, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:195.573    -- Read from flash cache (2 bytes @ 0x00005B60)
+T0C90 004:195.600   Data:  FE F7
+T0C90 004:195.626 - 0.081ms returns 2 (0x2)
+T0C90 004:195.645 JLINK_ReadMemEx(0x00005B62, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:195.663    -- Read from flash cache (2 bytes @ 0x00005B62)
+T0C90 004:195.690   Data:  F8 F9
+T0C90 004:195.717 - 0.080ms returns 2 (0x2)
+T0C90 004:195.736 JLINK_ReadMemEx(0x00005B64, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:195.754    -- Read from flash cache (60 bytes @ 0x00005B64)
+T0C90 004:195.781   Data:  00 2F 09 D5 03 E0 FE F7 F3 F9 27 46 0B 37 38 46 ...
+T0C90 004:195.808 - 0.081ms returns 60 (0x3C)
+T0C90 004:195.826 JLINK_ReadMemEx(0x00005B64, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:195.844    -- Read from flash cache (2 bytes @ 0x00005B64)
+T0C90 004:195.871   Data:  00 2F
+T0C90 004:195.898 - 0.080ms returns 2 (0x2)
+T0C90 004:195.916 JLINK_ReadMemEx(0x00005B66, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:195.935    -- Read from flash cache (2 bytes @ 0x00005B66)
+T0C90 004:195.961   Data:  09 D5
+T0C90 004:195.988 - 0.080ms returns 2 (0x2)
+T0C90 004:196.007 JLINK_ReadMemEx(0x00005B66, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:196.025    -- Read from flash cache (2 bytes @ 0x00005B66)
+T0C90 004:196.054   Data:  09 D5
+T0C90 004:196.081 - 0.082ms returns 2 (0x2)
+T0C90 004:196.099 JLINK_ReadMemEx(0x00005B68, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:196.118    -- Read from flash cache (60 bytes @ 0x00005B68)
+T0C90 004:196.145   Data:  03 E0 FE F7 F3 F9 27 46 0B 37 38 46 03 F0 BA FF ...
+T0C90 004:196.171 - 0.080ms returns 60 (0x3C)
+T0C90 004:196.190 JLINK_ReadMemEx(0x00005B68, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:196.208    -- Read from flash cache (2 bytes @ 0x00005B68)
+T0C90 004:196.235   Data:  03 E0
+T0C90 004:196.261 - 0.080ms returns 2 (0x2)
+T0C90 004:196.280 JLINK_ReadMemEx(0x00005B68, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:196.299    -- Read from flash cache (60 bytes @ 0x00005B68)
+T0C90 004:196.325   Data:  03 E0 FE F7 F3 F9 27 46 0B 37 38 46 03 F0 BA FF ...
+T0C90 004:196.351 - 0.080ms returns 60 (0x3C)
+T0C90 004:196.370 JLINK_ReadMemEx(0x00005B68, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:196.388    -- Read from flash cache (2 bytes @ 0x00005B68)
+T0C90 004:196.414   Data:  03 E0
+T0C90 004:196.441 - 0.079ms returns 2 (0x2)
+T0C90 004:196.459 JLINK_ReadMemEx(0x00005B6A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:196.477    -- Read from flash cache (2 bytes @ 0x00005B6A)
+T0C90 004:196.503   Data:  FE F7
+T0C90 004:196.530 - 0.079ms returns 2 (0x2)
+T0C90 004:196.548 JLINK_ReadMemEx(0x00005B6A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:196.568    -- Read from flash cache (2 bytes @ 0x00005B6A)
+T0C90 004:196.594   Data:  FE F7
+T0C90 004:196.621 - 0.081ms returns 2 (0x2)
+T0C90 004:196.643 JLINK_ReadMemEx(0x00005B6C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:196.662    -- Read from flash cache (60 bytes @ 0x00005B6C)
+T0C90 004:196.688   Data:  F3 F9 27 46 0B 37 38 46 03 F0 BA FF 0F 34 25 46 ...
+T0C90 004:196.714 - 0.080ms returns 60 (0x3C)
+T0C90 004:196.734 JLINK_ReadMemEx(0x00005B6C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:196.753    -- Read from flash cache (2 bytes @ 0x00005B6C)
+T0C90 004:196.779   Data:  F3 F9
+T0C90 004:196.805 - 0.079ms returns 2 (0x2)
+T0C90 004:196.826 JLINK_ReadMemEx(0x00005B6E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:196.844    -- Read from flash cache (2 bytes @ 0x00005B6E)
+T0C90 004:196.870   Data:  27 46
+T0C90 004:196.897 - 0.079ms returns 2 (0x2)
+T0C90 004:196.917 JLINK_ReadMemEx(0x00005B70, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:196.935    -- Read from flash cache (60 bytes @ 0x00005B70)
+T0C90 004:196.961   Data:  0B 37 38 46 03 F0 BA FF 0F 34 25 46 28 46 01 B0 ...
+T0C90 004:196.988 - 0.079ms returns 60 (0x3C)
+T0C90 004:197.008 JLINK_ReadMemEx(0x00005B70, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:197.026    -- Read from flash cache (2 bytes @ 0x00005B70)
+T0C90 004:197.052   Data:  0B 37
+T0C90 004:197.079 - 0.079ms returns 2 (0x2)
+T0C90 004:197.099 JLINK_ReadMemEx(0x00005B70, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:197.117    -- Read from flash cache (60 bytes @ 0x00005B70)
+T0C90 004:197.143   Data:  0B 37 38 46 03 F0 BA FF 0F 34 25 46 28 46 01 B0 ...
+T0C90 004:197.170 - 0.079ms returns 60 (0x3C)
+T0C90 004:197.190 JLINK_ReadMemEx(0x00005B70, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:197.208    -- Read from flash cache (2 bytes @ 0x00005B70)
+T0C90 004:197.234   Data:  0B 37
+T0C90 004:197.260 - 0.079ms returns 2 (0x2)
+T0C90 004:197.280 JLINK_ReadMemEx(0x00005B72, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:197.299    -- Read from flash cache (2 bytes @ 0x00005B72)
+T0C90 004:197.325   Data:  38 46
+T0C90 004:197.351 - 0.079ms returns 2 (0x2)
+T0C90 004:197.371 JLINK_ReadMemEx(0x00005B72, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:197.390    -- Read from flash cache (2 bytes @ 0x00005B72)
+T0C90 004:197.416   Data:  38 46
+T0C90 004:197.442 - 0.079ms returns 2 (0x2)
+T0C90 004:197.462 JLINK_ReadMemEx(0x00005B74, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:197.480    -- Read from flash cache (60 bytes @ 0x00005B74)
+T0C90 004:197.507   Data:  03 F0 BA FF 0F 34 25 46 28 46 01 B0 F0 BD 80 B5 ...
+T0C90 004:197.533 - 0.079ms returns 60 (0x3C)
+T0C90 004:197.555 JLINK_ReadMemEx(0x00005B74, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:197.574    -- Read from flash cache (2 bytes @ 0x00005B74)
+T0C90 004:197.601   Data:  03 F0
+T0C90 004:197.627 - 0.081ms returns 2 (0x2)
+T0C90 004:197.648 JLINK_ReadMemEx(0x00005B74, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:197.666    -- Read from flash cache (60 bytes @ 0x00005B74)
+T0C90 004:197.693   Data:  03 F0 BA FF 0F 34 25 46 28 46 01 B0 F0 BD 80 B5 ...
+T0C90 004:197.719 - 0.080ms returns 60 (0x3C)
+T0C90 004:197.739 JLINK_ReadMemEx(0x00005B74, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:197.757    -- Read from flash cache (2 bytes @ 0x00005B74)
+T0C90 004:197.784   Data:  03 F0
+T0C90 004:197.810 - 0.079ms returns 2 (0x2)
+T0C90 004:197.830 JLINK_ReadMemEx(0x00005B76, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:197.848    -- Read from flash cache (2 bytes @ 0x00005B76)
+T0C90 004:197.875   Data:  BA FF
+T0C90 004:197.901 - 0.079ms returns 2 (0x2)
+T0C90 004:197.921 JLINK_ReadMemEx(0x00005B78, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:197.940    -- Read from flash cache (60 bytes @ 0x00005B78)
+T0C90 004:197.966   Data:  0F 34 25 46 28 46 01 B0 F0 BD 80 B5 FE F7 D2 FD ...
+T0C90 004:197.993 - 0.080ms returns 60 (0x3C)
+T0C90 004:198.013 JLINK_ReadMemEx(0x00005B78, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:198.031    -- Read from flash cache (2 bytes @ 0x00005B78)
+T0C90 004:198.057   Data:  0F 34
+T0C90 004:198.083 - 0.079ms returns 2 (0x2)
+T0C90 004:198.103 JLINK_ReadMemEx(0x00005B7A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:198.122    -- Read from flash cache (2 bytes @ 0x00005B7A)
+T0C90 004:198.148   Data:  25 46
+T0C90 004:198.174 - 0.079ms returns 2 (0x2)
+T0C90 004:198.194 JLINK_ReadMemEx(0x00005B7A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:198.212    -- Read from flash cache (2 bytes @ 0x00005B7A)
+T0C90 004:198.239   Data:  25 46
+T0C90 004:198.265 - 0.079ms returns 2 (0x2)
+T0C90 004:198.285 JLINK_ReadMemEx(0x00005B7C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:198.303    -- Read from flash cache (60 bytes @ 0x00005B7C)
+T0C90 004:198.330   Data:  28 46 01 B0 F0 BD 80 B5 FE F7 D2 FD 00 20 80 BD ...
+T0C90 004:198.357 - 0.080ms returns 60 (0x3C)
+T0C90 004:198.377 JLINK_ReadMemEx(0x00005B7C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:198.395    -- Read from flash cache (2 bytes @ 0x00005B7C)
+T0C90 004:198.422   Data:  28 46
+T0C90 004:198.448 - 0.080ms returns 2 (0x2)
+T0C90 004:198.468 JLINK_ReadMemEx(0x00005B7C, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:198.487    -- Read from flash cache (60 bytes @ 0x00005B7C)
+T0C90 004:198.513   Data:  28 46 01 B0 F0 BD 80 B5 FE F7 D2 FD 00 20 80 BD ...
+T0C90 004:198.540 - 0.082ms returns 60 (0x3C)
+T0C90 004:198.561 JLINK_ReadMemEx(0x00005B7C, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:198.580    -- Read from flash cache (2 bytes @ 0x00005B7C)
+T0C90 004:198.606   Data:  28 46
+T0C90 004:198.633 - 0.080ms returns 2 (0x2)
+T0C90 004:198.653 JLINK_ReadMemEx(0x00005B7E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:198.671    -- Read from flash cache (2 bytes @ 0x00005B7E)
+T0C90 004:198.698   Data:  01 B0
+T0C90 004:198.724 - 0.080ms returns 2 (0x2)
+T0C90 004:198.744 JLINK_ReadMemEx(0x00005B7E, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:198.763    -- Read from flash cache (2 bytes @ 0x00005B7E)
+T0C90 004:198.789   Data:  01 B0
+T0C90 004:198.816 - 0.080ms returns 2 (0x2)
+T0C90 004:198.836 JLINK_ReadMemEx(0x00005B80, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:198.854    -- Read from flash cache (60 bytes @ 0x00005B80)
+T0C90 004:198.881   Data:  F0 BD 80 B5 FE F7 D2 FD 00 20 80 BD B0 B5 06 4C ...
+T0C90 004:198.907 - 0.080ms returns 60 (0x3C)
+T0C90 004:198.927 JLINK_ReadMemEx(0x00005B80, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:198.946    -- Read from flash cache (2 bytes @ 0x00005B80)
+T0C90 004:198.972   Data:  F0 BD
+T0C90 004:198.999 - 0.080ms returns 2 (0x2)
+T0C90 004:199.019 JLINK_ReadMemEx(0x00005B80, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:199.037    -- Read from flash cache (60 bytes @ 0x00005B80)
+T0C90 004:199.064   Data:  F0 BD 80 B5 FE F7 D2 FD 00 20 80 BD B0 B5 06 4C ...
+T0C90 004:199.090 - 0.080ms returns 60 (0x3C)
+T0C90 004:199.110 JLINK_ReadMemEx(0x00005B80, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:199.130    -- Read from flash cache (2 bytes @ 0x00005B80)
+T0C90 004:199.157   Data:  F0 BD
+T0C90 004:199.183 - 0.081ms returns 2 (0x2)
+T0C90 004:199.203 JLINK_ReadMemEx(0x00005B82, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:199.221    -- Read from flash cache (2 bytes @ 0x00005B82)
+T0C90 004:199.248   Data:  80 B5
+T0C90 004:199.274 - 0.080ms returns 2 (0x2)
+T0C90 004:199.330 JLINK_ReadMemEx(0x00005B82, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:199.350    -- Read from flash cache (2 bytes @ 0x00005B82)
+T0C90 004:199.377   Data:  80 B5
+T0C90 004:199.403 - 0.082ms returns 2 (0x2)
+T0C90 004:199.422 JLINK_ReadMemEx(0x00005B84, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:199.441    -- Read from flash cache (60 bytes @ 0x00005B84)
+T0C90 004:199.467   Data:  FE F7 D2 FD 00 20 80 BD B0 B5 06 4C 06 4D A5 42 ...
+T0C90 004:199.494 - 0.080ms returns 60 (0x3C)
+T0C90 004:199.512 JLINK_ReadMemEx(0x00005B84, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:199.530    -- Read from flash cache (2 bytes @ 0x00005B84)
+T0C90 004:199.558   Data:  FE F7
+T0C90 004:199.585 - 0.081ms returns 2 (0x2)
+T0C90 004:199.607 JLINK_ReadMemEx(0x00005B84, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:199.626    -- Read from flash cache (60 bytes @ 0x00005B84)
+T0C90 004:199.653   Data:  FE F7 D2 FD 00 20 80 BD B0 B5 06 4C 06 4D A5 42 ...
+T0C90 004:199.679 - 0.080ms returns 60 (0x3C)
+T0C90 004:199.697 JLINK_ReadMemEx(0x00005B84, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:199.716    -- Read from flash cache (2 bytes @ 0x00005B84)
+T0C90 004:199.742   Data:  FE F7
+T0C90 004:199.768 - 0.079ms returns 2 (0x2)
+T0C90 004:199.787 JLINK_ReadMemEx(0x00005B86, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:199.805    -- Read from flash cache (2 bytes @ 0x00005B86)
+T0C90 004:199.831   Data:  D2 FD
+T0C90 004:199.857 - 0.079ms returns 2 (0x2)
+T0C90 004:199.901 JLINK_ReadMemEx(0x00005B88, 0x3C Bytes, Flags = 0x02000000)
+T0C90 004:199.920    -- Read from flash cache (60 bytes @ 0x00005B88)
+T0C90 004:199.946   Data:  00 20 80 BD B0 B5 06 4C 06 4D A5 42 02 D2 01 CD ...
+T0C90 004:199.972 - 0.080ms returns 60 (0x3C)
+T0C90 004:199.991 JLINK_ReadMemEx(0x00005B88, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:200.009    -- Read from flash cache (2 bytes @ 0x00005B88)
+T0C90 004:200.035   Data:  00 20
+T0C90 004:200.062 - 0.079ms returns 2 (0x2)
+T0C90 004:200.080 JLINK_ReadMemEx(0x00005B8A, 0x2 Bytes, Flags = 0x02000000)
+T0C90 004:200.098    -- Read from flash cache (2 bytes @ 0x00005B8A)
+T0C90 004:200.125   Data:  80 BD
+T0C90 004:200.151 - 0.079ms returns 2 (0x2)
+T0C90 006:515.919 JLINK_HasError()
+T0C90 006:524.141 JLINK_Close()
+T0C90 006:524.790   CPU_WriteMem(4 bytes @ 0xE0002008)
+T0C90 006:525.663   CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C90 006:526.424   CPU_WriteMem(4 bytes @ 0xE0001000)
+T0C90 006:566.567 - 42.461ms
+T0C90 006:566.616   
+T0C90 006:566.640   Closed
