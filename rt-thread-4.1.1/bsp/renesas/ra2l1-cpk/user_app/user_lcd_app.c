@@ -133,13 +133,16 @@ MSH_CMD_EXPORT(lcd_test1, "lcd basic test");
 
 void lcd_test2(void)
 {
+//    rt_tick_t tick_start, tick_end;
+//    tick_start = rt_tick_get();
     for(uint8_t i = 0; i < 2; ++i)
     {
         lcd_clear(RED);
         lcd_clear(GREEN);
         lcd_clear(BLUE);
     }
-    
+//    tick_end = rt_tick_get();
+//    rt_kprintf("clear screen use %d ms\n", (tick_end - tick_start) / 9);
     lcd_clear(WHITE);
     return ;
 }
